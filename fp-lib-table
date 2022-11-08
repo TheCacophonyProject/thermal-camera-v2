@@ -1,4 +1,6 @@
 (fp_lib_table
   (lib (name "cacophony-footprints")(type "KiCad")(uri "/home/cam/cac/kicad/kicad-libraries/cacophony-footprints.pretty")(options "")(descr ""))
   (lib (name "SPH0645LM4H-B")(type "KiCad")(uri "/home/cam/Downloads/SPH0645LM4H-B")(options "")(descr ""))
+  (lib (name "kicad-lib")(type "KiCad")(uri "/home/cam/projects/kicad-lib.pretty")(options "")(descr ""))
+  (lib (name "abcd")(type "KiCad")(uri "/home/cam/cac/kicad/kicad-library/abcd.pretty")(options "")(descr ""))
 )

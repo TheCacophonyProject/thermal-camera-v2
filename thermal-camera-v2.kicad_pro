@@ -396,9 +396,7 @@
         "microvia_diameter": 0.2,
         "microvia_drill": 0.1,
         "name": "Small",
-        "nets": [
-          "+12V"
-        ],
+        "nets": [],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.09,
@@ -467,20 +465,12 @@
       ""
     ],
     [
-      "c6ee1c69-e85c-4212-9cbf-498bce302bb6",
-      "Power"
-    ],
-    [
-      "adc0be21-b3af-4983-9fad-892112b5b45d",
+      "771e7523-d6ee-494f-b936-e7c7cabba6d7",
       "Lepton"
     ],
     [
-      "f73fcc20-0f1b-465b-b131-64240bb3fca1",
+      "eb2c56df-caf8-4e85-ad2c-279fff258817",
       "SIM7600G_M.2"
-    ],
-    [
-      "c8395b83-a5a7-4af0-acb9-8eb313fd9788",
-      "Antennas"
     ]
   ],
   "text_variables": {}
