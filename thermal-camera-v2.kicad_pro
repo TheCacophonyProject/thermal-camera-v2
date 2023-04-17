@@ -416,7 +416,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "thermal-camera-v2.step",
+      "step": "../../../Downloads/thermal-camera-v2.step",
       "vrml": "../../../Downloads/thermal-camera-v2.wrl"
     },
     "page_layout_descr_file": ""

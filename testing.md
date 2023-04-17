@@ -71,8 +71,9 @@ GPIO.output(4, True)
 ### Setup
 - https://github.com/SpenceKonde/megaTinyCore/blob/master/Installation.md
 - https://github.com/microchip-pic-avr-tools/pymcuprog
-- Ping `~/.local/bin/pymcuprog -d attiny1616 -t uart -u /dev/serial0 ping`
-- Program through UPDI `~/.local/bin/pymcuprog -d attiny1616 -t uart -u /dev/serial0 write -f ./Blink-attiny1616.ino.t1616.20c0.mD0.v261.hex`
+- Ping `sudo pymcuprog -d attiny1616 -t uart -u /dev/serial0 ping`
+- Erase `sudo pymcuprog -d attiny1616 -t uart -u /dev/serial0 erase`
+- Program through UPDI `sudo pymcuprog -d attiny1616 -t uart -u /dev/serial0 write -f ./Blink-attiny1616.ino.t1616.20c0.mD0.v261.hex`
 
 ### Testing
 - [x] LED
