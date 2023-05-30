@@ -2108,8 +2108,8 @@
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 9e72c649-de56-4ab1-99fc-d19827246264)
   )
-  (text "- C239344, C92271: female, 2.54 \n- C239355: angled, female, 2.54, \n- C239335: angled, male, 2.54\n"
-    (at 16.51 171.45 0)
+  (text "- C239344, C92271: female, 2.54 \n- C239355: angled, female, 2.54, \n- C239335: angled, male, 2.54\n- BF060-08A-B-0600-0280-0305-L-D: angled, male, 2mm, 6mm mating length"
+    (at 17.78 160.02 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a8f23f69-a4bd-433f-acc7-6e36bf5ab04c)
   )
@@ -2207,7 +2207,7 @@
     (pin "1" (uuid 6e6d9f1c-f98a-490c-9623-0ed5b60932e6))
     (pin "2" (uuid 773c4c43-39de-43b4-8d2c-c6be20ff023f))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "D102") (unit 1)
         )
@@ -2232,7 +2232,7 @@
     )
     (pin "1" (uuid 96843b38-e165-4c0b-82e5-e69f2873b76e))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#FLG0102") (unit 1)
         )
@@ -2261,7 +2261,7 @@
     (pin "1" (uuid 984a1659-92e0-4101-8b15-ce06c066e49e))
     (pin "2" (uuid d25c703f-d09f-4001-b5ff-d3026cc58984))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C101") (unit 1)
         )
@@ -2290,7 +2290,7 @@
     (pin "1" (uuid fe2e9da1-50a3-40a9-bad2-19b510f2b1f9))
     (pin "2" (uuid c444ef7e-48a0-4908-b1c0-ad30ac1a30aa))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C121") (unit 1)
         )
@@ -2319,7 +2319,7 @@
     (pin "1" (uuid bffd1b6a-4ed3-4edc-a9f4-1932dbb34d4b))
     (pin "2" (uuid c9ee42e9-5bc7-4ae2-a973-70018afcc4b2))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C122") (unit 1)
         )
@@ -2348,7 +2348,7 @@
     (pin "1" (uuid a397e71e-3adb-45e2-9ea6-7df3f67ef375))
     (pin "2" (uuid 5dbacb8e-b945-4d61-80c9-56323d06a957))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R110") (unit 1)
         )
@@ -2377,7 +2377,7 @@
     (pin "1" (uuid 49a8c7ce-e448-402d-9fbc-d80a04c83b46))
     (pin "2" (uuid 22e371d5-b4e1-46e0-ad42-700e6dd281df))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "L102") (unit 1)
         )
@@ -2402,7 +2402,7 @@
     )
     (pin "1" (uuid 30d9f85b-84c9-495c-93a0-3e19543811c6))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0102") (unit 1)
         )
@@ -2427,7 +2427,7 @@
     )
     (pin "1" (uuid 6184957a-5afe-49a2-9229-42e649a45e93))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#FLG0105") (unit 1)
         )
@@ -2457,7 +2457,7 @@
     (pin "2" (uuid 22072644-6d5d-4bbc-b818-52c51091a022))
     (pin "3" (uuid 50d745db-7c2a-4d3b-aa3e-a0f502b52872))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "Q101") (unit 1)
         )
@@ -2486,7 +2486,7 @@
     (pin "1" (uuid 3afcc8c0-eb96-4e5d-bbba-f378dad1c333))
     (pin "2" (uuid cea234fc-2ba4-465d-a000-aa7ae4db47e5))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C127") (unit 1)
         )
@@ -2515,7 +2515,7 @@
     (pin "1" (uuid 95db301c-4581-4c5f-8fa3-690ec4d53c2d))
     (pin "2" (uuid 28554f0d-8460-47b6-ade6-9b2f227052bb))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C117") (unit 1)
         )
@@ -2541,7 +2541,7 @@
     (pin "1" (uuid 1d3b6c1e-c54b-41dd-8597-1e243b2ba253))
     (pin "2" (uuid 9a2d5318-2eb4-4023-826b-8d1ad458720b))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "J101") (unit 1)
         )
@@ -2570,7 +2570,7 @@
     (pin "1" (uuid 909ba052-ca2c-4e33-8a84-89acfed814f5))
     (pin "2" (uuid d5c7c351-ca46-418a-92e1-2c91dd7b2ec9))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C107") (unit 1)
         )
@@ -2595,7 +2595,7 @@
     )
     (pin "1" (uuid 52feafee-e54d-4339-a7aa-9eed8063eaf1))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0110") (unit 1)
         )
@@ -2620,7 +2620,7 @@
     )
     (pin "1" (uuid f6846a70-31e5-40d3-ab67-ee1bcf7df81f))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0117") (unit 1)
         )
@@ -2649,7 +2649,7 @@
     (pin "1" (uuid 9f8eaecd-4450-46ba-810a-a14a772ea2c8))
     (pin "2" (uuid a47d047a-5ab0-459b-8f14-174c26c88720))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C106") (unit 1)
         )
@@ -2678,7 +2678,7 @@
     (pin "1" (uuid 213041d3-4d6c-4fd0-8466-84406260d400))
     (pin "2" (uuid 617e8539-500e-4a8d-83de-3da82705c9a0))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C113") (unit 1)
         )
@@ -2703,7 +2703,7 @@
     )
     (pin "1" (uuid ad8bb731-9877-4c85-a101-5eef8692a12c))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0115") (unit 1)
         )
@@ -2732,7 +2732,7 @@
     (pin "1" (uuid 55778d8c-1e01-405e-afac-41c49bca8d9b))
     (pin "2" (uuid d948962b-adda-4d25-b022-4aca9beaae75))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R102") (unit 1)
         )
@@ -2757,7 +2757,7 @@
     )
     (pin "1" (uuid f8b155b6-cb94-4611-b7ae-7349cc26ece8))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0103") (unit 1)
         )
@@ -2786,7 +2786,7 @@
     (pin "1" (uuid ce8c4683-180e-4ee7-99e8-fded17b75a6b))
     (pin "2" (uuid a94149dd-1f8d-4e10-855d-914bd4c4b93f))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C104") (unit 1)
         )
@@ -2815,7 +2815,7 @@
     (pin "1" (uuid fcabf281-5279-42b3-9ae6-2e72e8f9cb11))
     (pin "2" (uuid f026d929-e0a7-4eee-81da-6c366265c0be))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R112") (unit 1)
         )
@@ -2844,7 +2844,7 @@
     (pin "1" (uuid 836e0094-fcc2-446d-871d-812b7148b20b))
     (pin "2" (uuid f76d1ec6-142f-4a79-ae75-3a82ab6dc1d9))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C116") (unit 1)
         )
@@ -2873,7 +2873,7 @@
     (pin "1" (uuid af68ea64-871e-4cb8-8862-c35d403e91b3))
     (pin "2" (uuid d054eeff-e2ff-49db-ad2d-88ee0fc632ed))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C102") (unit 1)
         )
@@ -2902,7 +2902,7 @@
     (pin "1" (uuid b85bf115-e7a3-4811-a2bb-2fc52903dfec))
     (pin "2" (uuid 1c3a2dd2-6819-4a4b-809d-2252376d07c4))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R106") (unit 1)
         )
@@ -2927,7 +2927,7 @@
     )
     (pin "1" (uuid ca424b4c-2071-4e73-bb13-d93997f0484c))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0106") (unit 1)
         )
@@ -2952,7 +2952,7 @@
     )
     (pin "1" (uuid f34ec85e-7859-4c07-afa7-7a3180d0d086))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#FLG0103") (unit 1)
         )
@@ -2981,7 +2981,7 @@
     (pin "1" (uuid 9a2729a6-964a-47a1-aaa4-902ad781eaa5))
     (pin "2" (uuid d3f1bb8c-e895-4b6f-9684-b09fd2a1d825))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R108") (unit 1)
         )
@@ -3010,7 +3010,7 @@
     (pin "1" (uuid 251c9fdf-9721-46f0-8227-985e28f9a257))
     (pin "2" (uuid 816e5e14-8b13-4cf4-aa7e-b6e2d1a8be58))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C120") (unit 1)
         )
@@ -3039,7 +3039,7 @@
     (pin "1" (uuid 69d29092-46f7-4281-8d78-30d323f70ce4))
     (pin "2" (uuid 624f3e1f-4a38-405b-88bd-ab710537f2fd))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C110") (unit 1)
         )
@@ -3068,7 +3068,7 @@
     (pin "1" (uuid 2f87c7f7-5089-47ca-89ee-d8c7a028ae82))
     (pin "2" (uuid 22fbaac8-9650-4135-ac46-55e3d5b34acd))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C115") (unit 1)
         )
@@ -3097,7 +3097,7 @@
     (pin "1" (uuid af31a128-38bc-4607-bfe3-dde67e5e326d))
     (pin "2" (uuid c722cdde-30f4-4319-bebf-176f1136c34c))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "D101") (unit 1)
         )
@@ -3126,7 +3126,7 @@
     (pin "1" (uuid c6402f8b-7be1-488d-89a4-d2be7ad6bf39))
     (pin "2" (uuid 0cf7e76a-a7e3-472c-855c-17653fdfc66c))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R105") (unit 1)
         )
@@ -3155,7 +3155,7 @@
     (pin "1" (uuid 07d1265d-1a1d-4dfa-ab34-6767c8612f9b))
     (pin "2" (uuid 66030623-5bf9-4980-b06c-dad5900e5004))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R107") (unit 1)
         )
@@ -3180,7 +3180,7 @@
     )
     (pin "1" (uuid be43c71f-3a28-459a-96d8-3e86d241a04b))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0118") (unit 1)
         )
@@ -3205,7 +3205,7 @@
     )
     (pin "1" (uuid 9c2da220-0d6c-4ee1-8080-98084a2bfcf7))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0105") (unit 1)
         )
@@ -3234,7 +3234,7 @@
     (pin "1" (uuid 9cacf2ad-b912-4a9f-bc8d-8e32c22442dd))
     (pin "2" (uuid 1fe61a1a-cf41-441b-927e-a9d564ce5d40))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C112") (unit 1)
         )
@@ -3263,7 +3263,7 @@
     (pin "1" (uuid 22f98b30-0996-48eb-9cca-b0d0fbb1ded6))
     (pin "2" (uuid 6a533b44-7659-450d-a6fb-475f5b0ea5f0))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C111") (unit 1)
         )
@@ -3292,7 +3292,7 @@
     (pin "1" (uuid 7fa8735e-9fed-4844-b418-1d6298492322))
     (pin "2" (uuid fa29d920-936a-4527-ae3d-9081830a04e9))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R104") (unit 1)
         )
@@ -3321,7 +3321,7 @@
     (pin "1" (uuid 22f4c550-3d91-440b-875c-c3102cb11d4f))
     (pin "2" (uuid 5a5714c0-4cca-4775-bb81-7d673e93be70))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C114") (unit 1)
         )
@@ -3356,7 +3356,7 @@
     (pin "7" (uuid 115969ea-e407-4ff8-8b3c-82572cbb53a4))
     (pin "8" (uuid ad88c903-de87-4370-b5f8-d878ce12a25c))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "U101") (unit 1)
         )
@@ -3385,7 +3385,7 @@
     (pin "1" (uuid caf8b396-0b58-49a4-a103-e7dfe77ba9d1))
     (pin "2" (uuid 40c045ff-eaf4-4def-8de5-7381c9b1547e))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C105") (unit 1)
         )
@@ -3414,7 +3414,7 @@
     (pin "1" (uuid dce3060f-0a86-4377-9883-740aa9e6c0de))
     (pin "2" (uuid 780300cb-5cea-48a3-81f0-2e1286e821af))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C108") (unit 1)
         )
@@ -3443,7 +3443,7 @@
     (pin "1" (uuid a8f76506-e06c-43ca-9f81-ba69f8d51787))
     (pin "2" (uuid 65b56746-bf41-40d6-ae18-1748e19d14dc))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R103") (unit 1)
         )
@@ -3472,7 +3472,7 @@
     (pin "1" (uuid 53e9424b-8c8a-4272-90ee-b454399fb253))
     (pin "2" (uuid 61a8f55f-353a-4ef1-8f6f-edb78c010891))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C123") (unit 1)
         )
@@ -3497,7 +3497,7 @@
     )
     (pin "1" (uuid 05ccd6b8-84ca-45fc-92ac-b3e16800153a))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0104") (unit 1)
         )
@@ -3522,7 +3522,7 @@
     )
     (pin "1" (uuid 46d0ef26-0371-4c17-9c31-6984d026c6e0))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0114") (unit 1)
         )
@@ -3547,7 +3547,7 @@
     )
     (pin "1" (uuid 0448e74e-dc1f-44ec-9791-4592bd819c8d))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0108") (unit 1)
         )
@@ -3576,7 +3576,7 @@
     (pin "1" (uuid 012ddf9a-cdad-4a82-b495-f2ad0dd902d9))
     (pin "2" (uuid 3c965526-2974-4c2c-9758-9ca8dd4bf8e5))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R109") (unit 1)
         )
@@ -3601,7 +3601,7 @@
     )
     (pin "1" (uuid e0ca3352-7fa8-4300-9585-1247c6a50f05))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0109") (unit 1)
         )
@@ -3626,7 +3626,7 @@
     )
     (pin "1" (uuid f3754457-50a4-4225-8ec8-1b31e840283d))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0111") (unit 1)
         )
@@ -3655,7 +3655,7 @@
     (pin "1" (uuid 302cac1d-0f6b-4b99-9cf8-62ce71b5e3d3))
     (pin "2" (uuid 53180155-3742-4684-a7be-751954fe56f3))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "L101") (unit 1)
         )
@@ -3680,7 +3680,7 @@
     )
     (pin "1" (uuid 674a50d5-e0bc-48ee-a303-b104295ae1a1))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0116") (unit 1)
         )
@@ -3705,7 +3705,7 @@
     )
     (pin "1" (uuid d82b84e9-b427-4014-8372-63aeb730eb83))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#FLG0104") (unit 1)
         )
@@ -3734,7 +3734,7 @@
     (pin "1" (uuid 770d9180-26ba-4967-be0d-63da795abccf))
     (pin "2" (uuid 3cf5ec12-3fb2-4f04-a384-cc6449aa853d))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C124") (unit 1)
         )
@@ -3763,7 +3763,7 @@
     (pin "1" (uuid f8d420ff-d176-40ea-b9ee-f595d360970e))
     (pin "2" (uuid add4a17c-13e8-4abb-a7dd-00d9729e1277))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C119") (unit 1)
         )
@@ -3788,7 +3788,7 @@
     )
     (pin "1" (uuid dbdc900b-d99c-416c-b095-49cdff3b106f))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#FLG0101") (unit 1)
         )
@@ -3817,7 +3817,7 @@
     (pin "1" (uuid 45a1a1cc-9e9a-4b13-b329-c2fe1ef2ac82))
     (pin "2" (uuid ab6bd471-7e0b-41b9-a2bf-be8b70f7c76e))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C128") (unit 1)
         )
@@ -3846,7 +3846,7 @@
     (pin "1" (uuid 71cb8253-8ca5-499b-8cd0-ccaa015269cf))
     (pin "2" (uuid 6112b2fa-1942-425f-9c95-c715f16ac4a8))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "D103") (unit 1)
         )
@@ -3863,13 +3863,16 @@
     (property "Value" "Conn_02x04_Odd_Even" (at 40.64 175.26 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal" (at 36.83 181.61 0)
+    (property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_2x04_P2.00mm_Horizontal" (at 36.83 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 36.83 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "LCSC" "C239355" (at 36.83 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Digikey" "BF060-08A-B-0600-0280-0305-L-D" (at 36.83 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8ffa9537-ecc4-4d22-afcd-93dd5a076e0e))
@@ -3881,7 +3884,7 @@
     (pin "7" (uuid a36c4fdf-7195-4a90-a327-a9f6950bd902))
     (pin "8" (uuid 5905c494-d695-4c57-86dd-ee4b73bd1dc8))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "J103") (unit 1)
         )
@@ -3910,7 +3913,7 @@
     (pin "1" (uuid f48e0cc7-19f5-47a2-beba-f0c161c288c1))
     (pin "2" (uuid d5d45559-cb2c-44df-916a-791656ddbb46))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C109") (unit 1)
         )
@@ -3945,7 +3948,7 @@
     (pin "7" (uuid 52ab76dc-e4e1-4623-8a74-5ccd1d84927c))
     (pin "8" (uuid 833eddcd-5bfa-487e-a74f-eb5d63b94dbd))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "U102") (unit 1)
         )
@@ -3974,7 +3977,7 @@
     (pin "1" (uuid 576c4150-de96-41fc-a4ce-d545a08bbc26))
     (pin "2" (uuid 7b605d64-c824-4485-939c-7ebcaddf25b6))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C126") (unit 1)
         )
@@ -3999,7 +4002,7 @@
     )
     (pin "1" (uuid a0eeb61f-42c8-43ea-bcf0-3624a6f9bc49))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0112") (unit 1)
         )
@@ -4028,7 +4031,7 @@
     (pin "1" (uuid b1a8634d-9485-4fdf-9fe5-4d258116401a))
     (pin "2" (uuid 99085934-dedf-4a44-818a-ed0f97f1128a))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C125") (unit 1)
         )
@@ -4057,7 +4060,7 @@
     (pin "1" (uuid 188e597f-b1f1-45ff-9dd9-ae9642863001))
     (pin "2" (uuid 8e11c13d-4734-458b-9940-5d13c83e73a7))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R101") (unit 1)
         )
@@ -4085,7 +4088,7 @@
     (pin "3" (uuid f7adf5aa-9397-40be-8cad-99a2c96fda1d))
     (pin "4" (uuid 3f4e656e-90d9-476e-bf35-28bbae66fbee))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "J102") (unit 1)
         )
@@ -4114,7 +4117,7 @@
     (pin "1" (uuid 9c26fc02-e01f-481d-ad60-8b53356be9d8))
     (pin "2" (uuid 5f758943-f83c-4321-968e-acc20fcc5115))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C118") (unit 1)
         )
@@ -4143,7 +4146,7 @@
     (pin "1" (uuid 66bd972b-ca5f-4c62-aaa5-0b188a197359))
     (pin "2" (uuid 73e8305e-1d69-4a0b-b11c-f51575460eba))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "R111") (unit 1)
         )
@@ -4168,7 +4171,7 @@
     )
     (pin "1" (uuid 1782b6fe-9438-4ad7-a2bc-19752796c4c1))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0113") (unit 1)
         )
@@ -4193,7 +4196,7 @@
     )
     (pin "1" (uuid 4d8c8a29-539a-4131-bdfd-fa0f17681c0b))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "#PWR0107") (unit 1)
         )
@@ -4222,7 +4225,7 @@
     (pin "1" (uuid ee18b707-24ef-4919-b68d-659582cd180e))
     (pin "2" (uuid ea4c612e-b741-4961-88c5-b2acf09923d5))
     (instances
-      (project "plug-pcb"
+      (project "tc2-plugs-pcb"
         (path "/f421ea14-42dc-4485-8e12-78680a358584"
           (reference "C103") (unit 1)
         )

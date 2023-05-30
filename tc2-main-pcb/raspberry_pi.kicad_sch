@@ -499,58 +499,6 @@
         )
       )
     )
-    (symbol "cacophony-library:+3V3_Lin" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR087" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3V3_Lin" (at 0 5.08 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "power-flag" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3V3_Lin_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3V3_Lin_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3_Lin" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "cacophony-library:MAX98357" (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 3.2894 7.62 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -641,112 +589,6 @@
         (pin passive line (at 15.24 -3.81 180) (length 2.54)
           (name "UOTP" (effects (font (size 1.27 1.27))))
           (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "cacophony-library:ME6211" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "ME6211" (at 0 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131510_MICRONE-Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC" "C82942" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "ME6211_0_1"
-        (rectangle (start -5.08 -1.27) (end 5.08 -8.89)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-      )
-      (symbol "ME6211_1_1"
-        (pin input line (at -7.62 -2.54 0) (length 2.54)
-          (name "Vin" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -7.62 0) (length 2.54)
-          (name "Vss" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -7.62 -5.08 0) (length 2.54)
-          (name "CE" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 7.62 -7.62 180) (length 2.54)
-          (name "NC" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 7.62 -2.54 180) (length 2.54)
-          (name "Vout" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "cacophony-library:SPH0645LM4H" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at 3.81 6.35 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Value" "SPH0645LM4H" (at 6.35 10.16 0)
-        (effects (font (size 1.27 1.27)) (justify right))
-      )
-      (property "Footprint" "cacophony-library:MIC_SPH0645LM4H-B" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPH0645LM4H-B.pdf" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "LCSC" "C2686054" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SPH0645LM4H_0_1"
-        (rectangle (start -7.62 5.08) (end 6.35 -5.08)
-          (stroke (width 0) (type default))
-          (fill (type background))
-        )
-        (circle (center -3.81 0) (radius 1.27)
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 1.27)
-            (xy -5.08 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SPH0645LM4H_1_1"
-        (pin input line (at 8.89 3.81 180) (length 2.54)
-          (name "WS" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 8.89 -3.81 180) (length 2.54)
-          (name "SEL" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -1.27 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 8.89 1.27 180) (length 2.54)
-          (name "BCLK" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -1.27 7.62 270) (length 2.54)
-          (name "VDD" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 8.89 -1.27 180) (length 2.54)
-          (name "DATA" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -842,59 +684,13 @@
         )
       )
     )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
   )
 
-  (junction (at 52.07 166.37) (diameter 0) (color 0 0 0 0)
-    (uuid 00e9f25d-5f08-49eb-95ac-4492cfb3aff4)
-  )
   (junction (at 59.69 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 07adcc61-2a9d-4a2b-8015-87facf2b38f8)
   )
   (junction (at 147.32 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 0f8e8590-d2e5-4c3c-81e9-71800c916d4a)
-  )
-  (junction (at 82.55 166.37) (diameter 0) (color 0 0 0 0)
-    (uuid 1278ad52-3ca3-4116-9cf9-7eb9397b29f8)
   )
   (junction (at 59.69 36.83) (diameter 0) (color 0 0 0 0)
     (uuid 1e79132e-bfb3-4aaf-a8cf-8fa48015ffd1)
@@ -902,20 +698,11 @@
   (junction (at 49.53 29.21) (diameter 0) (color 0 0 0 0)
     (uuid 2081bcb2-363e-468b-9cf6-a6f7559fcae7)
   )
-  (junction (at 72.39 166.37) (diameter 0) (color 0 0 0 0)
-    (uuid 391a6d31-b224-4d1b-b0f2-668197d95178)
-  )
   (junction (at 142.24 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 5b2a531d-80ba-4168-b803-50e29992d5c6)
   )
-  (junction (at 48.26 166.37) (diameter 0) (color 0 0 0 0)
-    (uuid 6ae33bcb-150a-4c0d-bc5c-497be0226f8f)
-  )
   (junction (at 137.16 72.39) (diameter 0) (color 0 0 0 0)
     (uuid 781cd267-ad5b-4434-855e-93613857a706)
-  )
-  (junction (at 76.2 166.37) (diameter 0) (color 0 0 0 0)
-    (uuid 85199691-c129-4c2a-86f5-9f9902dca969)
   )
   (junction (at 111.76 83.82) (diameter 0) (color 0 0 0 0)
     (uuid 8d9a6416-868e-40cc-9c82-781ee68340d3)
@@ -923,14 +710,8 @@
   (junction (at 132.08 140.97) (diameter 0) (color 0 0 0 0)
     (uuid 95c8cd94-405e-4911-bb4c-c4f507b81bbb)
   )
-  (junction (at 85.09 166.37) (diameter 0) (color 0 0 0 0)
-    (uuid a9a3841e-8d4f-4c79-9796-0afa94cb1ef8)
-  )
   (junction (at 66.04 63.5) (diameter 0) (color 0 0 0 0)
     (uuid afd7df37-aa1f-4266-a5af-c9cb236e7cd7)
-  )
-  (junction (at 52.07 173.99) (diameter 0) (color 0 0 0 0)
-    (uuid b1c6312e-71c7-40eb-af3b-367ac9f266e3)
   )
   (junction (at 38.1 36.83) (diameter 0) (color 0 0 0 0)
     (uuid b6dc5225-1679-4c41-87aa-e9aa076537da)
@@ -956,7 +737,6 @@
   (no_connect (at 162.56 124.46) (uuid 41585c66-7eec-41bb-b090-6a132696877f))
   (no_connect (at 121.92 91.44) (uuid 47ea3633-80d6-4cab-bf16-5e0e80e2f2ac))
   (no_connect (at 55.88 62.23) (uuid 5608e75e-cd0c-4d6e-9815-154ce8b1e80c))
-  (no_connect (at 68.58 171.45) (uuid 5988b75a-9d64-4dbf-b346-fc9aad052ea3))
   (no_connect (at 190.5 95.25) (uuid 62bcd274-3205-40db-b241-fb980d2d1c27))
   (no_connect (at 121.92 121.92) (uuid 7386acc8-3180-4664-aea5-ca16c7372ab6))
   (no_connect (at 144.78 73.66) (uuid 773639e0-f8ed-4e32-968e-a63a1d2c9d4b))
@@ -986,10 +766,6 @@
     (stroke (width 0) (type default))
     (uuid 0968163b-dcdb-4cfd-a825-14a69f814b10)
   )
-  (wire (pts (xy 82.55 166.37) (xy 82.55 167.64))
-    (stroke (width 0) (type default))
-    (uuid 0a63ee48-a413-4706-8d44-52dcee3e34a6)
-  )
   (wire (pts (xy 100.33 96.52) (xy 102.87 96.52))
     (stroke (width 0) (type default))
     (uuid 0d17b33f-5339-43e4-a8d5-d6bff8f5bb77)
@@ -1014,21 +790,9 @@
     (stroke (width 0) (type default))
     (uuid 19545572-7e94-4e50-8270-8c0df0927e00)
   )
-  (wire (pts (xy 113.03 176.53) (xy 119.38 176.53))
-    (stroke (width 0) (type default))
-    (uuid 1dcd9433-9635-492e-a1a4-a135a26d4890)
-  )
-  (wire (pts (xy 93.98 166.37) (xy 93.98 167.64))
-    (stroke (width 0) (type default))
-    (uuid 1f1207eb-587f-4f68-a35c-b4814454b7a2)
-  )
   (wire (pts (xy 162.56 119.38) (xy 182.88 119.38))
     (stroke (width 0) (type default))
     (uuid 23d8ff63-7cd5-4d06-86b2-6e49cda169bf)
-  )
-  (wire (pts (xy 104.14 179.07) (xy 105.41 179.07))
-    (stroke (width 0) (type default))
-    (uuid 2408cbbc-455b-42b8-92a3-c96d53301c79)
   )
   (wire (pts (xy 147.32 140.97) (xy 149.86 140.97))
     (stroke (width 0) (type default))
@@ -1038,17 +802,9 @@
     (stroke (width 0) (type default))
     (uuid 3133bc0c-9f68-4b40-bcbd-fefd00e19186)
   )
-  (wire (pts (xy 52.07 171.45) (xy 52.07 173.99))
-    (stroke (width 0) (type default))
-    (uuid 3293f8ce-4bb6-4467-9d01-2b670a3e9c2f)
-  )
   (wire (pts (xy 59.69 29.21) (xy 59.69 36.83))
     (stroke (width 0) (type default))
     (uuid 33e8b143-a2a1-4540-9e54-422adf22435c)
-  )
-  (wire (pts (xy 52.07 166.37) (xy 52.07 168.91))
-    (stroke (width 0) (type default))
-    (uuid 34724cdb-7091-4887-945a-b2bc955ae1bc)
   )
   (wire (pts (xy 120.65 114.3) (xy 121.92 114.3))
     (stroke (width 0) (type default))
@@ -1066,14 +822,6 @@
     (stroke (width 0) (type default))
     (uuid 3feeca38-707b-491a-af55-ea7d72984c4c)
   )
-  (wire (pts (xy 76.2 166.37) (xy 82.55 166.37))
-    (stroke (width 0) (type default))
-    (uuid 403c31d3-dd68-416f-861c-8574832c207f)
-  )
-  (wire (pts (xy 76.2 172.72) (xy 76.2 173.99))
-    (stroke (width 0) (type default))
-    (uuid 4b11f8e9-5e3c-4e5d-ab8b-27fd120a81ef)
-  )
   (wire (pts (xy 134.62 140.97) (xy 134.62 139.7))
     (stroke (width 0) (type default))
     (uuid 4d410473-fa69-4673-90e2-4e05c5af9558)
@@ -1081,10 +829,6 @@
   (wire (pts (xy 76.2 45.72) (xy 77.47 45.72))
     (stroke (width 0) (type default))
     (uuid 5068d4c9-ce74-4488-8075-fcc3ea7609fc)
-  )
-  (wire (pts (xy 104.14 171.45) (xy 119.38 171.45))
-    (stroke (width 0) (type default))
-    (uuid 51731221-b026-4630-b35c-a299fb9b3dd9)
   )
   (wire (pts (xy 63.5 62.23) (xy 63.5 63.5))
     (stroke (width 0) (type default))
@@ -1094,21 +838,9 @@
     (stroke (width 0) (type default))
     (uuid 5e5300be-018f-4dea-b164-5a42b5982040)
   )
-  (wire (pts (xy 53.34 166.37) (xy 52.07 166.37))
-    (stroke (width 0) (type default))
-    (uuid 5eca897e-81dc-4b89-ac3b-3652b460d37b)
-  )
-  (wire (pts (xy 85.09 165.1) (xy 85.09 166.37))
-    (stroke (width 0) (type default))
-    (uuid 5f9e084e-7162-437d-a028-51d0bf3ce484)
-  )
   (wire (pts (xy 162.56 101.6) (xy 163.83 101.6))
     (stroke (width 0) (type default))
     (uuid 6134d1f1-0ec5-4474-867c-b47fd7a419a1)
-  )
-  (wire (pts (xy 52.07 171.45) (xy 53.34 171.45))
-    (stroke (width 0) (type default))
-    (uuid 619008f8-5254-420b-916d-0b965e213308)
   )
   (wire (pts (xy 38.1 36.83) (xy 49.53 36.83))
     (stroke (width 0) (type default))
@@ -1118,25 +850,9 @@
     (stroke (width 0) (type default))
     (uuid 6523ae67-42cf-4243-86fa-631bed1dfa65)
   )
-  (wire (pts (xy 48.26 173.99) (xy 48.26 172.72))
-    (stroke (width 0) (type default))
-    (uuid 666792f9-033b-49ca-8e10-2e0410c16334)
-  )
-  (wire (pts (xy 104.14 173.99) (xy 119.38 173.99))
-    (stroke (width 0) (type default))
-    (uuid 69188814-3c2e-4c5f-83fa-83f3c46a5124)
-  )
-  (wire (pts (xy 53.34 168.91) (xy 52.07 168.91))
-    (stroke (width 0) (type default))
-    (uuid 6b18a5b4-b844-4391-bb1c-39ddfd06a6db)
-  )
   (wire (pts (xy 45.72 53.34) (xy 46.99 53.34))
     (stroke (width 0) (type default))
     (uuid 6dcfb3dc-3392-45cd-8484-8521c82998df)
-  )
-  (wire (pts (xy 52.07 166.37) (xy 48.26 166.37))
-    (stroke (width 0) (type default))
-    (uuid 6fd99748-f446-4a35-b277-8e10ab0a59e1)
   )
   (wire (pts (xy 120.65 119.38) (xy 121.92 119.38))
     (stroke (width 0) (type default))
@@ -1153,10 +869,6 @@
   (wire (pts (xy 120.65 116.84) (xy 121.92 116.84))
     (stroke (width 0) (type default))
     (uuid 7d0d95d1-76c8-473d-84b4-7b5dafbe5982)
-  )
-  (wire (pts (xy 82.55 166.37) (xy 85.09 166.37))
-    (stroke (width 0) (type default))
-    (uuid 80a399c1-1e71-4b59-ab71-f8f649fc6b87)
   )
   (wire (pts (xy 190.5 111.76) (xy 196.85 111.76))
     (stroke (width 0) (type default))
@@ -1186,10 +898,6 @@
     (stroke (width 0) (type default))
     (uuid 91d3619f-25fd-4f12-a736-c423fd8f0e5d)
   )
-  (wire (pts (xy 48.26 166.37) (xy 48.26 167.64))
-    (stroke (width 0) (type default))
-    (uuid 923c8129-98c6-4c86-ad38-5b8d1f1134ac)
-  )
   (wire (pts (xy 149.86 140.97) (xy 149.86 139.7))
     (stroke (width 0) (type default))
     (uuid 93383501-f04d-49ec-b871-aa0a215c1acd)
@@ -1202,25 +910,13 @@
     (stroke (width 0) (type default))
     (uuid 954f53d9-4620-4152-a18f-e3fd02164c28)
   )
-  (wire (pts (xy 72.39 165.1) (xy 72.39 166.37))
-    (stroke (width 0) (type default))
-    (uuid 9a1aeedc-651b-4a9e-84bb-b7fb402bad69)
-  )
   (wire (pts (xy 139.7 140.97) (xy 139.7 139.7))
     (stroke (width 0) (type default))
     (uuid 9ac19548-fa1a-478b-8b8f-73e96e9a050d)
   )
-  (wire (pts (xy 93.98 182.88) (xy 93.98 184.15))
-    (stroke (width 0) (type default))
-    (uuid 9de9605a-ab0e-4dae-9874-90b6b343d30b)
-  )
   (wire (pts (xy 137.16 72.39) (xy 137.16 73.66))
     (stroke (width 0) (type default))
     (uuid a0dedc67-ecae-4b9f-9105-f54de4317712)
-  )
-  (wire (pts (xy 68.58 166.37) (xy 72.39 166.37))
-    (stroke (width 0) (type default))
-    (uuid a1f92e6c-0555-4524-bb1a-b4c86117751a)
   )
   (wire (pts (xy 111.76 86.36) (xy 121.92 86.36))
     (stroke (width 0) (type default))
@@ -1238,17 +934,9 @@
     (stroke (width 0) (type default))
     (uuid a53c463c-c16d-43ae-9f40-138299e62242)
   )
-  (wire (pts (xy 52.07 173.99) (xy 48.26 173.99))
-    (stroke (width 0) (type default))
-    (uuid a84a576b-32c9-45dd-bb3e-f4fe948ef777)
-  )
   (wire (pts (xy 162.56 114.3) (xy 196.85 114.3))
     (stroke (width 0) (type default))
     (uuid adb9a5a1-e095-4c77-95cb-ddb829162760)
-  )
-  (wire (pts (xy 85.09 166.37) (xy 93.98 166.37))
-    (stroke (width 0) (type default))
-    (uuid ae1cee51-d0d4-4522-9470-97a06778fd09)
   )
   (wire (pts (xy 100.33 104.14) (xy 121.92 104.14))
     (stroke (width 0) (type default))
@@ -1274,14 +962,6 @@
     (stroke (width 0) (type default))
     (uuid befe723a-0b86-41fa-b99a-784fbfc5b282)
   )
-  (wire (pts (xy 48.26 166.37) (xy 48.26 165.1))
-    (stroke (width 0) (type default))
-    (uuid c0fcfd78-05ac-41cc-9bad-423a4ea3ff9c)
-  )
-  (wire (pts (xy 104.14 176.53) (xy 105.41 176.53))
-    (stroke (width 0) (type default))
-    (uuid c2fe668c-cd6c-4272-b509-87759624691c)
-  )
   (wire (pts (xy 45.72 45.72) (xy 46.99 45.72))
     (stroke (width 0) (type default))
     (uuid c3000466-7648-44a4-8cd5-536875e9c294)
@@ -1290,17 +970,9 @@
     (stroke (width 0) (type default))
     (uuid c4986b25-0fef-42d8-998b-219d1e0ce6dc)
   )
-  (wire (pts (xy 82.55 172.72) (xy 82.55 173.99))
-    (stroke (width 0) (type default))
-    (uuid caa9eef5-0ed6-4627-964a-5b9e6e385bd0)
-  )
   (wire (pts (xy 190.5 116.84) (xy 196.85 116.84))
     (stroke (width 0) (type default))
     (uuid cc041d76-7032-4290-a96d-9ec159fb0568)
-  )
-  (wire (pts (xy 76.2 166.37) (xy 76.2 167.64))
-    (stroke (width 0) (type default))
-    (uuid cfe80d72-7a5c-417c-91bd-79345dca7e31)
   )
   (wire (pts (xy 49.53 29.21) (xy 49.53 30.48))
     (stroke (width 0) (type default))
@@ -1358,10 +1030,6 @@
     (stroke (width 0) (type default))
     (uuid deb4a026-f338-454a-8a10-01d1694ceae6)
   )
-  (wire (pts (xy 105.41 179.07) (xy 105.41 184.15))
-    (stroke (width 0) (type default))
-    (uuid dee734f7-8e53-4c00-af8a-b98e97c48f9e)
-  )
   (wire (pts (xy 162.56 93.98) (xy 163.83 93.98))
     (stroke (width 0) (type default))
     (uuid e1df4ba1-3e9c-4c1c-a6ae-a7cee7a66eee)
@@ -1370,17 +1038,9 @@
     (stroke (width 0) (type default))
     (uuid e1e7eab1-7292-4771-a35f-c0db601607db)
   )
-  (wire (pts (xy 72.39 166.37) (xy 76.2 166.37))
-    (stroke (width 0) (type default))
-    (uuid e2563ffc-6797-4aa7-a557-700db006b62e)
-  )
   (wire (pts (xy 68.58 63.5) (xy 71.12 63.5))
     (stroke (width 0) (type default))
     (uuid e7efa0ac-83a5-47d9-a32e-fa5e2c41eb74)
-  )
-  (wire (pts (xy 52.07 173.99) (xy 52.07 175.26))
-    (stroke (width 0) (type default))
-    (uuid e999181d-7e95-4c59-a666-a756075ba93c)
   )
   (wire (pts (xy 110.49 96.52) (xy 121.92 96.52))
     (stroke (width 0) (type default))
@@ -1402,10 +1062,6 @@
   (text "Speaker" (at 24.13 26.67 0)
     (effects (font (size 2 2)) (justify left bottom))
     (uuid 2fc0601b-aced-4a7e-8c17-884b91594d72)
-  )
-  (text "Microphone" (at 92.71 158.75 0)
-    (effects (font (size 2 2)) (justify left bottom))
-    (uuid f26d0883-8e83-484b-b7ce-d40d8559648a)
   )
 
   (label "RPI_SPI_SCLK_" (at 165.1 119.38 0) (fields_autoplaced)
@@ -1516,20 +1172,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "I2S_BCLK" (shape input) (at 119.38 173.99 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid a5ab9de1-7141-4ee4-9047-75eb366d6025)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 130.6226 174.0694 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "I2S_LRCLK" (shape input) (at 119.38 171.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid bb8d2250-4f72-45a4-95d2-1e3e3289a283)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.1434 171.45 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "I2S_BCLK" (shape input) (at 100.33 96.52 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid be298781-beee-4f75-95ca-0e0c9bbb18c7)
@@ -1614,13 +1256,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "I2S_DIN" (shape input) (at 119.38 176.53 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid fcc09a42-3a71-4e86-bd69-2ba421fab1ce)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 129.4825 176.53 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
 
   (symbol (lib_id "Connector:Screw_Terminal_01x01") (at 195.58 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
@@ -1642,7 +1277,7 @@
     )
     (pin "1" (uuid a0f7e441-6665-4de2-981e-08688a6dc33a))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "J6") (unit 1)
         )
@@ -1671,7 +1306,7 @@
     (pin "1" (uuid fde485a2-0010-4373-8b23-edcd42e32dee))
     (pin "2" (uuid 3647a48e-14f3-4002-9848-cbd98474f43b))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "R30") (unit 1)
         )
@@ -1679,39 +1314,6 @@
       (project "thermal-camera-v2"
         (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
           (reference "R26") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 82.55 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 17362e0f-e0ef-44e5-849f-6e7e8c28cef1)
-    (property "Reference" "#PWR085" (at 82.55 180.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 82.55 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 82.55 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 82.55 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3cf5c93c-482d-49b9-b8e9-62a166697bf9))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "#PWR085") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#PWR082") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "#PWR0170") (unit 1)
         )
       )
     )
@@ -1738,7 +1340,7 @@
     (pin "1" (uuid 4aece145-5613-4923-9d9a-85dfabf2e2fe))
     (pin "2" (uuid 1f30e697-7170-4192-ab57-d7cf975510e5))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "C39") (unit 1)
         )
@@ -1749,80 +1351,6 @@
       (project "thermal-camera-v2"
         (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
           (reference "C8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 76.2 173.99 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1eb3a745-5421-4049-9daa-96ff60c0b6e1)
-    (property "Reference" "#PWR085" (at 76.2 180.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 76.2 179.07 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 76.2 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 76.2 173.99 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9e5cf78e-648c-495c-8065-daeaf8d3c177))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "#PWR085") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#PWR081") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "#PWR0170") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cacophony-library:SPH0645LM4H") (at 95.25 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 256a7b02-4675-4833-9bea-6bc398d9abd8)
-    (property "Reference" "U14" (at 99.06 168.91 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "SPH0645LM4H" (at 101.6 165.1 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "cacophony-library:MIC_SPH0645LM4H-B" (at 95.25 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Knowles%20Acoustics%20PDFs/SPH0645LM4H-B.pdf" (at 95.25 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C2686054" (at 95.25 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 01f15cce-1b77-479a-a4ce-d98c66d7e400))
-    (pin "2" (uuid 7e049a7b-122b-404c-89d3-6ac3e39030a6))
-    (pin "3" (uuid 21b2136a-4a0b-4f7a-9c4e-ca0cb824b53c))
-    (pin "4" (uuid 968b00c0-a693-48fa-aab8-dfa2e62633ca))
-    (pin "5" (uuid b30819ab-bd69-4fa9-866d-07a3f01f3f34))
-    (pin "6" (uuid 3b719b5f-206c-4bab-ad0d-a9262f002c73))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "U14") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "U14") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "U6") (unit 1)
         )
       )
     )
@@ -1845,7 +1373,7 @@
     )
     (pin "1" (uuid f359008c-f531-4456-8926-5e63991ab3a1))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "#PWR082") (unit 1)
         )
@@ -1878,7 +1406,7 @@
     )
     (pin "1" (uuid e94105a3-a385-4e33-bc7a-c9f2d39091ec))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "#PWR083") (unit 1)
         )
@@ -1889,43 +1417,6 @@
       (project "thermal-camera-v2"
         (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
           (reference "#PWR0107") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cacophony-library:ME6211") (at 60.96 163.83 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3dea7e3c-ca11-461f-a54e-d000100776b8)
-    (property "Reference" "U15" (at 60.96 161.29 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "ME6211" (at 60.96 163.83 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-5" (at 60.96 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1811131510_MICRONE-Nanjing-Micro-One-Elec-ME6211C33M5G-N_C82942.pdf" (at 60.96 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C82942" (at 60.96 163.83 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 38443b55-e9fa-4d0a-8c3e-944c675c23ef))
-    (pin "2" (uuid 555419e9-30bb-4169-aed5-73b9d436844b))
-    (pin "3" (uuid 2ea38cbe-ed4d-4e1e-8514-0c68eb7e3dcd))
-    (pin "4" (uuid 898becad-53d7-434c-aa32-f04ccf31c6c2))
-    (pin "5" (uuid fce1f347-3474-44ea-b255-40b9f6c43ccb))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "U15") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "U4") (unit 1)
         )
       )
     )
@@ -1952,7 +1443,7 @@
     (pin "1" (uuid d22392cf-f4f3-4fe4-93f3-2a8adf32f6c1))
     (pin "2" (uuid 8fa6ff5f-0be8-4757-b6b0-c7ff69c79648))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "R14") (unit 1)
         )
@@ -1981,7 +1472,7 @@
     (pin "1" (uuid f87a3aa6-10aa-4af4-95b1-12a6951c5247))
     (pin "2" (uuid af004aab-c9d9-49ba-8267-ae6e34e1d96f))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "R15") (unit 1)
         )
@@ -2010,7 +1501,7 @@
     (pin "1" (uuid 2ae4d6b1-2812-4fe0-8819-41f89870d410))
     (pin "2" (uuid d3f65945-ad7a-4975-8013-44ef3ad39bdc))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "R28") (unit 1)
         )
@@ -2021,99 +1512,6 @@
       (project "thermal-camera-v2"
         (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
           (reference "R7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "cacophony-library:+3V3_Lin") (at 72.39 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5d790c4f-b991-461c-894b-93ada90cf485)
-    (property "Reference" "#PWR087" (at 72.39 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3_Lin" (at 72.39 160.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 72.39 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 72.39 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f4802068-2227-43c5-b462-4f095ee39017))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#PWR087") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "#PWR0104") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+5V") (at 48.26 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5f10012e-141d-47f2-ac02-c6f6449ca98d)
-    (property "Reference" "#PWR086" (at 48.26 168.91 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+5V" (at 48.26 160.02 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 48.26 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 48.26 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 24951dbf-7a35-477d-91ec-8fb08a9f5532))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#PWR086") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "#PWR0112") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 93.98 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 63a984bc-b861-4816-b79d-092eb7b04cf0)
-    (property "Reference" "#PWR086" (at 93.98 190.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 93.98 189.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 93.98 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 93.98 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7de6e7e9-f397-46d9-8f17-1c6844cd5403))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "#PWR086") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#PWR083") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "#PWR0134") (unit 1)
         )
       )
     )
@@ -2136,7 +1534,7 @@
     )
     (pin "1" (uuid 181ca1b0-a667-4920-873a-c82426fb4eab))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "#PWR039") (unit 1)
         )
@@ -2165,7 +1563,7 @@
     (pin "1" (uuid 91ce3eae-2e66-4a9b-8950-ca61f4a803e2))
     (pin "2" (uuid cc1e343b-1adc-4235-a122-1075b4f7870f))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "C38") (unit 1)
         )
@@ -2198,7 +1596,7 @@
     )
     (pin "1" (uuid 8b632fba-a307-4a0b-8f8b-fe9a23f8e01e))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "#PWR080") (unit 1)
         )
@@ -2209,39 +1607,6 @@
       (project "thermal-camera-v2"
         (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
           (reference "#PWR0117") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 105.41 184.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 88d4a599-0a49-4544-8430-ff736fd2a389)
-    (property "Reference" "#PWR087" (at 105.41 190.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 105.41 189.23 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 105.41 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 105.41 184.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4dd713f1-a643-4f36-9f6e-ca64d2609a6b))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "#PWR087") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#PWR084") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "#PWR0132") (unit 1)
         )
       )
     )
@@ -2268,7 +1633,7 @@
     (pin "1" (uuid 3f7b880f-716b-46f1-b192-2d8cc82f9690))
     (pin "2" (uuid 62478ca8-da8a-41de-a926-abc25101106a))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "R29") (unit 1)
         )
@@ -2317,7 +1682,7 @@
     (pin "8" (uuid ddf6a431-4e94-4b68-be11-4544ca1b9ebb))
     (pin "9" (uuid eb4416ed-07e3-47fa-8eef-2c605d559da7))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "U13") (unit 1)
         )
@@ -2350,7 +1715,7 @@
     )
     (pin "1" (uuid eac726b7-ffdf-4e42-bc0f-3a72f152ffb0))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "#PWR081") (unit 1)
         )
@@ -2386,7 +1751,7 @@
     )
     (pin "1" (uuid fbebeed0-0eb6-404e-bc35-c4c842fb24a6))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "J5") (unit 1)
         )
@@ -2453,41 +1818,9 @@
     (pin "8" (uuid 7c9379bb-ac6c-4418-8360-7321a40c7777))
     (pin "9" (uuid 3e51aa0a-c14a-40f0-adb3-466a4a216d2d))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 76.2 170.18 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid a7c7438a-5770-4cd5-ae51-38d81903fc04)
-    (property "Reference" "C1" (at 73.66 172.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "220nF" (at 72.39 167.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 76.2 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 76.2 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C16772" (at 76.2 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c437193e-8cc0-4334-ab63-9aa6b7f03b8a))
-    (pin "2" (uuid 30a7e448-9a0b-40e5-8965-329729fe5f60))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "C1") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "C38") (unit 1)
         )
       )
     )
@@ -2514,7 +1847,7 @@
     (pin "1" (uuid abecf2c7-4733-4317-83a4-645671b1852d))
     (pin "2" (uuid 5e1454b9-c350-49d0-9776-b0b0aff30cb7))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "R34") (unit 1)
         )
@@ -2522,38 +1855,6 @@
       (project "thermal-camera-v2"
         (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
           (reference "R24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 48.26 170.18 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid b16b4ce4-4dc3-43d0-a9ce-349761165bfa)
-    (property "Reference" "C1" (at 45.72 172.72 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "1uF" (at 44.45 167.64 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 48.26 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 48.26 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C52923" (at 48.26 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 769d4571-788b-4543-9804-7be367ffc862))
-    (pin "2" (uuid 28191a15-36d0-4b7d-a62e-9e5ba26c925c))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "C1") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "C43") (unit 1)
         )
       )
     )
@@ -2580,7 +1881,7 @@
     (pin "1" (uuid c2606097-d716-452a-9c85-24ac09c0810e))
     (pin "2" (uuid 39502eb9-cf22-4d4c-9836-ae31409e4046))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "R31") (unit 1)
         )
@@ -2614,7 +1915,7 @@
     (pin "1" (uuid da721b7f-a08b-447a-8065-e8e22abac8ed))
     (pin "2" (uuid 025c04a7-b1d2-4ec2-8cc6-7b5ca3485387))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84"
           (reference "R29") (unit 1)
         )
@@ -2625,36 +1926,6 @@
       (project "thermal-camera-v2"
         (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
           (reference "R9") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 52.07 175.26 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d17ead0d-ae14-44b8-b156-b659b46bc547)
-    (property "Reference" "#PWR089" (at 52.07 181.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 52.07 180.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 52.07 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 52.07 175.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0e50f4cd-8c07-471e-ad0e-c81f857445a0))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#PWR089") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "#PWR0113") (unit 1)
         )
       )
     )
@@ -2681,7 +1952,7 @@
     (pin "1" (uuid 66d855d6-6830-46dd-86ee-5e1df115e87d))
     (pin "2" (uuid 08858936-de64-4f6e-bb2d-3358a0ce59cf))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "R32") (unit 1)
         )
@@ -2711,84 +1982,9 @@
     )
     (pin "1" (uuid 5486d92b-fa59-4350-9590-5b427f788dd0))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "#PWR040") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:R") (at 109.22 176.53 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid da24d095-da84-4c1a-b768-0a4df71dfc7b)
-    (property "Reference" "R30" (at 105.41 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "22ohm" (at 115.57 175.26 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 109.22 178.308 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 109.22 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C25092" (at 109.22 176.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8295787b-30c9-4a1c-9648-65fd44ff5183))
-    (pin "2" (uuid 3bf1d395-91e5-4e94-8759-04859ec1424b))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "R30") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "R28") (unit 1)
-        )
-      )
-      (project "thermal-camera-v2"
-        (path "/1a325e81-ab6a-468e-ac87-3040e4e22579"
-          (reference "R27") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 82.55 170.18 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid e9a34347-7100-46e1-a95a-1363639a2b2e)
-    (property "Reference" "C3" (at 82.55 172.72 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "12pF" (at 82.55 167.64 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 82.55 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 82.55 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "JLCPCB" "" (at 82.55 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C1547" (at 82.55 170.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid a93a906c-5379-4dc9-a432-97b3fefed4a6))
-    (pin "2" (uuid 826fed25-2bb4-4b7f-987d-26c73d3fec30))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "C3") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/1d08c4ef-b9d1-4f93-a292-9e65828c8205"
-          (reference "C42") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "C39") (unit 1)
         )
       )
     )
@@ -2814,37 +2010,9 @@
     )
     (pin "1" (uuid 7ec24c19-e2ae-4fa9-9e69-57545bdf59cc))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
           (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 85.09 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid f3f56437-06cd-4825-8127-9650a0bcbe7c)
-    (property "Reference" "#FLG01" (at 85.09 163.195 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 85.09 160.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 85.09 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 85.09 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9f6d99e5-cfc0-4e3e-80d8-b3d38e8a3e5c))
-    (instances
-      (project "thermal-camera-low-power-2"
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84"
-          (reference "#FLG01") (unit 1)
-        )
-        (path "/0662f88c-5300-4b75-bef3-048a3227af84/8f90b6c3-cbaa-4eaa-af5e-9e7359440bd7"
-          (reference "#FLG05") (unit 1)
         )
       )
     )

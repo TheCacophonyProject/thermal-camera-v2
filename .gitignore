@@ -32,3 +32,9 @@ jlcpcb/
 **/production/**
 **/jlcpcb/**
 *.zip
+
+*.dxf
+*.FCStd1
+*.wrl
+*#auto_saved_files#
+*.step

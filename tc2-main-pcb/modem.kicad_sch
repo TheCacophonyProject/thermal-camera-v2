@@ -1314,7 +1314,7 @@
     (pin "2" (uuid c3845a2c-be66-4249-a7be-d061fdcbbaa2))
     (pin "3" (uuid bdd6c518-cbf7-4663-abd3-40c8eeab6dd8))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "J8") (unit 1)
         )
@@ -1343,7 +1343,7 @@
     (pin "1" (uuid 71a85157-665f-49ea-98e2-5d0cd98a8a1e))
     (pin "2" (uuid eb0db033-623a-4ef0-8d89-03b10a03f525))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "R26") (unit 1)
         )
@@ -1384,7 +1384,7 @@
     (pin "C6" (uuid b662788f-1277-4bfe-ba9c-30e8cc135a65))
     (pin "C7" (uuid e5a4f1e5-80b6-4349-be29-fba90593a8d3))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "Card1") (unit 1)
         )
@@ -1409,7 +1409,7 @@
     )
     (pin "1" (uuid 8196000b-9ad8-439b-8339-a4d393f83c0b))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR079") (unit 1)
         )
@@ -1438,7 +1438,7 @@
     (pin "1" (uuid 5468b90e-a52a-4897-8988-58b580f198f0))
     (pin "2" (uuid f3cbe8ab-50dc-414b-9ddd-730ec2b756dd))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "C35") (unit 1)
         )
@@ -1467,7 +1467,7 @@
     (pin "1" (uuid ea093269-55c2-4195-9a05-90f240c748b4))
     (pin "2" (uuid 86580b81-db1a-4186-976d-5291b64e63cd))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "C36") (unit 1)
         )
@@ -1496,7 +1496,7 @@
     (pin "1" (uuid 162fefec-7dc4-41bc-a1cc-b4ff8c0e57ae))
     (pin "2" (uuid 4589246f-2968-47bd-8924-af146f2c22cb))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "R27") (unit 1)
         )
@@ -1525,7 +1525,7 @@
     (pin "1" (uuid 1c0d3f9a-2102-41a8-ba74-09a258a23c77))
     (pin "2" (uuid 20d35ef7-d46a-4cd8-820c-a338755ecc38))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "R25") (unit 1)
         )
@@ -1550,7 +1550,7 @@
     )
     (pin "1" (uuid ae4b7870-610a-4aa5-8f7d-d20a349723a6))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR072") (unit 1)
         )
@@ -1579,7 +1579,7 @@
     (pin "1" (uuid 415db3b7-1730-4e99-8270-8e328d8c7982))
     (pin "2" (uuid add2cf38-b345-4257-8df9-890e9069fb85))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "C37") (unit 1)
         )
@@ -1604,7 +1604,7 @@
     )
     (pin "1" (uuid 9b190b51-abe1-47cd-bf9b-a6302c73ce6f))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR074") (unit 1)
         )
@@ -1629,7 +1629,7 @@
     )
     (pin "1" (uuid bbc2896e-51ae-42f1-9ca8-fd8d8d8fa11b))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR078") (unit 1)
         )
@@ -1658,7 +1658,7 @@
     (pin "1" (uuid 20b1ec30-0e31-4c24-8577-d30d30d6f96a))
     (pin "2" (uuid e43a4f7d-26da-41ec-962e-3be7fc02f4f0))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "C34") (unit 1)
         )
@@ -1683,7 +1683,7 @@
     )
     (pin "1" (uuid 7f8065d6-d793-42e1-98c5-f1a3e6740012))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR075") (unit 1)
         )
@@ -1719,7 +1719,7 @@
     (pin "5" (uuid a0c36683-70ff-415c-980d-72374443448b))
     (pin "6" (uuid a68371ba-cb3e-46cd-856a-0994ba1d999b))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "D4") (unit 1)
         )
@@ -1748,7 +1748,7 @@
     (pin "1" (uuid 439c513c-2eb3-467b-b4eb-16cf3b6224d2))
     (pin "2" (uuid 1ed0fdb7-ca54-4886-a266-f113acd65623))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "C33") (unit 1)
         )
@@ -1773,7 +1773,7 @@
     )
     (pin "1" (uuid 997e7f0d-d731-4a09-85db-6c9d469d11f3))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR076") (unit 1)
         )
@@ -1802,7 +1802,7 @@
     (pin "1" (uuid cc52df84-d81e-418e-94b9-b5388b9706c9))
     (pin "2" (uuid d76e345c-416c-46ad-8b6b-aae44132d023))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "R24") (unit 1)
         )
@@ -1827,7 +1827,7 @@
     )
     (pin "1" (uuid 8e69ac84-c4ea-4572-a928-55dfa660ad23))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR077") (unit 1)
         )
@@ -1852,7 +1852,7 @@
     )
     (pin "1" (uuid 0d313d75-ebea-4401-8dce-7c15b76d3838))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "#PWR073") (unit 1)
         )
@@ -1880,7 +1880,7 @@
     )
     (pin "1" (uuid dbb6cd9a-b9e8-4313-90e6-29a9cc3478ef))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "J7") (unit 1)
         )
@@ -1909,7 +1909,7 @@
     (pin "1" (uuid 714c69d8-ad44-4f0f-b2af-e36bb3e573dc))
     (pin "2" (uuid 5dde1664-53ef-4146-b7b1-fce7d436c2cc))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "C32") (unit 1)
         )
@@ -2005,7 +2005,7 @@
     (pin "8" (uuid 9048341b-67f0-42a7-b4b7-4f98736cea3a))
     (pin "9" (uuid d7aadc4e-147b-4df9-a1b3-6822dc94d9fd))
     (instances
-      (project "thermal-camera-low-power-2"
+      (project "tc2-main-pcb"
         (path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
           (reference "U12") (unit 1)
         )
