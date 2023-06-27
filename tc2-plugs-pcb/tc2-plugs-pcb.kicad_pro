@@ -461,7 +461,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "plug-pcb.step",
       "vrml": "tc2-plug-pcb.wrl"
     },
     "page_layout_descr_file": ""

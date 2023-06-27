@@ -708,7 +708,6 @@
     )
   )
 
-
   (junction (at 22.86 52.07) (diameter 0) (color 0 0 0 0)
     (uuid 001f3ea9-a140-4571-8c6d-c24fe843f967)
   )
@@ -1386,7 +1385,7 @@
     (property "Value" "SPH0641LU4H-1" (at 101.6 40.64 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Sensor_Audio:Knowles_LGA-5_3.5x2.65mm" (at 93.98 50.8 0)
+    (property "Footprint" "cacophony-library:Knowles_LGA-5_3.5x2.65mm_0.6mm_NPTH" (at 93.98 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.knowles.com/docs/default-source/model-downloads/sph0641lu4h-1-revb.pdf" (at 93.98 50.8 0)
