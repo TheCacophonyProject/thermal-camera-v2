@@ -40,3 +40,5 @@ jlcpcb/
 *.wrl
 *#auto_saved_files#
 *.step
+
+*.FCBak

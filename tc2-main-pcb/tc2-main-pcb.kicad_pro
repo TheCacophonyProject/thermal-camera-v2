@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 3.5,
-          "width": 1.2
+          "drill": 3.5,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.12
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -116,16 +116,16 @@
         "max_error": 0.005,
         "min_clearance": 0.12,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.19999999999999998,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.22999999999999998,
-        "min_hole_to_hole": 0.19999999999999998,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.44999999999999996,
         "min_microvia_drill": 0.19999999999999998,
         "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.19999999999999998,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.12,
         "min_via_annular_width": 0.049999999999999996,
         "min_via_diameter": 0.44999999999999996,
@@ -196,7 +196,7 @@
         },
         {
           "diameter": 0.46,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -530,6 +530,10 @@
     [
       "2e9183e4-4890-407e-94d9-073558eff15b",
       "modem"
+    ],
+    [
+      "7647fa78-4fc7-4ed2-904b-b9d3df2998ea",
+      "ATtiny1616"
     ]
   ],
   "text_variables": {}

@@ -29,6 +29,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(4, GPIO.OUT)
 GPIO.output(4, True)
 ```
+- https://learn.adafruit.com/adafruit-max98357-i2s-class-d-mono-amp/raspberry-pi-usage
 ### TODO 
 - Nothing
 
@@ -70,6 +71,7 @@ GPIO.output(4, True)
     - `sudo minicom -D /dev/ttyUSB2`
     - `AT+CUSBPIDSWITCH=9011,1,1`
     - `sudo dhclient -v usb0`
+    AT+CMEE=2
 ### Testing
 - [x] GPS
 - [x] 4G
