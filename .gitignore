@@ -42,3 +42,7 @@ jlcpcb/
 *.step
 
 *.FCBak
+
+# Porduction files
+**/production-files/
+
