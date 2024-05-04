@@ -1,6 +1,8 @@
 # KiCAD Checklist for tc2-main-pcb
 
-## Release Tasks
+## High Priority
+- [ ] Add smaller SMD nut for the modem as it is on the underside and might fall off. Also make it so no copper is on the other side to conduct through the heat when going through the oven.
+- [ ] Add battery JLC number
 - [x] Add 12 pin power connector JLC number
 - [x] Move mounting hole above Modem
 - [x] Move LED and button down a mm

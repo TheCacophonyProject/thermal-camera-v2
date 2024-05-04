@@ -3088,6 +3088,32 @@
 		(layer "F.Fab")
 		(uuid "e7d256f3-ee65-44a3-91a7-03007caccac0")
 	)
+	(gr_text "${TAG}"
+		(at -1.26 -2.47 0)
+		(layer "B.SilkS")
+		(uuid "03f2b98b-f789-4c6c-9d44-7855a56cc644")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify right bottom mirror)
+		)
+	)
+	(gr_text "${TAG}"
+		(at -1.35 -2.58 0)
+		(layer "F.SilkS")
+		(uuid "5007ca2f-81bc-4cea-bdea-2db090bb7ae1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 0 7.62)
 		(end 1.202081 7.62)

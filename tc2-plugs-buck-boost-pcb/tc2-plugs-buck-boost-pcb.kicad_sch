@@ -11945,7 +11945,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 31.242 40.64 90)
 			(effects
 				(font
@@ -11972,7 +11972,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C304148"
+		(property "LCSC" "C2984387"
 			(at 33.02 40.64 0)
 			(effects
 				(font
@@ -14599,7 +14599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 31.242 50.8 90)
 			(effects
 				(font
@@ -14626,7 +14626,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5151924"
+		(property "LCSC" "C326722"
 			(at 33.02 50.8 0)
 			(effects
 				(font
@@ -14983,7 +14983,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 52.832 40.64 90)
 			(effects
 				(font
@@ -15010,7 +15010,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C304148"
+		(property "LCSC" "C2984387"
 			(at 54.61 40.64 0)
 			(effects
 				(font

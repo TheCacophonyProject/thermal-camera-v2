@@ -490,7 +490,7 @@
       "specctra_dsn": "",
       "step": "tc2-sim-usb-pcb.step",
       "svg": "",
-      "vrml": "tc2-sim-usb-pcb.wrl"
+      "vrml": "production-files/b.wrl"
     },
     "page_layout_descr_file": ""
   },
