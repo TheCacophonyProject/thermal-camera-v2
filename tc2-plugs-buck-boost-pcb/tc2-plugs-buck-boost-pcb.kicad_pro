@@ -121,7 +121,7 @@
         "min_clearance": 0.0,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.3,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.23,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.3,
@@ -482,7 +482,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.127,
+        "clearance": 0.12,
         "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.1524,
@@ -492,7 +492,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.254,
+        "track_width": 0.12,
         "via_diameter": 0.6858,
         "via_drill": 0.3302,
         "wire_width": 6

@@ -10305,6 +10305,28 @@
 		)
 		(uuid "93bb7dee-fbff-493d-bcb9-69ce74bf5a46")
 	)
+	(text "EEPROM 2K"
+		(exclude_from_sim no)
+		(at 199.39 220.98 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left bottom)
+		)
+		(uuid "a19e682a-b7d3-42f8-a7c0-3895e3cb76e1")
+	)
+	(text "I2C Address 0x50"
+		(exclude_from_sim no)
+		(at 213.36 233.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3876d29-5da4-446f-bf41-082dff21a9ea")
+	)
 	(text "Make sure C10 is close to pin 44 of RP2040"
 		(exclude_from_sim no)
 		(at 208.28 60.96 0)
