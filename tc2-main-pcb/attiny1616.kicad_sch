@@ -2875,28 +2875,6 @@
 			)
 		)
 	)
-	(global_label "5V_EN on power board"
-		(shape input)
-		(at 102.87 21.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ff8874a0-fdf2-4ce6-be95-773220269368")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 127.6867 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 147.32 132.08 90)
