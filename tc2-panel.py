@@ -37,7 +37,7 @@ cuts =  {
 tabs = {
     "type":"annotation",    # Use annotations in the PCBs for the placement of the tabs.
     "fillet": "1mm",        # Required for manufacturability of the tabs.
-    "tabfootprints": "kikit:Tab8"       # need to manually to the library as this config doesn't seam to work .var/app/org.kicad.KiCad/data/python/lib/python3.11/site-packages/kikit/annotations.py
+    "tabfootprints": "cacophony-library:Tab8mm"       # need to manually to the library as this config doesn't seam to work .var/app/org.kicad.KiCad/data/python/lib/python3.11/site-packages/kikit/annotations.py
 }
 tooling = {
     "type": "4hole",
@@ -83,8 +83,10 @@ sourceArea1 = ki.readSourceArea(preset["source"], board1)
 sourceArea2 = ki.readSourceArea(preset["source"], board2)
 
 # Prepare renaming nets and references.
-mainNetRefRenamer = lambda x, orig: "main-{orig}".format(n=x, orig=orig)
-plugsNetRefRenamer = lambda x, orig: "plugs-{orig}".format(n=x, orig=orig)
+mainRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
+mainNetRenamer = lambda x, orig: "{orig}-main".format(n=x, orig=orig)
+plugsRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
+plugsNetRenamer = lambda x, orig: "{orig}-plugs".format(n=x, orig=orig)
 
 # Place the boards in the panel. The origin is the center of each board.
 # If needing to rotate a board you can add `rotationAngle=deg*90` as a parameter.
@@ -92,8 +94,8 @@ panel.appendBoard(
     main_board_path, 
     pcbnew.wxPointMM(0, 0), 
     sourceArea=sourceArea1, 
-    netRenamer=mainNetRefRenamer, 
-    refRenamer=mainNetRefRenamer, 
+    netRenamer=mainNetRenamer, 
+    refRenamer=mainRefRenamer, 
     bufferOutline=100000,
     inheritDrc=False,
 )
@@ -101,8 +103,8 @@ panel.appendBoard(
     plugs_board_path, 
     pcbnew.wxPointMM(4, -50), 
     sourceArea=sourceArea2, 
-    netRenamer=plugsNetRefRenamer, 
-    refRenamer=plugsNetRefRenamer,  
+    netRenamer=plugsNetRenamer, 
+    refRenamer=plugsRefRenamer,  
     inheritDrc=True,
 )
 # Add mill fillets

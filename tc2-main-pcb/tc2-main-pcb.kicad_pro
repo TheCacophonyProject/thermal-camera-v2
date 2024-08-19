@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.22,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.0,
+          "height": 6.2,
+          "width": 6.2
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -85,6 +85,7 @@
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -524,7 +525,8 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 0,
+    "annotate_start_num": 100,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -558,10 +560,10 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -570,10 +572,10 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -597,7 +599,7 @@
           "group_by": false,
           "label": "JLCPCB",
           "name": "JLCPCB",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -609,7 +611,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -639,6 +641,12 @@
           "group_by": false,
           "label": "Description",
           "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
           "show": false
         }
       ],

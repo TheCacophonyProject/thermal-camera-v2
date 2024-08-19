@@ -125,22 +125,22 @@
 	(net 3 "PDM_CLOCK")
 	(net 4 "+3V3")
 	(net 5 "PDM_DATA")
-	(net 6 "unconnected-(U3-NC-Pad5)")
-	(net 7 "unconnected-(U3-NC{slash}ADJ-Pad6)")
+	(net 6 "unconnected-(J402-Pin_1-Pad1)")
+	(net 7 "unconnected-(J403-Pin_1-Pad1)")
 	(net 8 "/DATA_PHY")
 	(net 9 "/CLOCK")
 	(net 10 "/PDM_DATA_PHY")
 	(net 11 "/DATA")
 	(net 12 "/CLOCK_PHY")
-	(net 13 "unconnected-(J1-Pin_1-Pad1)")
-	(net 14 "unconnected-(J2-Pin_1-Pad1)")
+	(net 13 "unconnected-(U401-NC{slash}ADJ-Pad6)")
+	(net 14 "unconnected-(U401-NC-Pad5)")
 	(footprint "Connector_PinHeader_1.27mm:PinHeader_2x03_P1.27mm_Vertical_SMD"
 		(layer "F.Cu")
 		(uuid "1da4fe49-95eb-4898-a5e8-31762ff99c01")
 		(at 16 0 180)
 		(descr "surface-mounted straight pin header, 2x03, 1.27mm pitch, double rows")
 		(tags "Surface mounted pin header SMD 2x03 1.27mm double row")
-		(property "Reference" "J4"
+		(property "Reference" "J401"
 			(at 0 -2.965 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -172,6 +172,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -184,6 +185,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -196,6 +198,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -637,7 +640,7 @@
 		(layer "F.Cu")
 		(uuid "1e75fb88-7f4d-497b-8164-a90ce2c9ed05")
 		(at 23 0)
-		(property "Reference" "J1"
+		(property "Reference" "J403"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -669,6 +672,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -681,6 +685,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -693,6 +698,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -796,7 +802,7 @@
 			(drill 2.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 13 "unconnected-(J1-Pin_1-Pad1)")
+			(net 7 "unconnected-(J403-Pin_1-Pad1)")
 			(pinfunction "Pin_1")
 			(pintype "passive+no_connect")
 			(uuid "a09fbb03-0239-408b-bdc3-3f937dc146a2")
@@ -819,9 +825,10 @@
 		(at 16.6 5.1)
 		(descr "SSOP-8 2.9 x2.8mm Pitch 0.65mm")
 		(tags "SSOP-8 2.95x2.8mm Pitch 0.65mm")
-		(property "Reference" "U2"
+		(property "Reference" "U402"
 			(at 0.83 -1.89 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f4f9c13-9d3b-448b-8d78-7a597f32acf8")
 			(effects
 				(font
@@ -850,6 +857,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -862,6 +870,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -874,6 +883,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1115,9 +1125,10 @@
 		(layer "F.Cu")
 		(uuid "5fed84bb-df16-4cef-bbe7-85219f4056f0")
 		(at 3.9 4.1)
-		(property "Reference" "U3"
+		(property "Reference" "U401"
 			(at -1.45 -0.03 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3f989379-2a72-4446-a844-bb2df3505add")
 			(effects
 				(font
@@ -1146,6 +1157,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1158,6 +1170,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1170,6 +1183,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1350,7 +1364,7 @@
 			(at 0 -0.9)
 			(size 0.37 0.48)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 6 "unconnected-(U3-NC-Pad5)")
+			(net 14 "unconnected-(U401-NC-Pad5)")
 			(pinfunction "NC")
 			(pintype "unspecified+no_connect")
 			(uuid "92b837c8-cc76-4437-8aa6-53f48d940652")
@@ -1359,7 +1373,7 @@
 			(at -0.65 -0.9)
 			(size 0.37 0.48)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 7 "unconnected-(U3-NC{slash}ADJ-Pad6)")
+			(net 13 "unconnected-(U401-NC{slash}ADJ-Pad6)")
 			(pinfunction "NC/ADJ")
 			(pintype "unspecified+no_connect")
 			(uuid "5fe9a94f-269c-46a8-9b3c-30d8c8b45a76")
@@ -1391,9 +1405,10 @@
 		(at 13.39 4.93 90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C1"
+		(property "Reference" "C401"
 			(at 0 -0.76 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "e52553c4-c82e-471b-9b09-8125cfad509e")
 			(effects
 				(font
@@ -1422,6 +1437,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1434,6 +1450,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1446,6 +1463,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1613,9 +1631,10 @@
 		(at 8.7 4)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C2"
+		(property "Reference" "C403"
 			(at 2.57 -0.02 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6fad25ab-d3d7-400b-a051-66830e4e1979")
 			(effects
 				(font
@@ -1644,6 +1663,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1656,6 +1676,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1668,6 +1689,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1833,7 +1855,7 @@
 		(layer "F.Cu")
 		(uuid "830256c6-f877-4bfa-85fc-42a76851250b")
 		(at 0 0)
-		(property "Reference" "J2"
+		(property "Reference" "J402"
 			(at 0 -3.2 0)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1865,6 +1887,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1877,6 +1900,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1889,6 +1913,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1992,7 +2017,7 @@
 			(drill 2.9)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 14 "unconnected-(J2-Pin_1-Pad1)")
+			(net 6 "unconnected-(J402-Pin_1-Pad1)")
 			(pinfunction "Pin_1")
 			(pintype "passive+no_connect")
 			(uuid "74d21155-cdc6-4680-b0b5-155a7067479a")
@@ -2015,9 +2040,10 @@
 		(at 15.76 2.95)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R1"
+		(property "Reference" "R403"
 			(at -1.34 -0.06 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9ad53d4f-6806-4a16-8074-f799b1b2da1f")
 			(effects
 				(font
@@ -2046,6 +2072,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2058,6 +2085,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2070,6 +2098,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2237,9 +2266,10 @@
 		(at 3.99 5.865 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C5"
+		(property "Reference" "C404"
 			(at -1.37 0.005 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "224492d6-3a03-4c1c-aa71-10014567b7b9")
 			(effects
 				(font
@@ -2268,6 +2298,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2280,6 +2311,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2292,6 +2324,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2459,9 +2492,10 @@
 		(at 12.89 6.39)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R3"
+		(property "Reference" "R402"
 			(at -1.28 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "79af3a08-90b5-44ec-a28d-57bc6454ef7e")
 			(effects
 				(font
@@ -2490,6 +2524,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2502,6 +2537,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2514,6 +2550,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2681,9 +2718,10 @@
 		(at 19.81 5.1 -90)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C3"
+		(property "Reference" "C402"
 			(at -1.25 -0.02 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "359837ea-c275-4230-bb91-a70c7d804b9e")
 			(effects
 				(font
@@ -2712,6 +2750,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2724,6 +2763,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2736,6 +2776,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2903,9 +2944,10 @@
 		(at 17.35 7.29)
 		(descr "Resistor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
-		(property "Reference" "R2"
+		(property "Reference" "R401"
 			(at -1.39 -0.03 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9f4c1d27-271e-491e-beae-54959a1064f9")
 			(effects
 				(font
@@ -2934,6 +2976,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2946,6 +2989,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2958,6 +3002,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3125,9 +3170,10 @@
 		(at 3.99 2.34 180)
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C4"
+		(property "Reference" "C405"
 			(at 1.33 0.17 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b2086302-140d-4f53-a4a1-b474128ca885")
 			(effects
 				(font
@@ -3156,6 +3202,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3168,6 +3215,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3180,6 +3228,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3347,9 +3396,10 @@
 		(at 8 0.77 180)
 		(descr "https://www.knowles.com/docs/default-source/model-downloads/sph0641lu4h-1-revb.pdf")
 		(tags "MEMS Microphone LGA")
-		(property "Reference" "MK1"
+		(property "Reference" "MK401"
 			(at 2.2755 -0.008 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "162847ea-9324-4ebb-b658-81d552088804")
 			(effects
 				(font
@@ -3378,6 +3428,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3390,6 +3441,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3402,6 +3454,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
