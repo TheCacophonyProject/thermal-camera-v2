@@ -3707,7 +3707,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "22pF"
 			(at 255.27 107.95 0)
 			(effects
 				(font
@@ -3752,7 +3752,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC" "C1555"
 			(at 250.19 110.49 0)
 			(effects
 				(font
@@ -4615,7 +4615,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "12pF"
+		(property "Value" "22pF"
 			(at 256.54 76.2 0)
 			(effects
 				(font
@@ -4660,7 +4660,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC" "C1555"
 			(at 251.46 78.74 0)
 			(effects
 				(font
