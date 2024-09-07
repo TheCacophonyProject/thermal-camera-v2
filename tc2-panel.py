@@ -16,6 +16,8 @@ from shapely.geometry import Polygon
 # Custom config
 main_board_path = "tc2-main-pcb/tc2-main-pcb.kicad_pcb"
 plugs_board_path = "tc2-plugs-buck-boost-pcb/tc2-plugs-buck-boost-pcb.kicad_pcb"
+sim_board_path = "tc2-sim-usb-pcb/tc2-sim-usb-pcb.kicad_pcb"
+
 output_path = "tc2-panel/tc2-panel.kicad_pcb"
 os.makedirs("tc2-panel", exist_ok=True)
 
@@ -70,6 +72,7 @@ preset = ki.obtainPreset([],
 
 board1 = LoadBoard(main_board_path)
 board2 = LoadBoard(plugs_board_path)
+board3 = LoadBoard(sim_board_path)
 panel = Panel(output_path)
 
 # Inherit settings from board1
@@ -81,32 +84,71 @@ panel.inheritTitleBlock(board2)
 # Get source areas for the boards.
 sourceArea1 = ki.readSourceArea(preset["source"], board1)
 sourceArea2 = ki.readSourceArea(preset["source"], board2)
+sourceArea3 = ki.readSourceArea(preset["source"], board3)
 
 # Prepare renaming nets and references.
 mainRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
 mainNetRenamer = lambda x, orig: "{orig}-main".format(n=x, orig=orig)
+
 plugsRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
 plugsNetRenamer = lambda x, orig: "{orig}-plugs".format(n=x, orig=orig)
+
+simRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
+simNetRenamer = lambda x, orig: "{orig}-sim".format(n=x, orig=orig)
+
 
 # Place the boards in the panel. The origin is the center of each board.
 # If needing to rotate a board you can add `rotationAngle=deg*90` as a parameter.
 panel.appendBoard(
-    main_board_path, 
-    pcbnew.wxPointMM(0, 0), 
-    sourceArea=sourceArea1, 
-    netRenamer=mainNetRenamer, 
-    refRenamer=mainRefRenamer, 
+    main_board_path,
+    pcbnew.wxPointMM(0, 0),
+    sourceArea=sourceArea1,
+    netRenamer=mainNetRenamer,
+    refRenamer=mainRefRenamer,
     bufferOutline=100000,
     inheritDrc=False,
 )
 panel.appendBoard(
-    plugs_board_path, 
-    pcbnew.wxPointMM(4, -50), 
-    sourceArea=sourceArea2, 
-    netRenamer=plugsNetRenamer, 
-    refRenamer=plugsRefRenamer,  
+    plugs_board_path,
+    pcbnew.wxPointMM(4, -50),
+    sourceArea=sourceArea2,
+    netRenamer=plugsNetRenamer,
+    refRenamer=plugsRefRenamer,
     inheritDrc=True,
 )
+
+panel.appendBoard(
+    sim_board_path,
+    pcbnew.wxPointMM(0, -73),
+    rotationAngle=deg*270,
+    sourceArea=sourceArea3,
+    netRenamer=simNetRenamer,
+    refRenamer=simRefRenamer,
+    inheritDrc=False,
+)
+
+
+
+
+
+# Add substrate on left edge for attaching tabs to. Otherwise the tabs are too far from the edge and won't be created.
+x1 = -40*mm
+y1 = -75*mm
+x2 = -33*mm
+y2 = 5*mm
+substrate = Polygon([(x1, y1), (x1, y2), (x2, y2), (x2, y1)])
+panel.appendSubstrate(substrate)
+
+"""
+# Add substrate on left edge for attaching tabs to. Otherwise the tabs are too far from the edge and won't be created.
+x1 = 42*mm
+y1 = 10*mm
+x2 = 64*mm
+y2 = 36*mm
+substrate = Polygon([(x1, y1), (x1, y2), (x2, y2), (x2, y1)])
+panel.appendSubstrate(substrate)
+"""
+
 # Add mill fillets
 panel.addMillFillets(panelize.fromMm(0.75))
 
@@ -115,13 +157,6 @@ panel.addMillFillets(panelize.fromMm(0.75))
 ki.buildFraming(preset, panel)
 framingSubstrates = ki.dummyFramingSubstrate(panel.substrates, preset)
 
-# Add substrate on left edge for attaching tabs to. Otherwise the tabs are too far from the edge and won't be created.
-x1 = -40*mm
-y1 = -55.75*mm
-x2 = -33*mm
-y2 = 5*mm
-substrate = Polygon([(x1, y1), (x1, y2), (x2, y2), (x2, y1)])
-panel.appendSubstrate(substrate)
 
 # safeMargin set to true helps to force building tabs when they won't reach the frame.
 # If this is the case then you want to add substrates to the panel with Polygon as was done above.
@@ -130,8 +165,9 @@ panel.buildPartitionLineFromBB(framingSubstrates, safeMargin=True)
 backboneCuts = ki.buildBackBone(preset["layout"], panel, panel.substrates, preset)
 
 # Debug to help visualize the layout and as to why some tabs might not be created
-#panel.debugRenderPartitionLines()
-#panel.debugRenderBoundingBoxes()
+panel.debugRenderPartitionLines()
+panel.debugRenderBoundingBoxes()
+panel.debugRenderBackboneLines()
 
 # Panelize things..
 ki.buildTooling(preset, panel)

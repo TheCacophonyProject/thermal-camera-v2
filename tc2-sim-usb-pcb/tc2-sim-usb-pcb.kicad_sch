@@ -637,43 +637,40 @@
 				)
 			)
 		)
-		(symbol "cacophony-library:SIM-Nano"
-			(pin_names
-				(offset 1.016)
-			)
+		(symbol "cacophony-library:K-DYX-010"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Card"
-				(at 0 10.16 0)
+			(property "Reference" "U"
+				(at 0 1.778 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "SIM"
-				(at 0 6.35 0)
+			(property "Value" ""
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 -10.16 0)
+			(property "Footprint" "cacophony-library:K-DYX-010"
+				(at 0.254 4.318 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -15.24 0)
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 					(hide yes)
 				)
@@ -687,10 +684,19 @@
 					(hide yes)
 				)
 			)
-			(symbol "SIM-Nano_1_1"
+			(property "LCSC" "C2919617"
+				(at 0.254 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "K-DYX-010_1_1"
 				(rectangle
-					(start -7.62 5.08)
-					(end 7.62 -5.08)
+					(start -6.35 -1.27)
+					(end 5.08 -11.43)
 					(stroke
 						(width 0)
 						(type default)
@@ -700,45 +706,9 @@
 					)
 				)
 				(pin input line
-					(at 10.16 -1.27 180)
+					(at -8.89 -2.54 0)
 					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -3.81 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -10.16 3.81 0)
-					(length 2.54)
-					(name "VCC"
+					(name "Vcc"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -753,8 +723,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -10.16 1.27 0)
+				(pin input line
+					(at -8.89 -5.08 0)
 					(length 2.54)
 					(name "RST"
 						(effects
@@ -771,8 +741,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -10.16 -1.27 0)
+				(pin input line
+					(at -8.89 -7.62 0)
 					(length 2.54)
 					(name "CLK"
 						(effects
@@ -789,10 +759,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 10.16 1.27 180)
+				(pin input line
+					(at 7.62 -10.16 180)
 					(length 2.54)
-					(name "GND"
+					(name "Gnd"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -807,10 +777,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 10.16 3.81 180)
+				(pin input line
+					(at 7.62 -2.54 180)
 					(length 2.54)
-					(name "VPP"
+					(name "Vpp"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -825,8 +795,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -10.16 -3.81 0)
+				(pin input line
+					(at -8.89 -10.16 0)
 					(length 2.54)
 					(name "I/O"
 						(effects
@@ -836,6 +806,96 @@
 						)
 					)
 					(number "C7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "CD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -7.62 180)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -7.62 180)
+					(length 2.54) hide
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -7.62 180)
+					(length 2.54) hide
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -7.62 180)
+					(length 2.54) hide
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP_4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1619,12 +1679,6 @@
 		(uuid "c2da8733-37fd-4729-9ca0-2c22fa1f5f62")
 	)
 	(junction
-		(at 129.54 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c52176cc-263a-4629-8650-e08caccc97a2")
-	)
-	(junction
 		(at 97.79 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1638,9 +1692,13 @@
 		(at 90.17 97.79)
 		(uuid "a5bd26dc-b9cc-4fee-8325-7658c987076d")
 	)
+	(no_connect
+		(at 128.27 90.17)
+		(uuid "c2da42e6-a2af-464a-936c-4857f1f333c8")
+	)
 	(wire
 		(pts
-			(xy 100.33 95.25) (xy 107.95 95.25)
+			(xy 100.33 95.25) (xy 111.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1677,16 +1735,6 @@
 			(type default)
 		)
 		(uuid "0e9647e8-4e68-45eb-a088-e364605f94a6")
-	)
-	(wire
-		(pts
-			(xy 128.27 90.17) (xy 129.54 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1107857f-6946-40c7-bbb9-d58c057da566")
 	)
 	(wire
 		(pts
@@ -1800,7 +1848,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 90.17) (xy 107.95 90.17)
+			(xy 95.25 90.17) (xy 111.76 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1840,16 +1888,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 90.17) (xy 129.54 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70842b43-a957-4b2c-ae34-f882f88d020a")
-	)
-	(wire
-		(pts
 			(xy 229.87 135.89) (xy 231.14 135.89)
 		)
 		(stroke
@@ -1880,7 +1918,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 107.95 87.63)
+			(xy 106.68 87.63) (xy 111.76 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2038,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 92.71) (xy 107.95 92.71)
+			(xy 92.71 92.71) (xy 111.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -2452,7 +2490,7 @@
 			)
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "D1")
+					(reference "D501")
 					(unit 1)
 				)
 			)
@@ -2468,7 +2506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2da91fc7-4677-438d-b7a3-7afdd0680e2b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0505"
 			(at 171.45 139.7 0)
 			(effects
 				(font
@@ -2518,7 +2556,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "#PWR04")
+					(reference "#PWR0505")
 					(unit 1)
 				)
 			)
@@ -2534,7 +2572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2e50d0fb-a73f-484a-831b-232c5c01c75b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0501"
 			(at 209.55 74.93 0)
 			(effects
 				(font
@@ -2584,7 +2622,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "#PWR02")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 			)
@@ -2606,7 +2644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30b8d4db-2e46-4f87-8547-0eb627cc5dae")
-		(property "Reference" "H1"
+		(property "Reference" "H501"
 			(at 113.03 125.73 0)
 			(effects
 				(font
@@ -2654,7 +2692,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "H1")
+					(reference "H501")
 					(unit 1)
 				)
 			)
@@ -2669,7 +2707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "35f0e7ca-0902-4aef-a7a6-3d7000907e6b")
-		(property "Reference" "TP2"
+		(property "Reference" "TP502"
 			(at 198.12 62.23 90)
 			(effects
 				(font
@@ -2718,7 +2756,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "TP2")
+					(reference "TP502")
 					(unit 1)
 				)
 			)
@@ -2791,7 +2829,7 @@
 			)
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "#PWR06")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 			)
@@ -2807,7 +2845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7780c7fa-05c0-430c-8b14-7a1c87bc8638")
-		(property "Reference" "TP1"
+		(property "Reference" "TP501"
 			(at 204.978 46.99 90)
 			(effects
 				(font
@@ -2856,7 +2894,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "TP1")
+					(reference "TP501")
 					(unit 1)
 				)
 			)
@@ -2950,7 +2988,7 @@
 			)
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "J2")
+					(reference "J501")
 					(unit 1)
 				)
 			)
@@ -2966,7 +3004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e40c183-c85d-4df5-a635-95d395d3b748")
-		(property "Reference" "USB2"
+		(property "Reference" "USB501"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -3044,190 +3082,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "USB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 161.29 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94143697-6db1-411b-b294-163952a9c884")
-		(property "Reference" "H3"
-			(at 163.83 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 163.83 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "cacophony-library:mouse-bite-10mm"
-			(at 161.29 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 161.29 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "tc2-sim-usb-pcb"
-				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "cacophony-library:SIM-Nano")
-		(at 118.11 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5403778-b4fc-482e-adab-ae8dc2f9c01e")
-		(property "Reference" "Card1"
-			(at 118.11 81.28 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "SIM-Nano"
-			(at 118.11 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "cacophony-library:SIM-SMD_SMN-304"
-			(at 118.11 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Card-Sockets_SIMDeck_C125618.html"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "SOFNG"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C266889"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC Part" "C266889"
-			(at 118.11 91.44 0)
-			(effects
-				(font
-					(size 0.0254 0.0254)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f2121b3-f803-448b-8428-b3ad986634a3")
-		)
-		(pin "2"
-			(uuid "fc2c5b4e-b1af-4055-83cc-e71473a2eb94")
-		)
-		(pin "C1"
-			(uuid "3b748752-b11d-4559-8a4d-6f1b26933a3b")
-		)
-		(pin "C2"
-			(uuid "60dd4b64-1564-48f0-a2b1-b97135f93963")
-		)
-		(pin "C3"
-			(uuid "cc7f60f4-06ea-48a7-bd1c-c9fa6828f8c6")
-		)
-		(pin "C5"
-			(uuid "8aa024e9-433b-4afe-bbad-1923c2159f44")
-		)
-		(pin "C6"
-			(uuid "c323ab31-925a-4e36-b889-84af25fb0ad1")
-		)
-		(pin "C7"
-			(uuid "00f8c3c1-e0dc-4021-9099-b80c1fdfc900")
-		)
-		(instances
-			(project "tc2-main-pcb"
-				(path "/0662f88c-5300-4b75-bef3-048a3227af84/2e9183e4-4890-407e-94d9-073558eff15b"
-					(reference "Card1")
-					(unit 1)
-				)
-			)
-			(project "tc2-sim-usb-pcb"
-				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "Card1")
+					(reference "USB501")
 					(unit 1)
 				)
 			)
@@ -3243,7 +3098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae77c75a-0ce4-4111-a82f-78f285b99ab7")
-		(property "Reference" "U1"
+		(property "Reference" "U501"
 			(at 81.28 57.7849 0)
 			(effects
 				(font
@@ -3291,7 +3146,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "U1")
+					(reference "U501")
 					(unit 1)
 				)
 			)
@@ -3364,7 +3219,111 @@
 			)
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "#PWR03")
+					(reference "#PWR0504")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "cacophony-library:K-DYX-010")
+		(at 120.65 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "beb5a41c-041d-4c90-88f5-58eb4f5db2d4")
+		(property "Reference" "U503"
+			(at 120.015 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.015 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "cacophony-library:K-DYX-010"
+			(at 120.904 80.772 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2919617"
+			(at 120.015 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "C6"
+			(uuid "73c19b61-f780-4b50-87ff-568fa754d9cf")
+		)
+		(pin "MP"
+			(uuid "5064f47e-250b-42a6-8949-be74a9fb2310")
+		)
+		(pin "C3"
+			(uuid "442f425b-7a70-4471-91ed-c3882f725ad6")
+		)
+		(pin "C2"
+			(uuid "72bb4caa-4077-4f36-88bf-ffc15c758298")
+		)
+		(pin "C1"
+			(uuid "45a97a11-908f-449e-bd76-86697a66782f")
+		)
+		(pin "C5"
+			(uuid "4e2b141c-973c-4fef-a1ec-f99b156d3d97")
+		)
+		(pin "C7"
+			(uuid "3ac30d12-6df7-48f7-9f2a-611a94b1e021")
+		)
+		(pin "MP_4"
+			(uuid "6b4b33db-7685-431c-a242-9d76d85e5b52")
+		)
+		(pin "MP_3"
+			(uuid "e09a2ab9-03f8-45fc-93dc-bae1de3fb57d")
+		)
+		(pin "MP_2"
+			(uuid "e38c1834-d867-4a40-979a-8918dff29799")
+		)
+		(pin "CD"
+			(uuid "ee064f30-c4b9-4c79-beec-493d136a2be0")
+		)
+		(instances
+			(project "tc2-sim-usb-pcb"
+				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
+					(reference "U503")
 					(unit 1)
 				)
 			)
@@ -3380,7 +3339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1e7e538-88a5-4807-8416-00f97019da3e")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG0501"
 			(at 171.45 130.175 0)
 			(effects
 				(font
@@ -3430,7 +3389,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "#FLG01")
+					(reference "#FLG0501")
 					(unit 1)
 				)
 			)
@@ -3446,7 +3405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c77ab1b9-9a11-451d-a9d3-dca700e14811")
-		(property "Reference" "H2"
+		(property "Reference" "H502"
 			(at 113.03 132.08 0)
 			(effects
 				(font
@@ -3494,7 +3453,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "H2")
+					(reference "H502")
 					(unit 1)
 				)
 			)
@@ -3567,7 +3526,7 @@
 			)
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "#PWR01")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 			)
@@ -3649,7 +3608,7 @@
 			)
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "C2")
+					(reference "C501")
 					(unit 1)
 				)
 			)
@@ -3722,7 +3681,7 @@
 			)
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "#PWR05")
+					(reference "#PWR0506")
 					(unit 1)
 				)
 			)
@@ -3738,7 +3697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbddf2b1-bf32-413b-8d8f-959d43b636ec")
-		(property "Reference" "U2"
+		(property "Reference" "U502"
 			(at 81.28 64.1349 0)
 			(effects
 				(font
@@ -3786,7 +3745,7 @@
 		(instances
 			(project "tc2-sim-usb-pcb"
 				(path "/12797a05-1f89-472c-86ab-484e34ff8b5b"
-					(reference "U2")
+					(reference "U502")
 					(unit 1)
 				)
 			)

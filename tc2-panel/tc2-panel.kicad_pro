@@ -77,7 +77,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "error",
+        "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
         "holes_co_located": "warning",
@@ -260,6 +260,217 @@
   "cvpcb": {
     "equivalence_files": []
   },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -320,6 +531,23 @@
         "via_diameter": 0.6858,
         "via_drill": 0.3302,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.15,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.33,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default-sim",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -330,619 +558,11 @@
     "netclass_patterns": [
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U114-MIPI_CLK_P-Pad29)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U116-USIM_DATA)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad41)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-UART_RX-Pad58)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "4G_USB_D+-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/I2C_BUS_LOCK_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U109-2Y3)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "I2C_BUS_LOCK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "SW_CLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J108-Pin_1-Pad1)_1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "USIM_RST-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_SPI_SCLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/GPIO16-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-PCM_OUT-Pad24)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "OUT_RX-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "QSPI_SD3-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-GPIO40-Pad50)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "QSPI_SS-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_CLK_EN-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "+3V8-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "MEM_SPI_MISO-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-UART_RTS-Pad54)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-GPIO43-Pad46)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(D102-K)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Lepton/FB_3V0-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U114-GPIO1-Pad4)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/RPI_SPI_MISO_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U114-MIPI_DATA_N-Pad31)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "USB_D+-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{LED_R}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "+1V2-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_POWER_EN-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-ANTCTL_0-Pad59)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad53)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J110-3V3-Pad17)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U102-XOUT)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U106-E1-Pad2)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Raspberry_Pi/~{UART_MULTIPLEX_EN}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U114-SPI_MISO)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-PCM_IN-Pad22)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U109-S1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad68)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "USB_D--main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J110-ID_SC{slash}GPIO1-Pad28)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-~{LED_1}-Pad10)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "I2S_BCLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad47)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad31)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/EEPROM_~{WC}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-MP-Pad77)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad38)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U109-1Y3)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U104-NC-Pad6)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad29)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U114-GPIO2-Pad3)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "MUL_S0-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(J110-GPIO19{slash}MISO1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "QSPI_SCLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "PDM_DATA-main"
-      },
-      {
-        "netclass": "Default-main",
         "pattern": "MEM_SPI_~{CS}-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "QSPI_SD1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Lepton/SW_1V2-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(J110-GPIO21{slash}SCLK1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J112-Pin_1-Pad1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_SPI_MISO-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/RTC_CLKO-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/AHT21_VDD-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "SWD-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "BATT_SENSE_HV_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J105-Pin_1-Pad1)_1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/ATtiny1616/~{PI_SHUTDOWN_PHY}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U116-USIM_CLK)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/RTC_OSCO-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_VSYNC-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-I2C_SDA-Pad42)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Raspberry_Pi/RPI_SPI_MOSI_-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-CONFIG_1-Pad69)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J107-Pin_1-Pad1)_1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_SPI_CS-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-PCM_SYNC-Pad20)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "EN_PERIPH_POWER-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad49)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/USB_D+_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U109-1Y2)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U109-2Y2)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U114-MIPI_DATA_P-Pad32)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{PI_POWERED_OFF}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad43)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J110-ID_SD{slash}GPIO0-Pad27)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "+3V0-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "I2S_DOUT-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Raspberry_Pi/RPI_SPI_SCLK_-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_SPI_CS-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U114-NC-Pad17)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/RTC_VDD-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "PDM_CLOCK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "5V_EN-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/modem/MODEM_3V8-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{READ_ATTINY_CMD_REG}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "+5V-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{LED_G}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "QSPI_SD2-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U106-E0-Pad1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "MEM_SPI_SCLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-NC-Pad35)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/modem/3V3_L1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "ATtiny_RESET_UPDI-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "SPEAKER_+-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_MASTER_CLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_SPI_SCLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{LED_B}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_SPI_MOSI-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(J110-GPIO18{slash}PWM0)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "MEM_SPI_MOSI-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(J110-GPIO14{slash}TXD)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_RX-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/PDM_CLOCK_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-WAKE_ON_WWAN_-Pad23)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "+1V1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J109-Pin_1-Pad1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/ATtiny1616/ATTINY_PA3-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_RESET_L-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "SCL-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U106-E2-Pad3)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/ATtiny1616/EN_PERIPH_POWER_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-I2C_SCL-Pad40)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J106-Pin_1-Pad1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "MODEM_POWER_EN-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J110-3V3-Pad1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "BATTERY_HV-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{W_DISABLE1}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-GPIO3-Pad64)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/GPIO17-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-CONFIG_0-Pad21)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RTC_BT_SENSE_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U115-PG)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-ANTCTL_1-Pad61)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/ATtiny1616/BATT_SENSE_HV-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{RTC_INT}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-UART_TX-Pad60)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_TX-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "+3V3_rp2040-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RUN-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U102-XIN)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_PWR_DWN_L-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J105-Pin_1-Pad1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U108-READY)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J102-ID-Pad4)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/USB_D-_PHY-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "4G_USB_D--main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_I2C_SCL-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-UART_CTS-Pad56)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Raspberry_Pi/RPI_SPI_CS_-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_PING-main"
+        "pattern": "Net-(U117-PB3)-main"
       },
       {
         "netclass": "Default-main",
@@ -950,75 +570,23 @@
       },
       {
         "netclass": "Default-main",
-        "pattern": "/ATtiny1616/~{READ_ATTINY_CMD_REG_PHY}-main"
+        "pattern": "Net-(U102-XIN)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "+2V8-main"
+        "pattern": "unconnected-(J110-ID_SC{slash}GPIO1-Pad28)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "/RTC_BATTERY-main"
+        "pattern": "LEPTON_I2C_SCL-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-ANTCTL_3-Pad65)-main"
+        "pattern": "Net-(J110-GPIO18{slash}PWM0)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "BOOT_MODE-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-ANTCTL_2-Pad63)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "LEPTON_SPI_MOSI-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U104-NC-Pad1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "SDA-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-GPIO41-Pad48)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/GPIO2-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Raspberry_Pi/GPIO12-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/RTC_OSCI-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-MP-Pad76)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-CONFIG_2-Pad75)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "+3V3-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J112-Pin_1-Pad1)_1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/ATtiny1616/BATT_SENSE_LV-main"
+        "pattern": "Net-(U102-XOUT)-main"
       },
       {
         "netclass": "Default-main",
@@ -1026,35 +594,27 @@
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U114-GPIO0-Pad5)-main"
+        "pattern": "RPI_SPI_CS-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(J109-Pin_1-Pad1)_1-main"
+        "pattern": "unconnected-(J112-Pin_1-Pad1)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "/modem/3V3_L2-main"
+        "pattern": "unconnected-(J112-Pin_1-Pad1)_1-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "USIM_VDD-main"
+        "pattern": "RUN-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-W_DISABLE2-Pad26)-main"
+        "pattern": "MODEM_POWER_EN-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-~{RESET}-Pad67)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "RPI_SDA-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U115-FB)-main"
+        "pattern": "EN_PERIPH_POWER-main"
       },
       {
         "netclass": "Default-main",
@@ -1062,55 +622,83 @@
       },
       {
         "netclass": "Default-main",
-        "pattern": "/Lepton/SW_3V0-main"
+        "pattern": "Net-(U116-USIM_CLK)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U115-PS{slash}SYNC-Pad13)-main"
+        "pattern": "/Raspberry_Pi/RPI_SPI_MOSI_-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(J107-Pin_1-Pad1)-main"
+        "pattern": "unconnected-(U104-NC-Pad6)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "4G_POWER_ON-main"
+        "pattern": "I2S_BCLK-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "ATtiny_SW-main"
+        "pattern": "unconnected-(U116-ANTCTL_0-Pad59)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U114-MIPI_CLK_N-Pad28)-main"
+        "pattern": "/RTC_OSCO-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(J102-VBUS-Pad1)-main"
+        "pattern": "USIM_RST-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-UART_DTR-Pad52)-main"
+        "pattern": "SPEAKER_+-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "Net-(U116-USIM_RST)-main"
+        "pattern": "unconnected-(U116-~{RESET}-Pad67)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "USIM_DATA-main"
+        "pattern": "/modem/MODEM_3V8-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-CONFIG_3-Pad1)-main"
+        "pattern": "SDA-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "SPEAKER_--main"
+        "pattern": "Net-(J110-GPIO21{slash}SCLK1)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-PCM_CLK-Pad28)-main"
+        "pattern": "+2V8-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad31)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "SW_CLK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-UART_RTS-Pad54)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U114-SPI_MISO)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-GPIO43-Pad46)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/ATtiny1616/~{READ_ATTINY_CMD_REG_PHY}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_RESET_L-main"
       },
       {
         "netclass": "Default-main",
@@ -1118,95 +706,35 @@
       },
       {
         "netclass": "Default-main",
-        "pattern": "QSPI_SD0-main"
+        "pattern": "Net-(U117-PA6)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "Net-(R127-Pad1)-main"
+        "pattern": "unconnected-(U116-ANTCTL_1-Pad61)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "RPI_SCL-main"
+        "pattern": "unconnected-(J110-3V3-Pad1)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-USIM_DET-Pad66)-main"
+        "pattern": "unconnected-(U116-NC-Pad53)-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U115-VINA-Pad1)-main"
+        "pattern": "SCL-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "LEPTON_I2C_SDA-main"
+        "pattern": "MEM_SPI_SCLK-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-GPIO77-Pad62)-main"
+        "pattern": "BATTERY_HV-main"
       },
       {
         "netclass": "Default-main",
-        "pattern": "unconnected-(U116-DPR-Pad25)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(R152-Pad2)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "~{EN_RP2040_POWER}-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "OUT_TX-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "BATTERY_LV-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "Net-(U107-~{SD_MODE})-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "GND-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(U116-GPIO44-Pad44)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J103-PadMP_2)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/Lepton/FB_1V2-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "I2S_LRCLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "USIM_CLK-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J103-PadMP_1)-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "unconnected-(J106-Pin_1-Pad1)_1-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "/MEM_~{HOLD}{slash}IO3-main"
-      },
-      {
-        "netclass": "Default-main",
-        "pattern": "SPEAKER_SD_MODE-main"
+        "pattern": "/ATtiny1616/~{PI_SHUTDOWN_PHY}-main"
       },
       {
         "netclass": "Default-main",
@@ -1214,7 +742,695 @@
       },
       {
         "netclass": "Default-main",
+        "pattern": "unconnected-(U116-PCM_OUT-Pad24)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-WAKE_ON_WWAN_-Pad23)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "5V_EN-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "BATT_SENSE_HV_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "QSPI_SD1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(R127-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_TX-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RTC_BT_SENSE_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(R152-Pad2)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U108-READY)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_SPI_MOSI-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{LED_G}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_CLK_EN-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U109-1Y3)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "QSPI_SD3-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-DPR-Pad25)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/ATtiny1616/EN_PERIPH_POWER_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U116-USIM_RST)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-MIPI_DATA_P-Pad32)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J103-PadMP_2)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad43)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "+3V8-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "ATtiny_RESET_UPDI-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_MASTER_CLK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-UART_TX-Pad60)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/modem/3V3_L2-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad41)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U106-E1-Pad2)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "QSPI_SS-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U104-NC-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U109-1Y2)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "4G_POWER_ON-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/Lepton/FB_1V2-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-GPIO0-Pad5)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J102-VBUS-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/modem/3V3_L1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_SPI_MISO-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/Lepton/FB_3V0-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "+3V3_rp2040-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/GPIO17-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J108-Pin_1-Pad1)_1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J110-3V3-Pad17)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/I2C_BUS_LOCK_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/GPIO16-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-PCM_CLK-Pad28)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-W_DISABLE2-Pad26)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U109-S1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "I2S_LRCLK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "QSPI_SCLK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_SDA-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U115-PG)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-MP-Pad76)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-USIM_DET-Pad66)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_I2C_SDA-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(D102-K)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "+5V-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_SPI_MOSI-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "USIM_DATA-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-PCM_SYNC-Pad20)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-MIPI_CLK_P-Pad29)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J106-Pin_1-Pad1)_1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/EEPROM_~{WC}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J102-ID-Pad4)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "MEM_SPI_MOSI-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/RTC_CLKO-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "USIM_CLK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-GPIO2-Pad3)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_SPI_SCLK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-GPIO77-Pad62)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U115-PS{slash}SYNC-Pad13)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-ANTCTL_3-Pad65)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-MP-Pad77)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J105-Pin_1-Pad1)_1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-UART_CTS-Pad56)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad68)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "I2S_DOUT-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-I2C_SCL-Pad40)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "PDM_DATA-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/RTC_BATTERY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{PI_POWERED_OFF}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "SPEAKER_SD_MODE-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "SWD-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/PDM_CLOCK_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(J110-GPIO19{slash}MISO1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/Raspberry_Pi/RPI_SPI_CS_-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J109-Pin_1-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U115-FB)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/Raspberry_Pi/GPIO12-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "SPEAKER_--main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "QSPI_SD2-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-CONFIG_3-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/Raspberry_Pi/RPI_SPI_SCLK_-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J106-Pin_1-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "+3V0-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_SPI_SCLK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "PDM_CLOCK-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/Lepton/SW_1V2-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-MIPI_DATA_N-Pad31)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "I2C_BUS_LOCK-main"
+      },
+      {
+        "netclass": "Default-main",
         "pattern": "LEPTON_SPI_MISO-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-PCM_IN-Pad22)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U106-E0-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U106-E2-Pad3)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "GND-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U107-~{SD_MODE})-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-GPIO41-Pad48)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U115-VINA-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/ATtiny1616/ATTINY_PA3-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_SCL-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "+1V2-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U117-PA5)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_RX-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-~{LED_1}-Pad10)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/RTC_OSCI-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-CONFIG_2-Pad75)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-GPIO44-Pad44)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/USB_D+_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "USB_D+-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-CONFIG_1-Pad69)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U109-2Y2)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad47)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_PWR_DWN_L-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J103-PadMP_1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad35)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J105-Pin_1-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/MEM_~{HOLD}{slash}IO3-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "+3V3-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{LED_R}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "RPI_PING-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "USB_D--main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-UART_DTR-Pad52)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "OUT_RX-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U116-USIM_DATA)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad49)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "BATTERY_LV-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "4G_USB_D+-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{RTC_INT}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-ANTCTL_2-Pad63)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "BOOT_MODE-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/GPIO2-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-GPIO3-Pad64)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J110-ID_SD{slash}GPIO0-Pad27)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "MUL_S0-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/ATtiny1616/BATT_SENSE_LV-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J107-Pin_1-Pad1)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{READ_ATTINY_CMD_REG}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-GPIO40-Pad50)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U117-PB2)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "+1V1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad38)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/USB_D-_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-MIPI_CLK_N-Pad28)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-UART_RX-Pad58)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "USIM_VDD-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-I2C_SDA-Pad42)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/RTC_VDD-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/AHT21_VDD-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(J110-GPIO14{slash}TXD)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/Lepton/SW_3V0-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_SPI_CS-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{W_DISABLE1}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_POWER_EN-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "QSPI_SD0-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J109-Pin_1-Pad1)_1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "4G_USB_D--main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(J107-Pin_1-Pad1)_1-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-GPIO1-Pad4)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/ATtiny1616/BATT_SENSE_HV-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "MEM_SPI_MISO-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "/RPI_SPI_MISO_PHY-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-NC-Pad29)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{EN_RP2040_POWER}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "~{LED_B}-main"
       },
       {
         "netclass": "Default-main",
@@ -1222,67 +1438,35 @@
       },
       {
         "netclass": "Default-main",
+        "pattern": "/Raspberry_Pi/~{UART_MULTIPLEX_EN}-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "OUT_TX-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U114-NC-Pad17)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "Net-(U109-2Y3)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "unconnected-(U116-CONFIG_0-Pad21)-main"
+      },
+      {
+        "netclass": "Default-main",
+        "pattern": "LEPTON_VSYNC-main"
+      },
+      {
+        "netclass": "Default-main",
         "pattern": "-main"
       },
       {
         "netclass": "Default-plugs",
-        "pattern": "/5V_L1-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "Net-(Q203-G)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "/5V_L2-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "/3V3_PHY-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "/5V_PHY-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "BATTERY_HV-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "VCC-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "/Ch_GND-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "Net-(D201-A)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "Net-(Q202-G)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "OUT_TX-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "SPEAKER_--plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "Net-(U202-PG)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "/3V3_L1-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "+3V3-plugs"
+        "pattern": "unconnected-(R212-Pad2)-plugs"
       },
       {
         "netclass": "Default-plugs",
@@ -1290,27 +1474,7 @@
       },
       {
         "netclass": "Default-plugs",
-        "pattern": "Net-(U202-Vaux)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "Net-(J201-Pad4)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "Net-(U201-Vaux)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "BATTERY_LV-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "unconnected-(D202-Pad3)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "OUT_RX-plugs"
+        "pattern": "SPEAKER_--plugs"
       },
       {
         "netclass": "Default-plugs",
@@ -1318,23 +1482,11 @@
       },
       {
         "netclass": "Default-plugs",
-        "pattern": "VOUT-plugs"
+        "pattern": "/3V3_L1-plugs"
       },
       {
         "netclass": "Default-plugs",
-        "pattern": "Net-(U201-EN)-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "/3V3_L2-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "SPEAKER_+-plugs"
-      },
-      {
-        "netclass": "Default-plugs",
-        "pattern": "GND-plugs"
+        "pattern": "unconnected-(D202-Pad3)-plugs"
       },
       {
         "netclass": "Default-plugs",
@@ -1350,7 +1502,27 @@
       },
       {
         "netclass": "Default-plugs",
-        "pattern": "Net-(U202-PS{slash}SYNC)-plugs"
+        "pattern": "5V_EN-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(U202-PG)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "BATTERY_LV-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "VOUT-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(D201-A)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "OUT_TX-plugs"
       },
       {
         "netclass": "Default-plugs",
@@ -1358,11 +1530,131 @@
       },
       {
         "netclass": "Default-plugs",
-        "pattern": "unconnected-(R212-Pad2)-plugs"
+        "pattern": "/5V_L2-plugs"
       },
       {
         "netclass": "Default-plugs",
-        "pattern": "5V_EN-plugs"
+        "pattern": "BATTERY_HV-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "/5V_PHY-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(J201-Pad4)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "/3V3_L2-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(C228-Pad1)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(U201-Vaux)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(U202-Vaux)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "OUT_RX-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(Q202-G)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "VCC-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(Q203-G)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "/Ch_GND-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "+3V3-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "/5V_L1-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "GND-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "SPEAKER_+-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "/3V3_PHY-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(U201-EN)-plugs"
+      },
+      {
+        "netclass": "Default-plugs",
+        "pattern": "Net-(U202-PS{slash}SYNC)-plugs"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "unconnected-(U503-PadCD)-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "4G_USB_D+-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "USIM_VDD-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "GND-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "USIM_RST-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "unconnected-(D501-Pad1)-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "USIM_CLK-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "unconnected-(U503-Vpp-PadC6)-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "4G_USB_D--sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "Net-(USB501-ID)-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "Net-(USB501-VBUS)-sim"
+      },
+      {
+        "netclass": "Default-sim",
+        "pattern": "USIM_DATA-sim"
       }
     ]
   },
@@ -1381,8 +1673,103 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
+    "annotate_start_num": 0,
+    "bom_export_filename": "",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "CSV",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "name": "Grouped By Value",
+      "sort_asc": true,
+      "sort_field": "Reference"
+    },
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
     "legacy_lib_dir": "",
-    "legacy_lib_list": []
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
   },
   "sheets": [],
   "text_variables": {}

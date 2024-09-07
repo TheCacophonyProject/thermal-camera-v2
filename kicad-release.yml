@@ -28,6 +28,11 @@ pcbs:
     - key: TAG
       val: {{.Version}}
 
+- id: tc2-sim-usb-pcb
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+
 # List of PCBs that will be built. This will:
 # - Run the panel script.
 # - Validate the PCB DRC

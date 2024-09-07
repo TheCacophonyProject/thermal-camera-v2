@@ -5724,7 +5724,7 @@
 	(footprint "cacophony-library:Tab8mm"
 		(layer "F.Cu")
 		(uuid "48386a6a-c46c-4ccf-ae62-c10d13090595")
-		(at 27 4.3 90)
+		(at 19 4.3 90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
 			(at -0.25 -2 90)
@@ -7030,7 +7030,7 @@
 	(footprint "cacophony-library:Tab8mm"
 		(layer "F.Cu")
 		(uuid "65ae84c3-cb8e-4e19-b449-95012ed4c689")
-		(at 7 4.3 90)
+		(at -1 4.3 90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
 			(at -0.25 -2 90)
@@ -10026,10 +10026,10 @@
 	(footprint "cacophony-library:Tab8mm"
 		(layer "F.Cu")
 		(uuid "968110cd-53ab-4f71-97a7-76451a750c28")
-		(at 22 -14.3 -90)
+		(at 15.17 -14.3 -90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
-			(at -0.25 -2 -90)
+			(at -0.25 -2 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "90c7afed-f83e-463a-8a96-c9424bcfbc47")
@@ -10041,7 +10041,7 @@
 			)
 		)
 		(property "Value" "Tab8mm"
-			(at -3 -1 -90)
+			(at -3 -1 90)
 			(layer "Dwgs.User")
 			(uuid "781cc447-2e14-4849-9526-3a91464bc1f5")
 			(effects
@@ -16448,10 +16448,10 @@
 	(footprint "cacophony-library:Tab8mm"
 		(layer "F.Cu")
 		(uuid "fdfd291d-2528-40b8-82b8-fa9c3d71a8d1")
-		(at -20 -15.8 -90)
+		(at -17.711 -15.8 -90)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
-			(at -0.25 -2 -90)
+			(at -0.25 -2 90)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "0b89abb3-58d2-46ab-9f3b-21510d1430aa")
@@ -16463,7 +16463,7 @@
 			)
 		)
 		(property "Value" "Tab8mm"
-			(at -3 -1 -90)
+			(at -3 -1 90)
 			(layer "Dwgs.User")
 			(uuid "fb157095-dd92-428b-b0b5-f744ceab45f2")
 			(effects

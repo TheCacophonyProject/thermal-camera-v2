@@ -2475,7 +2475,7 @@
 		)
 	)
 	(junction
-		(at 193.04 52.07)
+		(at 151.13 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36e8d0c8-ce3d-4b5c-8dfa-bcf4005dec45")
@@ -2523,7 +2523,7 @@
 		(uuid "9ea66db9-6c3f-4160-93fc-ded063b58862")
 	)
 	(junction
-		(at 231.14 41.91)
+		(at 189.23 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b39c0931-aa95-4390-8aa1-be875b76a3b9")
@@ -2547,11 +2547,11 @@
 		(uuid "e7bac397-3b01-4973-914b-e864e3896393")
 	)
 	(no_connect
-		(at 246.38 116.84)
+		(at 271.78 82.55)
 		(uuid "138cf36c-123b-4ed3-b349-ea166fff517a")
 	)
 	(no_connect
-		(at 246.38 110.49)
+		(at 257.81 46.99)
 		(uuid "55e1d275-d721-464b-8e59-43820eb92102")
 	)
 	(no_connect
@@ -2559,7 +2559,7 @@
 		(uuid "9253e37d-f626-46b7-ab57-d2b3cbed3655")
 	)
 	(no_connect
-		(at 246.38 104.14)
+		(at 243.84 46.99)
 		(uuid "99313c94-b69d-4c61-810a-78bb1e19b38b")
 	)
 	(no_connect
@@ -2567,11 +2567,11 @@
 		(uuid "c9b1c5aa-7d79-4948-80ec-31d3470e4814")
 	)
 	(no_connect
-		(at 246.38 91.44)
+		(at 271.78 46.99)
 		(uuid "cb8d1117-445f-4332-ac1e-38e040a4f0b4")
 	)
 	(no_connect
-		(at 246.38 97.79)
+		(at 243.84 78.74)
 		(uuid "f398159a-c7e5-4a25-9a41-7a49b8c1ce4f")
 	)
 	(no_connect
@@ -2684,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 60.96) (xy 199.39 60.96)
+			(xy 156.21 41.91) (xy 157.48 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2724,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 67.31) (xy 198.12 67.31)
+			(xy 157.48 48.26) (xy 156.21 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2844,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 67.31) (xy 198.12 68.58)
+			(xy 156.21 48.26) (xy 156.21 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2874,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 52.07) (xy 193.04 52.07)
+			(xy 147.32 33.02) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2914,7 +2914,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 46.99) (xy 193.04 52.07)
+			(xy 151.13 27.94) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2924,7 +2924,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 76.2) (xy 231.14 77.47)
+			(xy 189.23 57.15) (xy 189.23 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2944,7 +2944,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 67.31) (xy 231.14 67.31)
+			(xy 187.96 48.26) (xy 189.23 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2994,7 +2994,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 60.96) (xy 229.87 60.96)
+			(xy 189.23 41.91) (xy 187.96 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3064,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 58.42) (xy 229.87 58.42)
+			(xy 189.23 39.37) (xy 187.96 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3164,7 +3164,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 40.64) (xy 231.14 41.91)
+			(xy 189.23 21.59) (xy 189.23 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3234,7 +3234,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 67.31) (xy 231.14 68.58)
+			(xy 189.23 48.26) (xy 189.23 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3244,7 +3244,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 58.42) (xy 199.39 58.42)
+			(xy 156.21 39.37) (xy 157.48 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3304,7 +3304,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 48.26) (xy 233.68 49.53)
+			(xy 191.77 29.21) (xy 191.77 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3384,7 +3384,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 41.91) (xy 233.68 41.91)
+			(xy 189.23 22.86) (xy 191.77 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3454,7 +3454,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 52.07) (xy 229.87 52.07)
+			(xy 189.23 33.02) (xy 187.96 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3534,7 +3534,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 52.07) (xy 199.39 52.07)
+			(xy 151.13 33.02) (xy 157.48 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3584,7 +3584,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 41.91) (xy 231.14 52.07)
+			(xy 189.23 22.86) (xy 189.23 33.02)
 		)
 		(stroke
 			(width 0)
@@ -3654,7 +3654,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 43.18) (xy 233.68 41.91)
+			(xy 191.77 24.13) (xy 191.77 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3712,6 +3712,42 @@
 		)
 		(uuid "fdccb40d-69fd-4213-a805-4d8af0b1b6d7")
 	)
+	(rectangle
+		(start 275.59 49.53)
+		(end 278.13 80.01)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 489a26e3-e7e1-4670-b48c-632c5f3bb406)
+	)
+	(rectangle
+		(start 260.35 44.45)
+		(end 279.4 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 78640ac8-f6ee-468b-a5b9-6981f7fcdd57)
+	)
+	(rectangle
+		(start 246.38 34.29)
+		(end 279.4 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e71f7749-d5c4-4f16-90a1-69e0d3c2c678)
+	)
 	(text_box "Search 2x20p 8.5 for finding a through hole replacement for the connector\nC350295\nC429949\nC169819"
 		(exclude_from_sim no)
 		(at 111.76 77.47 0)
@@ -3730,6 +3766,26 @@
 			(justify left top)
 		)
 		(uuid "416baf73-695c-4b52-aa36-d3d7f9a17ad4")
+	)
+	(text_box "Raspberry Pi 3:\n- 11mm J107, J109, J105\n\nRaspberry Pi Zero:\n- 12mm J108, J105, J109\n- 9mm J107, J106"
+		(exclude_from_sim no)
+		(at 242.57 19.05 0)
+		(size 39.37 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ed56295d-a0b1-41cd-874f-984e97848b81")
 	)
 	(text "Speaker"
 		(exclude_from_sim no)
@@ -3931,7 +3987,7 @@
 	)
 	(global_label "RPI_SCL"
 		(shape input)
-		(at 198.12 58.42 180)
+		(at 156.21 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3941,7 +3997,7 @@
 		)
 		(uuid "2a931ddd-80fa-4e4b-999d-9ff9a21cd3ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 187.5148 58.42 0)
+			(at 145.6048 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3975,7 +4031,7 @@
 	)
 	(global_label "RPI_SDA"
 		(shape input)
-		(at 231.14 60.96 0)
+		(at 189.23 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3985,7 +4041,7 @@
 		)
 		(uuid "3a062ef4-744a-4bc5-9c92-f6b62b2e8da6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 241.8057 60.96 0)
+			(at 199.8957 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4261,7 +4317,7 @@
 	)
 	(global_label "5V_EN"
 		(shape input)
-		(at 189.23 52.07 180)
+		(at 147.32 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4271,7 +4327,7 @@
 		)
 		(uuid "8cce47ca-0852-418b-bca9-9fc67f8d9c00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.4996 52.07 0)
+			(at 138.5896 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4393,7 +4449,7 @@
 	)
 	(global_label "SDA"
 		(shape input)
-		(at 231.14 58.42 0)
+		(at 189.23 39.37 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4403,7 +4459,7 @@
 		)
 		(uuid "c879722f-e070-4f40-a0eb-cadb87425450")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.6933 58.42 0)
+			(at 195.7833 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,7 +4647,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 198.12 60.96 180)
+		(at 156.21 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4601,7 +4657,7 @@
 		)
 		(uuid "e0072ca1-72d2-4cdc-b76c-84f8161f2b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.6272 60.96 0)
+			(at 149.7172 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5065,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 251.46 116.84 0)
+		(at 276.86 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5017,7 +5073,7 @@
 		(dnp no)
 		(uuid "0eac45c8-7dd0-4574-99de-6e1298637ac2")
 		(property "Reference" "J109"
-			(at 254 115.57 0)
+			(at 279.4 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5026,16 +5082,17 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 254 118.1099 0)
+			(at 279.4 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "cacophony-library:smd_nut_SMTSO25"
-			(at 251.46 116.84 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +5101,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 116.84 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5053,7 +5110,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 116.84 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5062,7 +5119,7 @@
 			)
 		)
 		(property "LCSC" "C2915630"
-			(at 251.46 116.84 0)
+			(at 276.86 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5166,7 +5223,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 233.68 45.72 180)
+		(at 191.77 26.67 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5174,7 +5231,7 @@
 		(dnp no)
 		(uuid "14405fec-c567-4bfc-8ded-4fdddacbbe65")
 		(property "Reference" "C130"
-			(at 236.22 43.18 0)
+			(at 194.31 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5239,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 237.49 48.26 0)
+			(at 195.58 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5190,7 +5247,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 233.68 45.72 0)
+			(at 191.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5199,7 +5256,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 233.68 45.72 0)
+			(at 191.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5208,7 +5265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 233.68 45.72 0)
+			(at 191.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5217,7 +5274,7 @@
 			)
 		)
 		(property "LCSC" "C16772"
-			(at 233.68 45.72 0)
+			(at 191.77 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5242,7 +5299,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 231.14 72.39 180)
+		(at 189.23 53.34 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5250,7 +5307,7 @@
 		(dnp no)
 		(uuid "1c0d296d-3aaf-4f80-9e09-faa57ed761e9")
 		(property "Reference" "R117"
-			(at 229.87 73.66 0)
+			(at 187.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5259,7 +5316,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 229.87 71.12 0)
+			(at 187.96 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5325,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 232.918 72.39 90)
+			(at 191.008 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5277,7 +5334,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 231.14 72.39 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5286,7 +5343,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 231.14 72.39 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5295,7 +5352,7 @@
 			)
 		)
 		(property "LCSC" "C25741"
-			(at 231.14 72.39 0)
+			(at 189.23 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5459,7 +5516,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 198.12 68.58 0)
+		(at 156.21 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5468,7 +5525,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f65b34a-bd5b-4996-a1c7-c67e32e22da6")
 		(property "Reference" "#PWR0162"
-			(at 198.12 74.93 0)
+			(at 156.21 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +5534,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 198.12 73.66 0)
+			(at 156.21 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +5543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 68.58 0)
+			(at 156.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +5552,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 68.58 0)
+			(at 156.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5504,7 +5561,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 68.58 0)
+			(at 156.21 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5611,7 +5668,7 @@
 	)
 	(symbol
 		(lib_id "cacophony-library:TCA4311ADGKR")
-		(at 214.63 59.69 0)
+		(at 172.72 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5620,7 +5677,7 @@
 		(fields_autoplaced yes)
 		(uuid "3485c508-d0bd-47e7-94fe-25a078e9591c")
 		(property "Reference" "U108"
-			(at 214.63 45.72 0)
+			(at 172.72 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,7 +5685,7 @@
 			)
 		)
 		(property "Value" "TCA4311ADGKR"
-			(at 214.63 48.26 0)
+			(at 172.72 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5636,7 +5693,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
-			(at 214.63 73.66 0)
+			(at 172.72 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5645,7 +5702,7 @@
 			)
 		)
 		(property "Datasheet" "https://lcsc.com/product-detail/Interface-ICs_TI_TCA4311ADGKR_TCA4311ADGKR_C130025.html"
-			(at 214.63 76.2 0)
+			(at 172.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +5711,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 214.63 59.69 0)
+			(at 172.72 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5720,7 @@
 			)
 		)
 		(property "LCSC Part" ""
-			(at 214.63 78.74 0)
+			(at 172.72 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +5729,7 @@
 			)
 		)
 		(property "LCSC" "C130025"
-			(at 214.63 59.69 0)
+			(at 172.72 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5715,7 +5772,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 193.04 46.99 0)
+		(at 151.13 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -5724,7 +5781,7 @@
 		(fields_autoplaced yes)
 		(uuid "35775f0b-5c26-496d-bf8f-3dd7ce7063d3")
 		(property "Reference" "TP121"
-			(at 195.58 42.4179 0)
+			(at 153.67 23.3679 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,7 +5790,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 195.58 44.9579 0)
+			(at 153.67 25.9079 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5742,7 +5799,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 198.12 46.99 0)
+			(at 156.21 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5751,7 +5808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 198.12 46.99 0)
+			(at 156.21 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5760,7 +5817,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 193.04 46.99 0)
+			(at 151.13 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5936,7 +5993,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 231.14 40.64 0)
+		(at 189.23 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5945,7 +6002,7 @@
 		(fields_autoplaced yes)
 		(uuid "4335e9d9-dc25-4088-b119-5b1f1728fb66")
 		(property "Reference" "#PWR0157"
-			(at 231.14 44.45 0)
+			(at 189.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5954,7 +6011,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 231.14 35.56 0)
+			(at 189.23 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5962,7 +6019,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 40.64 0)
+			(at 189.23 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,7 +6028,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 40.64 0)
+			(at 189.23 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +6037,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 231.14 40.64 0)
+			(at 189.23 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6002,7 +6059,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 251.46 97.79 0)
+		(at 248.92 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6010,7 +6067,7 @@
 		(dnp no)
 		(uuid "44a664b2-3475-431c-9e67-b0859a5a5993")
 		(property "Reference" "J106"
-			(at 254 96.52 0)
+			(at 251.46 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6019,16 +6076,17 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 254 99.0599 0)
+			(at 251.46 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "cacophony-library:smd_nut_SMTSO25"
-			(at 251.46 97.79 0)
+			(at 248.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 97.79 0)
+			(at 248.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6046,7 +6104,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 97.79 0)
+			(at 248.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6055,7 +6113,7 @@
 			)
 		)
 		(property "LCSC" "C2915630"
-			(at 251.46 97.79 0)
+			(at 248.92 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6209,7 +6267,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 231.14 77.47 0)
+		(at 189.23 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6218,7 +6276,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c235966-b758-4ca2-b5d8-c140342bc8e2")
 		(property "Reference" "#PWR0164"
-			(at 231.14 83.82 0)
+			(at 189.23 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6227,7 +6285,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 231.14 82.55 0)
+			(at 189.23 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6236,7 +6294,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 231.14 77.47 0)
+			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6303,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 231.14 77.47 0)
+			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6254,7 +6312,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 231.14 77.47 0)
+			(at 189.23 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6561,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 251.46 91.44 0)
+		(at 276.86 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6511,7 +6569,7 @@
 		(dnp no)
 		(uuid "7433cb70-5f0e-4d27-9eba-4535222e4bd4")
 		(property "Reference" "J105"
-			(at 254 90.17 0)
+			(at 279.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,16 +6578,17 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 254 92.7099 0)
+			(at 279.4 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "cacophony-library:smd_nut_SMTSO25"
-			(at 251.46 91.44 0)
+			(at 276.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 91.44 0)
+			(at 276.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6547,7 +6606,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 91.44 0)
+			(at 276.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6556,7 +6615,7 @@
 			)
 		)
 		(property "LCSC" "C2915630"
-			(at 251.46 91.44 0)
+			(at 276.86 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6843,7 +6902,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 233.68 49.53 0)
+		(at 191.77 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6852,7 +6911,7 @@
 		(fields_autoplaced yes)
 		(uuid "835fa675-cbdb-4f38-95b0-464b04793cea")
 		(property "Reference" "#PWR0160"
-			(at 233.68 55.88 0)
+			(at 191.77 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +6920,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 233.68 54.61 0)
+			(at 191.77 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6870,7 +6929,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 233.68 49.53 0)
+			(at 191.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6879,7 +6938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 49.53 0)
+			(at 191.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6888,7 +6947,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 233.68 49.53 0)
+			(at 191.77 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7401,7 +7460,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 251.46 110.49 0)
+		(at 262.89 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7409,7 +7468,7 @@
 		(dnp no)
 		(uuid "a1b8a235-6f54-4625-b4f9-c0aa6c25021c")
 		(property "Reference" "J108"
-			(at 254 109.22 0)
+			(at 265.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7418,16 +7477,17 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 254 111.7599 0)
+			(at 265.43 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "cacophony-library:smd_nut_SMTSO25"
-			(at 251.46 110.49 0)
+			(at 262.89 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7436,7 +7496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 110.49 0)
+			(at 262.89 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7505,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 110.49 0)
+			(at 262.89 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +7514,7 @@
 			)
 		)
 		(property "LCSC" "C2915630"
-			(at 251.46 110.49 0)
+			(at 262.89 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8674,7 +8734,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 251.46 104.14 0)
+		(at 248.92 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8682,7 +8742,7 @@
 		(dnp no)
 		(uuid "ee23cf07-7ffc-46df-beca-2c603b10680c")
 		(property "Reference" "J107"
-			(at 254 102.87 0)
+			(at 251.46 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,16 +8751,17 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x01"
-			(at 254 105.4099 0)
+			(at 251.46 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "cacophony-library:smd_nut_SMTSO25"
-			(at 251.46 104.14 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8709,7 +8770,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 104.14 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8718,7 +8779,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 251.46 104.14 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8727,7 +8788,7 @@
 			)
 		)
 		(property "LCSC" "C2915630"
-			(at 251.46 104.14 0)
+			(at 248.92 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
