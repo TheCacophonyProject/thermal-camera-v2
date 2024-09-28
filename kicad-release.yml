@@ -48,6 +48,8 @@ panels:
       refRenamer: "{orig}"
     - id: "tc2-plugs-buck-boost-pcb"
       refRenamer: "{orig}"
+    - id: "tc2-sim-usb-pcb"
+      refRenamer: "{orig}"
 
 # Release project. This will:
 # - Build the project as normal.

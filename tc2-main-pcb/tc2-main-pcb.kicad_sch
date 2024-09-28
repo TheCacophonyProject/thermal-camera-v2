@@ -20452,12 +20452,12 @@
 		(at 317.5 232.41 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "c6ea092b-bc3e-4d8c-86d4-9f92ccf088d2")
 		(property "Reference" "BT101"
-			(at 311.15 229.87 0)
+			(at 308.61 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -34,7 +34,7 @@ cuts =  {
     "type": "mousebites",
     "drill": "0.6mm",       # Minimum mouse bite holes
     "spacing": "0.9mm",     # Minimum mouse bite spacing (0.3mm between holes)
-    "offset": "-0.12mm",     # Offset of mouse bite holes into the mouse bite. -0.12mm gives enough clearance for traces/copper on the edge of the PCB for the DRM.
+    "offset": "-0.3mm",     # Offset of mouse bite holes into the mouse bite. -0.12mm gives enough clearance for traces/copper on the edge of the PCB for the DRM.
 }
 tabs = {
     "type":"annotation",    # Use annotations in the PCBs for the placement of the tabs.
