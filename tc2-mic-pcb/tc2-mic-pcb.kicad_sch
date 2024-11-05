@@ -1943,6 +1943,12 @@
 		(uuid "a5d7810d-9517-4a03-bf88-a81abef71d59")
 	)
 	(junction
+		(at 81.28 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a89f2bba-8c70-44f3-8723-d3a98bcab338")
+	)
+	(junction
 		(at 22.86 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1975,6 +1981,16 @@
 	(no_connect
 		(at 50.8 46.99)
 		(uuid "d2c53327-75fc-4018-8d85-948a1cc7708c")
+	)
+	(wire
+		(pts
+			(xy 81.28 91.44) (xy 81.28 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "055e408b-704d-4023-8883-95089d5983fc")
 	)
 	(wire
 		(pts
@@ -2335,6 +2351,16 @@
 			(type default)
 		)
 		(uuid "9b71824c-d149-43c4-81e0-1a41b2b55d9d")
+	)
+	(wire
+		(pts
+			(xy 81.28 97.79) (xy 81.28 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c790465-4440-4d49-9c4a-acf7db3b7021")
 	)
 	(wire
 		(pts
@@ -3094,6 +3120,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 81.28 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2037db96-b4f0-4d21-8e6c-6819f35bdd24")
+		(property "Reference" "C406"
+			(at 83.82 94.6213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 83.82 97.1613 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C52923"
+			(at 81.28 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dc3a5fa1-620d-4e17-bdc1-1d4fea43d762")
+		)
+		(pin "2"
+			(uuid "87e7fd41-8e80-4539-8cd0-1b995f6cae3d")
+		)
+		(instances
+			(project "tc2-mic-pcb"
+				(path "/5f96247b-0b73-48aa-a1a8-3d96ade9d103"
+					(reference "C406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 81.28 90.17 0)
 		(unit 1)
@@ -3463,6 +3568,72 @@
 			(project "tc2-mic-pcb"
 				(path "/5f96247b-0b73-48aa-a1a8-3d96ade9d103"
 					(reference "C405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 81.28 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39e33a4f-11fb-479e-bc74-c7f9a82e415c")
+		(property "Reference" "#PWR0418"
+			(at 81.28 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 81.28 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 81.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e1560441-f37e-4a48-9f6f-e7356c8c9021")
+		)
+		(instances
+			(project "tc2-mic-pcb"
+				(path "/5f96247b-0b73-48aa-a1a8-3d96ade9d103"
+					(reference "#PWR0418")
 					(unit 1)
 				)
 			)

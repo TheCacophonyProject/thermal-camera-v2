@@ -2210,6 +2210,28 @@
 			)
 		)
 	)
+	(global_label "Populate header"
+		(shape input)
+		(at 238.76 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb83dc15-83c1-4fba-a5b1-a13f946c3669")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 257.4687 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USIM_RST"
 		(shape input)
 		(at 82.55 90.17 180)

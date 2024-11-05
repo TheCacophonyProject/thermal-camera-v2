@@ -498,16 +498,16 @@
 			(uuid "f0ccb6b4-b6ae-466b-9c80-820986b58cf7")
 		)
 	)
-	(footprint "cacophony-library:Tab8mm"
+	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "21f9ac1b-508f-42ef-a725-bf5e4d0d9fc0")
 		(at 21.28 -9.67 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
-			(at -0.25 -2 0)
+			(at -0.25 -2 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e8be9b2f-5725-4233-8b04-0ed96da81b30")
+			(uuid "b3e4705c-adbe-4fdd-98eb-89acae453352")
 			(effects
 				(font
 					(size 1 1)
@@ -515,10 +515,10 @@
 				)
 			)
 		)
-		(property "Value" "Tab8mm"
-			(at -3 -1 0)
+		(property "Value" "Tab"
+			(at -3 -1 180)
 			(layer "Dwgs.User")
-			(uuid "9ea84a9a-8b3c-422e-a3b9-0cd3c7becd6b")
+			(uuid "3194aa31-10dc-4e4f-abb1-fe84ff82b5a3")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -526,12 +526,11 @@
 				)
 			)
 		)
-		(property "Footprint" "cacophony-library:Tab8mm"
+		(property "Footprint" "PCM_kikit:Tab"
 			(at 0 0 180)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd2dbe86-256d-4082-b3ae-3173cbaf8dbe")
+			(uuid "e601f530-ef31-4e47-b7c2-2e0a34eebc68")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -541,10 +540,9 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 180)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fa2f1ea-7182-4173-a5d2-891ce6473b06")
+			(uuid "9af0ff01-9b5b-4330-9580-fc723a71521d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -554,10 +552,9 @@
 		)
 		(property "Description" ""
 			(at 0 0 180)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8efb67b0-5246-4e26-ba17-94f77c0c76f3")
+			(uuid "a4b7db2a-5c26-4c10-92f2-51888efdc445")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -565,9 +562,7 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-			dnp
-		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 0 1)
 			(end 0 -1)
@@ -576,7 +571,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "95e9dbad-002d-4e7b-bd1e-39f503b4036f")
+			(uuid "db697458-303f-4830-a17a-1c436a8b6129")
 		)
 		(fp_line
 			(start 0 0)
@@ -586,7 +581,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "70f738aa-b191-4909-a432-50bdd2bfa110")
+			(uuid "a0afef55-e603-49d9-aff2-a1b879a2c8c3")
 		)
 		(fp_line
 			(start 0 0)
@@ -596,7 +591,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ac0532bc-7592-4247-b5f7-4dbf2e2a4214")
+			(uuid "884141c3-7889-4e63-a745-cc7050517ca6")
 		)
 		(fp_line
 			(start 0 0)
@@ -606,7 +601,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "bbc385bb-0c90-4526-a4fa-c1d6bc9f161f")
+			(uuid "beb0bd6f-ca4d-42d8-a4db-a02cc1634c5c")
 		)
 		(fp_text user "KIKIT: width: 8mm"
 			(at -5.5 0 90)
@@ -971,16 +966,16 @@
 			(uuid "a9db9ea3-dafd-4b4b-9f7f-7d7cb77f6ac0")
 		)
 	)
-	(footprint "cacophony-library:Tab8mm"
+	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "70fda2b0-64ed-4a84-9a53-0adba69b02df")
 		(at 6.8 23.211 180)
 		(descr "A symbol representing annotation for tab placement")
 		(property "Reference" "REF**"
-			(at -0.25 -2 0)
+			(at -0.25 -2 180)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "456ca38e-b292-4f8f-b957-78f84e98ad2d")
+			(uuid "53bdfaca-d505-4632-b3dd-d73eed00235e")
 			(effects
 				(font
 					(size 1 1)
@@ -988,10 +983,10 @@
 				)
 			)
 		)
-		(property "Value" "Tab8mm"
-			(at -3 -1 0)
+		(property "Value" "Tab"
+			(at -3 -1 180)
 			(layer "Dwgs.User")
-			(uuid "9c300bf9-abbe-437e-b381-fb7780c79f92")
+			(uuid "a5bf931c-2677-49b8-9c79-d4892f2e3de0")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -999,12 +994,11 @@
 				)
 			)
 		)
-		(property "Footprint" "cacophony-library:Tab8mm"
+		(property "Footprint" "PCM_kikit:Tab"
 			(at 0 0 180)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd2dbe86-256d-4082-b3ae-3173cbaf8dbe")
+			(uuid "5e6f2e54-6c7b-4715-beee-5136bbdd6d79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,10 +1008,9 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 180)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fa2f1ea-7182-4173-a5d2-891ce6473b06")
+			(uuid "b38c4c21-ed3b-4741-a7eb-bbda17ae413f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,10 +1020,9 @@
 		)
 		(property "Description" ""
 			(at 0 0 180)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8efb67b0-5246-4e26-ba17-94f77c0c76f3")
+			(uuid "3c07ef37-9645-42b0-8d5a-36bccac46330")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1038,9 +1030,7 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-			dnp
-		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 0 1)
 			(end 0 -1)
@@ -1049,7 +1039,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "1f938f6d-c042-467e-83de-96837976b13a")
+			(uuid "cfd3b021-0814-4702-8f20-35a340e43359")
 		)
 		(fp_line
 			(start 0 0)
@@ -1059,7 +1049,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "7278dccb-0742-4271-9140-fe981bb04858")
+			(uuid "bcade09f-5cb9-4104-b703-91feaa185ef5")
 		)
 		(fp_line
 			(start 0 0)
@@ -1069,7 +1059,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "9448acda-8903-4834-a166-9804cab28306")
+			(uuid "ece647f1-3ab5-4803-912b-40ce4f75aaa0")
 		)
 		(fp_line
 			(start 0 0)
@@ -1079,7 +1069,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "43ec9c8a-d5e2-4c87-8c32-60dbe8c9f8b8")
+			(uuid "3f3ab4e8-58c2-42d2-9196-d722e3f11267")
 		)
 		(fp_text user "KIKIT: width: 8mm"
 			(at -5.5 0 90)
@@ -1093,7 +1083,7 @@
 			)
 		)
 	)
-	(footprint "cacophony-library:Tab8mm"
+	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "8545fe9a-7181-4ace-8a5d-05c72de11796")
 		(at -2.25 26.5)
@@ -1102,7 +1092,7 @@
 			(at -0.25 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "467c55ec-c366-4b56-afa3-fab207bbc2f0")
+			(uuid "7dc80fe3-d17b-496d-91b3-a1eca6cc8943")
 			(effects
 				(font
 					(size 1 1)
@@ -1110,10 +1100,10 @@
 				)
 			)
 		)
-		(property "Value" "Tab8mm"
+		(property "Value" "Tab"
 			(at -3 -1 0)
 			(layer "Dwgs.User")
-			(uuid "d6a89eae-2300-45cd-a68c-b940d81b946a")
+			(uuid "5522fc31-841c-4782-a7c3-1dd4d00b6e1f")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -1121,12 +1111,11 @@
 				)
 			)
 		)
-		(property "Footprint" "cacophony-library:Tab8mm"
+		(property "Footprint" "PCM_kikit:Tab"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd2dbe86-256d-4082-b3ae-3173cbaf8dbe")
+			(uuid "16dde0bf-e71f-424f-9f96-a1682ba9e064")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,10 +1125,9 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fa2f1ea-7182-4173-a5d2-891ce6473b06")
+			(uuid "c88cb60b-daf2-4aaf-b3f6-a5a6c3fdeb9e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1149,10 +1137,9 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8efb67b0-5246-4e26-ba17-94f77c0c76f3")
+			(uuid "f6198659-3f16-4a9a-bcbb-7abcd30f5ab8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1160,9 +1147,7 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-			dnp
-		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 0 0)
 			(end -3 0)
@@ -1171,7 +1156,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ffbdc757-b4a0-4bec-b0b4-9724dabe2303")
+			(uuid "30c19f0b-070d-4e09-895a-46808ee6f3a7")
 		)
 		(fp_line
 			(start 0 0)
@@ -1181,7 +1166,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "983cb295-c512-4af6-b55f-a5f27877a493")
+			(uuid "bc5d3ed2-6ce9-40d5-85f6-e2145826deb9")
 		)
 		(fp_line
 			(start 0 0)
@@ -1191,7 +1176,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "318eb7b0-b89e-438b-b74b-3f83a1459e9b")
+			(uuid "de1c5e75-bfa3-4b0d-b018-9836ec3adfb2")
 		)
 		(fp_line
 			(start 0 1)
@@ -1201,7 +1186,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "2b77e45a-59b0-40be-887b-1add2bd30955")
+			(uuid "c5358269-dc96-4c22-aa69-806d7e29e7e7")
 		)
 		(fp_text user "KIKIT: width: 8mm"
 			(at -5.5 0 90)
@@ -1961,7 +1946,7 @@
 			)
 		)
 	)
-	(footprint "cacophony-library:Tab8mm"
+	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
 		(uuid "d3894808-99ab-4c68-a31c-c5119dc8ff53")
 		(at -2.11 -13.25)
@@ -1970,7 +1955,7 @@
 			(at -0.25 -2 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a5a5121b-4272-40ac-a6de-66c5679ddb89")
+			(uuid "f5a27ed7-067c-4d51-b2df-4f80996d5a41")
 			(effects
 				(font
 					(size 1 1)
@@ -1978,10 +1963,10 @@
 				)
 			)
 		)
-		(property "Value" "Tab8mm"
+		(property "Value" "Tab"
 			(at -3 -1 0)
 			(layer "Dwgs.User")
-			(uuid "c8f40ec3-f68f-4087-8823-0e3ce1fa16f8")
+			(uuid "1388906d-aeb5-46c8-ab17-e8336b6806d7")
 			(effects
 				(font
 					(size 1.2 1.2)
@@ -1989,12 +1974,11 @@
 				)
 			)
 		)
-		(property "Footprint" "cacophony-library:Tab8mm"
+		(property "Footprint" "PCM_kikit:Tab"
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bd2dbe86-256d-4082-b3ae-3173cbaf8dbe")
+			(uuid "54db14f5-73e2-4fcb-ae8f-7e7622f109f8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2004,10 +1988,9 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fa2f1ea-7182-4173-a5d2-891ce6473b06")
+			(uuid "6e74a66e-8984-44e0-bbb7-1b33cc7a2e49")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2017,10 +2000,9 @@
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8efb67b0-5246-4e26-ba17-94f77c0c76f3")
+			(uuid "94de813a-0716-4754-8ed9-cff530021a9b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2028,9 +2010,7 @@
 				)
 			)
 		)
-		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
-			dnp
-		)
+		(attr board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
 		(fp_line
 			(start 0 0)
 			(end -3 0)
@@ -2039,7 +2019,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "5a645aba-0106-4735-9ba3-c9b1fbc68eda")
+			(uuid "20098948-4824-4aca-a75d-704687c229a3")
 		)
 		(fp_line
 			(start 0 0)
@@ -2049,7 +2029,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "d9f9aebf-e27f-485c-a9c3-4994228ad780")
+			(uuid "5eefb53e-0880-437b-bc63-05e15bd6b243")
 		)
 		(fp_line
 			(start 0 0)
@@ -2059,7 +2039,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "620a30d8-a7cd-4639-a774-e506e12d176c")
+			(uuid "01674165-c401-40a1-9c05-c73775dcac8c")
 		)
 		(fp_line
 			(start 0 1)
@@ -2069,7 +2049,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e1f51844-fd23-47ee-9fd5-18b979915aa6")
+			(uuid "bb8a89a1-01e5-48c5-b2cc-d7c93c944088")
 		)
 		(fp_text user "KIKIT: width: 8mm"
 			(at -5.5 0 90)

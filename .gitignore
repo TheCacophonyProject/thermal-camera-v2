@@ -45,6 +45,6 @@ jlcpcb/
 
 # Porduction files
 **/production-files/
-production-files.tar.gz
-
+*.tar.gz
+*.rpt
 

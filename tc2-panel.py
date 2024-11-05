@@ -18,8 +18,10 @@ main_board_path = "tc2-main-pcb/tc2-main-pcb.kicad_pcb"
 plugs_board_path = "tc2-plugs-buck-boost-pcb/tc2-plugs-buck-boost-pcb.kicad_pcb"
 sim_board_path = "tc2-sim-usb-pcb/tc2-sim-usb-pcb.kicad_pcb"
 
-output_path = "tc2-panel/tc2-panel.kicad_pcb"
-os.makedirs("tc2-panel", exist_ok=True)
+output_dir = "generated-pcbs/tc2-panel"
+
+output_path = f"{output_dir}/tc2-panel.kicad_pcb"
+os.makedirs(output_dir, exist_ok=True)
 
 board_spacing = 3*mm
 
@@ -39,7 +41,6 @@ cuts =  {
 tabs = {
     "type":"annotation",    # Use annotations in the PCBs for the placement of the tabs.
     "fillet": "1mm",        # Required for manufacturability of the tabs.
-    "tabfootprints": "cacophony-library:Tab8mm"       # need to manually to the library as this config doesn't seam to work .var/app/org.kicad.KiCad/data/python/lib/python3.11/site-packages/kikit/annotations.py
 }
 tooling = {
     "type": "4hole",

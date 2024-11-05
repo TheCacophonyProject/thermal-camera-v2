@@ -41,15 +41,26 @@ panels:
 - id: tc2-panel
   script: ./tc2-panel.py
   text_variables:
-    - key: TAG
-      val: {{.Version}}
+  - key: TAG
+    val: {{.Version}}
   boms_to_join:
-    - id: "tc2-main-pcb"
-      refRenamer: "{orig}"
-    - id: "tc2-plugs-buck-boost-pcb"
-      refRenamer: "{orig}"
-    - id: "tc2-sim-usb-pcb"
-      refRenamer: "{orig}"
+  - id: "tc2-main-pcb"
+    refRenamer: "{orig}"
+  - id: "tc2-plugs-buck-boost-pcb"
+    refRenamer: "{orig}"
+  - id: "tc2-sim-usb-pcb"
+    refRenamer: "{orig}"
+
+- id: tc2-mic-panel
+  path: generated-pcbs/tc2-mic-panel
+  script: ./tc2-mic-panel.py
+  text_variables:
+  - key: TAG
+    val: {{.Version}}
+  boms_to_join:
+  - id: "tc2-mic-pcb"
+    refRenamer: "{orig}-{n}"  # Update this from the script
+    count: 10
 
 # Release project. This will:
 # - Build the project as normal.

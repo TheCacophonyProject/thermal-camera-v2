@@ -3748,25 +3748,6 @@
 		)
 		(uuid e71f7749-d5c4-4f16-90a1-69e0d3c2c678)
 	)
-	(text_box "Search 2x20p 8.5 for finding a through hole replacement for the connector\nC350295\nC429949\nC169819"
-		(exclude_from_sim no)
-		(at 111.76 77.47 0)
-		(size 31.75 13.97)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "416baf73-695c-4b52-aa36-d3d7f9a17ad4")
-	)
 	(text_box "Raspberry Pi 3:\n- 11mm J107, J109, J105\n\nRaspberry Pi Zero:\n- 12mm J108, J105, J109\n- 9mm J107, J106"
 		(exclude_from_sim no)
 		(at 242.57 19.05 0)
