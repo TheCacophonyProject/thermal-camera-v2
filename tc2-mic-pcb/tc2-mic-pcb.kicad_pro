@@ -496,7 +496,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "tc2-mic-pcb.step",
+      "step": "../../../../Downloads/tc2-mic-pcb.step",
       "svg": "",
       "vrml": "tc2-mic-pcb.wrl"
     },

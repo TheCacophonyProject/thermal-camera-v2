@@ -4941,6 +4941,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 93.98 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A2"
 			(uuid "3ebc3d32-e9ba-436d-b8b0-76afdedd0ba8")
 		)
@@ -5032,6 +5041,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 30.48 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a35a4d39-e738-457f-96b8-387ad56e8928")
 		)
@@ -5108,6 +5126,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 276.86 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bd86f04f-3cf3-471e-a1f0-46096c20aafc")
 		)
@@ -5173,6 +5200,15 @@
 			)
 		)
 		(property "LCSC" "C25092"
+			(at 133.35 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 133.35 123.19 0)
 			(effects
 				(font
@@ -5263,6 +5299,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 191.77 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa54a441-7e73-4cf9-8b96-c4056e616c50")
 		)
@@ -5341,6 +5386,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 189.23 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "775c676f-4d1b-4420-a53c-30ad8db8e90f")
 		)
@@ -5402,6 +5456,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 59.69 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 59.69 46.99 0)
 			(effects
 				(font
@@ -5632,6 +5695,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 143.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4eb86a6e-48c6-4e49-81a3-623f6d125b28")
 		)
@@ -5710,6 +5782,15 @@
 			)
 		)
 		(property "LCSC" "C130025"
+			(at 172.72 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 172.72 40.64 0)
 			(effects
 				(font
@@ -5806,6 +5887,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 151.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c44192fa-6360-45ca-82f8-f913b4a0c2df")
 		)
@@ -5873,6 +5963,15 @@
 			)
 		)
 		(property "LCSC" "C25741"
+			(at 31.75 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 31.75 170.18 0)
 			(effects
 				(font
@@ -5949,6 +6048,15 @@
 			)
 		)
 		(property "LCSC" "C25092"
+			(at 213.36 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 213.36 133.35 0)
 			(effects
 				(font
@@ -6102,6 +6210,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 248.92 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "632aae85-31f4-4567-90e3-2971b1c391cb")
 		)
@@ -6160,6 +6277,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 62.23 154.94 0)
 			(effects
 				(font
@@ -6374,6 +6500,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 68.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ae4d6b1-2812-4fe0-8819-41f89870d410")
 		)
@@ -6451,6 +6586,15 @@
 			)
 		)
 		(property "LCSC" "C86295"
+			(at 153.67 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 153.67 82.55 0)
 			(effects
 				(font
@@ -6604,6 +6748,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 276.86 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2e2823a-41e7-4ae2-a885-e88cb8fc1055")
 		)
@@ -6662,6 +6815,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 85.09 154.94 0)
 			(effects
 				(font
@@ -6736,6 +6898,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 85.09 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b359bd10-2c26-405f-bc4e-1d3789ded90c")
 		)
@@ -6794,6 +6965,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 88.9 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 88.9 170.18 0)
 			(effects
 				(font
@@ -7009,6 +7189,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 133.35 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3f7b880f-716b-46f1-b192-2d8cc82f9690")
 		)
@@ -7142,6 +7331,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 198.12 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 198.12 140.97 0)
 			(effects
 				(font
@@ -7292,6 +7490,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 24.13 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "818aeae7-83ff-40cf-be16-4c436d5f2707")
 		)
@@ -7427,6 +7634,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 73.66 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be02ce9d-04d7-47df-b377-a819206edacc")
 		)
@@ -7495,6 +7711,15 @@
 			)
 		)
 		(property "LCSC" "C2915630"
+			(at 262.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 262.89 46.99 0)
 			(effects
 				(font
@@ -7637,6 +7862,15 @@
 			)
 		)
 		(property "LCSC" "C350295"
+			(at 168.91 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -7828,6 +8062,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 62.23 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b4bd7dc-9f6b-4d78-9afb-53ef032eb8f3")
 		)
@@ -7893,6 +8136,15 @@
 			)
 		)
 		(property "LCSC" "C16772"
+			(at 31.75 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 31.75 43.18 0)
 			(effects
 				(font
@@ -7969,6 +8221,15 @@
 			)
 		)
 		(property "LCSC" "C25092"
+			(at 133.35 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 133.35 113.03 0)
 			(effects
 				(font
@@ -8126,6 +8387,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 213.36 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c2606097-d716-452a-9c85-24ac09c0810e")
 		)
@@ -8202,6 +8472,15 @@
 			)
 		)
 		(property "LCSC" "C19702"
+			(at 92.71 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 92.71 142.24 0)
 			(effects
 				(font
@@ -8288,6 +8567,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 87.63 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90c0acdd-a630-45bd-8cb9-2dcdd4f8f364")
 		)
@@ -8350,6 +8638,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 110.49 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 110.49 156.21 0)
 			(effects
 				(font
@@ -8433,6 +8730,15 @@
 			)
 		)
 		(property "LCSC" "C111594"
+			(at 73.66 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 73.66 161.29 0)
 			(effects
 				(font
@@ -8551,6 +8857,15 @@
 			)
 		)
 		(property "LCSC" "C25092"
+			(at 213.36 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 213.36 135.89 0)
 			(effects
 				(font
@@ -8769,6 +9084,15 @@
 			)
 		)
 		(property "LCSC" "C2915630"
+			(at 248.92 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 248.92 46.99 0)
 			(effects
 				(font

@@ -1844,7 +1844,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 132.08) (xy 171.45 133.35)
+			(xy 205.74 128.27) (xy 205.74 129.54)
 		)
 		(stroke
 			(width 0)
@@ -2210,28 +2210,6 @@
 			)
 		)
 	)
-	(global_label "Populate header"
-		(shape input)
-		(at 238.76 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cb83dc15-83c1-4fba-a5b1-a13f946c3669")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 257.4687 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USIM_RST"
 		(shape input)
 		(at 82.55 90.17 180)
@@ -2406,7 +2384,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 133.35 0)
+		(at 205.74 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2415,7 +2393,7 @@
 		(fields_autoplaced yes)
 		(uuid "2da91fc7-4677-438d-b7a3-7afdd0680e2b")
 		(property "Reference" "#PWR0505"
-			(at 171.45 139.7 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2424,15 +2402,16 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 138.43 0)
+			(at 205.74 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 133.35 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2420,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 133.35 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2429,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 133.35 0)
+			(at 205.74 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2665,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8c04b5d4-061b-4293-ab03-4bf35cd43a93")
 		(property "Reference" "J11"
@@ -2726,6 +2705,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 236.22 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5156616"
 			(at 236.22 130.81 0)
 			(effects
 				(font
@@ -2828,8 +2816,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C283546"
-			(at 219.71 77.47 0)
+		(property "LCSC" "C283546"
+			(at 219.71 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3098,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 171.45 132.08 0)
+		(at 205.74 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3119,7 +3107,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1e7e538-88a5-4807-8416-00f97019da3e")
 		(property "Reference" "#FLG0501"
-			(at 171.45 130.175 0)
+			(at 205.74 126.365 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,7 +3116,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 171.45 127 0)
+			(at 205.74 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 132.08 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3145,7 +3133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 171.45 132.08 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3154,7 +3142,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 171.45 132.08 0)
+			(at 205.74 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -807,9 +807,9 @@
 			(pintype "passive+no_connect")
 			(uuid "a09fbb03-0239-408b-bdc3-3f937dc146a2")
 		)
-		(model "${CAC_KICAD_LIBRARY}/cacophony-library.3dshapes/SMD_BD4.4-L4.4-D2.8.wrl"
+		(model "${KIPRJMOD}/drawings/7mm-2mm-nut.step"
 			(offset
-				(xyz 0 0 -1.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2483,9 +2483,9 @@
 			(pintype "passive+no_connect")
 			(uuid "74d21155-cdc6-4680-b0b5-155a7067479a")
 		)
-		(model "${CAC_KICAD_LIBRARY}/cacophony-library.3dshapes/SMD_BD4.4-L4.4-D2.8.wrl"
+		(model "${KIPRJMOD}/drawings/7mm-2mm-nut.step"
 			(offset
-				(xyz 0 0 -1.5)
+				(xyz 0 0 0)
 			)
 			(scale
 				(xyz 1 1 1)

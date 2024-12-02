@@ -17,6 +17,7 @@ from shapely.geometry import Polygon
 main_board_path = "tc2-main-pcb/tc2-main-pcb.kicad_pcb"
 plugs_board_path = "tc2-plugs-buck-boost-pcb/tc2-plugs-buck-boost-pcb.kicad_pcb"
 sim_board_path = "tc2-sim-usb-pcb/tc2-sim-usb-pcb.kicad_pcb"
+touch_board_path = "tc2-touch-sensor/tc2-touch-sensor.kicad_pcb"
 
 output_dir = "generated-pcbs/tc2-panel"
 
@@ -74,9 +75,10 @@ preset = ki.obtainPreset([],
 board1 = LoadBoard(main_board_path)
 board2 = LoadBoard(plugs_board_path)
 board3 = LoadBoard(sim_board_path)
+board4 = LoadBoard(touch_board_path)
 panel = Panel(output_path)
 
-# Inherit settings from board1
+# Inherit settings from board2
 panel.inheritDesignSettings(board2)
 panel.inheritProperties(board2)
 panel.inheritTitleBlock(board2)
@@ -86,6 +88,8 @@ panel.inheritTitleBlock(board2)
 sourceArea1 = ki.readSourceArea(preset["source"], board1)
 sourceArea2 = ki.readSourceArea(preset["source"], board2)
 sourceArea3 = ki.readSourceArea(preset["source"], board3)
+sourceArea4 = ki.readSourceArea(preset["source"], board4)
+
 
 # Prepare renaming nets and references.
 mainRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
@@ -96,6 +100,9 @@ plugsNetRenamer = lambda x, orig: "{orig}-plugs".format(n=x, orig=orig)
 
 simRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
 simNetRenamer = lambda x, orig: "{orig}-sim".format(n=x, orig=orig)
+
+touchRefRenamer = lambda x, orig: "{orig}".format(n=x, orig=orig)
+touchNetRenamer = lambda x, orig: "{orig}-touch".format(n=x, orig=orig)
 
 
 # Place the boards in the panel. The origin is the center of each board.
@@ -111,7 +118,7 @@ panel.appendBoard(
 )
 panel.appendBoard(
     plugs_board_path,
-    pcbnew.wxPointMM(4, -50),
+    pcbnew.wxPointMM(4+1.75-4, -50),
     sourceArea=sourceArea2,
     netRenamer=plugsNetRenamer,
     refRenamer=plugsRefRenamer,
@@ -120,11 +127,21 @@ panel.appendBoard(
 
 panel.appendBoard(
     sim_board_path,
-    pcbnew.wxPointMM(0, -73),
+    pcbnew.wxPointMM(-4, -73),
     rotationAngle=deg*270,
     sourceArea=sourceArea3,
     netRenamer=simNetRenamer,
     refRenamer=simRefRenamer,
+    inheritDrc=False,
+)
+
+panel.appendBoard(
+    touch_board_path,
+    pcbnew.wxPointMM(-1, -73-25),
+    #rotationAngle=deg*270,
+    sourceArea=sourceArea4,
+    netRenamer=touchNetRenamer,
+    refRenamer=touchRefRenamer,
     inheritDrc=False,
 )
 
@@ -135,8 +152,17 @@ panel.appendBoard(
 # Add substrate on left edge for attaching tabs to. Otherwise the tabs are too far from the edge and won't be created.
 x1 = -40*mm
 y1 = -75*mm
-x2 = -33*mm
+x2 = -37*mm
 y2 = 5*mm
+substrate = Polygon([(x1, y1), (x1, y2), (x2, y2), (x2, y1)])
+panel.appendSubstrate(substrate)
+
+
+# Add substrate on left edge for attaching tabs to. Otherwise the tabs are too far from the edge and won't be created.
+x1 = 40*mm
+y1 = -64*mm
+x2 = 33*mm
+y2 = -104*mm
 substrate = Polygon([(x1, y1), (x1, y2), (x2, y2), (x2, y1)])
 panel.appendSubstrate(substrate)
 

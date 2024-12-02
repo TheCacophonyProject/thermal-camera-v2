@@ -39,6 +39,7 @@ pcbs:
 # - Make release files (gerber, BOM, placement file)
 panels:
 - id: tc2-panel
+  path: generated-pcbs/tc2-panel
   script: ./tc2-panel.py
   text_variables:
   - key: TAG
@@ -49,6 +50,8 @@ panels:
   - id: "tc2-plugs-buck-boost-pcb"
     refRenamer: "{orig}"
   - id: "tc2-sim-usb-pcb"
+    refRenamer: "{orig}"
+  - id: "tc2-touch-sensor"
     refRenamer: "{orig}"
 
 - id: tc2-mic-panel

@@ -2815,6 +2815,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 177.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "tc2-main-pcb"
 				(path "/0662f88c-5300-4b75-bef3-048a3227af84/7647fa78-4fc7-4ed2-904b-b9d3df2998ea"
@@ -2880,6 +2889,15 @@
 			)
 		)
 		(property "LCSC" "C326730"
+			(at 270.51 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 270.51 99.06 0)
 			(effects
 				(font
@@ -3101,6 +3119,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 270.51 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "62038350-9ff6-4845-81c0-a53e6d08aa99")
 		)
@@ -3252,6 +3279,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 62.23 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "370ccd20-472b-47d8-889a-8a3464366b5e")
 		)
@@ -3323,6 +3359,15 @@
 			)
 		)
 		(property "LCSC" "C326730"
+			(at 270.51 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 270.51 68.58 0)
 			(effects
 				(font
@@ -3408,6 +3453,15 @@
 			)
 		)
 		(property "LCSC" "C11702"
+			(at 62.23 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 62.23 124.46 0)
 			(effects
 				(font
@@ -3763,6 +3817,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 270.51 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b033c94d-0c7d-438c-8763-82e4dc1c7406")
 		)
@@ -3831,6 +3894,15 @@
 			)
 		)
 		(property "LCSC" "C3975129"
+			(at 215.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 215.9 143.51 0)
 			(effects
 				(font
@@ -3938,6 +4010,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 250.19 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25f9ea40-40dd-4121-a979-54cf03b40eae")
 		)
@@ -4014,6 +4095,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 246.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "adb28ed9-505b-4529-9f60-60cf46962782")
 		)
@@ -4082,6 +4172,15 @@
 			)
 		)
 		(property "LCSC" "C16772"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 224.79 149.86 0)
 			(effects
 				(font
@@ -4366,6 +4465,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 245.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ddb27b41-fd31-4297-9217-a313d537a7e6")
 		)
@@ -4427,6 +4535,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 156.21 109.22 0)
 			(effects
 				(font
@@ -4510,6 +4627,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 147.32 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "84e82511-7391-4982-8f58-055aa1b76425")
 		)
@@ -4578,6 +4704,15 @@
 			)
 		)
 		(property "LCSC" "C16772"
+			(at 106.68 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 106.68 91.44 0)
 			(effects
 				(font
@@ -4663,6 +4798,15 @@
 			)
 		)
 		(property "LCSC" "C11702"
+			(at 62.23 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 62.23 132.08 0)
 			(effects
 				(font
@@ -4758,6 +4902,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 251.46 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "47a840a9-5946-4482-9607-361a8126d8ca")
 		)
@@ -4838,6 +4991,15 @@
 			)
 		)
 		(property "Field5" ""
+			(at 270.51 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 270.51 78.74 0)
 			(effects
 				(font
@@ -4983,6 +5145,15 @@
 				(hide yes)
 			)
 		)
+		(property "Digikey" ""
+			(at 177.8 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "tc2-main-pcb"
 				(path "/0662f88c-5300-4b75-bef3-048a3227af84/7647fa78-4fc7-4ed2-904b-b9d3df2998ea"
@@ -5049,6 +5220,15 @@
 			)
 		)
 		(property "LCSC" "C507118"
+			(at 110.49 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey" ""
 			(at 110.49 119.38 0)
 			(effects
 				(font
