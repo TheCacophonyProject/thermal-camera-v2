@@ -7512,6 +7512,25 @@
 		)
 		(uuid "01dcce98-add5-4b6c-93f0-6ac8c059338a")
 	)
+	(text_box "CMC\nC41519\nC78245"
+		(exclude_from_sim no)
+		(at 95.25 158.75 0)
+		(size 27.94 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "8caca763-67c2-4424-baab-be52dc8a1de2")
+	)
 	(text_box "2.7-13.7\n"
 		(exclude_from_sim no)
 		(at 62.23 -22.86 0)
@@ -7551,6 +7570,16 @@
 			)
 		)
 		(uuid "64edf33f-1f4d-4c2a-b1f8-26c1bcbf7e8f")
+	)
+	(text "TPS25947xx"
+		(exclude_from_sim no)
+		(at 128.27 13.462 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ef69895d-8f8c-4ba1-bd17-678fbf8e7f8e")
 	)
 	(label "3V3_PG"
 		(at 287.02 168.91 0)
@@ -7977,6 +8006,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CMC TODO"
+		(shape input)
+		(at 95.25 154.94 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63c4b254-a7a3-4664-b531-971119fe6d6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 108.0928 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
