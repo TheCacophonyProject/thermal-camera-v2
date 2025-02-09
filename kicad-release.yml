@@ -23,11 +23,6 @@ pcbs:
     - key: TAG
       val: {{.Version}}
 
-- id: tc2-touch-sensor
-  text_variables:
-    - key: TAG
-      val: {{.Version}}
-
 - id: tc2-sim-usb-pcb
   text_variables:
     - key: TAG
