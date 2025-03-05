@@ -2146,7 +2146,6 @@
 	)
 	(label "BATT_SENSE_HV"
 		(at 269.24 104.14 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2157,7 +2156,6 @@
 	)
 	(label "~{PI_SHUTDOWN_PHY}"
 		(at 68.58 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2168,7 +2166,6 @@
 	)
 	(label "BATT_SENSE_LV"
 		(at 269.24 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2179,7 +2176,6 @@
 	)
 	(label "ATTINY_PA3"
 		(at 127 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2190,7 +2186,6 @@
 	)
 	(label "~{READ_ATTINY_CMD_REG_PHY}"
 		(at 68.58 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2201,7 +2196,6 @@
 	)
 	(label "EN_PERIPH_POWER_PHY"
 		(at 68.58 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

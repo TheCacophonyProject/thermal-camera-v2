@@ -11114,7 +11114,6 @@
 	)
 	(label "RTC_CLKO"
 		(at 383.54 240.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11125,7 +11124,6 @@
 	)
 	(label "QSPI_SCLK"
 		(at 54.61 123.19 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11136,7 +11134,6 @@
 	)
 	(label "QSPI_SS"
 		(at 54.61 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11147,7 +11144,6 @@
 	)
 	(label "RTC_OSCO"
 		(at 351.79 242.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11158,7 +11154,6 @@
 	)
 	(label "USB_D-_PHY"
 		(at 208.28 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11169,7 +11164,6 @@
 	)
 	(label "I2C_BUS_LOCK_PHY"
 		(at 208.28 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11180,7 +11174,6 @@
 	)
 	(label "PDM_CLOCK_PHY"
 		(at 208.28 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11191,7 +11184,6 @@
 	)
 	(label "RTC_VDD"
 		(at 375.92 218.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11202,7 +11194,6 @@
 	)
 	(label "BUCK_BOOST_FPWM_PHY"
 		(at 208.28 132.08 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11213,7 +11204,6 @@
 	)
 	(label "USB_D+_PHY"
 		(at 208.28 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11224,7 +11214,6 @@
 	)
 	(label "RPI_SPI_MISO_PHY"
 		(at 208.28 127 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11235,7 +11224,6 @@
 	)
 	(label "RTC_OSCI"
 		(at 351.79 232.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11246,7 +11234,6 @@
 	)
 	(label "MEM_~{WP}{slash}IO2"
 		(at 350.52 146.05 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11257,7 +11244,6 @@
 	)
 	(label "RTC_BATTERY"
 		(at 323.85 226.06 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11268,7 +11254,6 @@
 	)
 	(label "EEPROM_~{WC}"
 		(at 226.06 248.92 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11279,7 +11264,6 @@
 	)
 	(label "AHT21_VDD"
 		(at 365.76 185.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11290,7 +11274,6 @@
 	)
 	(label "MEM_~{HOLD}{slash}IO3"
 		(at 387.35 143.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11301,7 +11284,6 @@
 	)
 	(label "GPIO16"
 		(at 208.28 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11312,7 +11294,6 @@
 	)
 	(label "GPIO2"
 		(at 208.28 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13271,7 +13252,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 242.57 77.47 90)
 			(effects
 				(font
@@ -15270,7 +15251,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 242.57 90.17 90)
 			(effects
 				(font
@@ -15901,7 +15882,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 247.65 130.81 90)
 			(effects
 				(font
@@ -16619,7 +16600,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 242.57 125.73 90)
 			(effects
 				(font
@@ -16912,7 +16893,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 242.57 80.01 90)
 			(effects
 				(font
@@ -24909,7 +24890,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 360.68 180.34 90)
 			(effects
 				(font

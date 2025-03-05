@@ -2513,7 +2513,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22Ω"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "6a58397e-a2f4-4fb2-afae-5ffffe5bcb5b")
@@ -3199,7 +3199,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22Ω"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "8e3b9930-e995-47bb-af33-a43f3067390e")
@@ -3651,7 +3651,7 @@
 				)
 			)
 		)
-		(property "Value" "22R"
+		(property "Value" "22Ω"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "7c1ef616-403d-49b1-ba98-364238d430ad")

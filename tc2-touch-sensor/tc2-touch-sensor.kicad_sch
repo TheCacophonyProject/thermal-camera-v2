@@ -4718,7 +4718,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 49.53 143.51 90)
 			(effects
 				(font
@@ -4973,7 +4973,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 80.01 143.51 90)
 			(effects
 				(font
@@ -5419,7 +5419,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 80.01 156.21 90)
 			(effects
 				(font
@@ -6327,7 +6327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 86.36 85.09 0)
 			(effects
 				(font

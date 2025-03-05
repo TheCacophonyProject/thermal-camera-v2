@@ -4434,7 +4434,6 @@
 	)
 	(label "1V2_SW"
 		(at 198.12 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4445,7 +4444,6 @@
 	)
 	(label "1V2_PHY"
 		(at 222.25 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4456,7 +4454,6 @@
 	)
 	(label "1V2_FB"
 		(at 198.12 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6941,7 +6938,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "cacophony-library:SOT-563"
 			(at 189.23 77.47 0)
 			(effects
 				(font
@@ -8026,7 +8023,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 73.66 152.4 90)
 			(effects
 				(font

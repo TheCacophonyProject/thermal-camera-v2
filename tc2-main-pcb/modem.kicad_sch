@@ -5114,7 +5114,6 @@
 	)
 	(label "3V8_PHY"
 		(at 132.08 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5125,7 +5124,6 @@
 	)
 	(label "3V8_SW"
 		(at 102.87 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5136,7 +5134,6 @@
 	)
 	(label "3V8_FB"
 		(at 102.87 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5673,7 +5670,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 148.59 109.22 90)
 			(effects
 				(font
@@ -7307,7 +7304,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 148.59 111.76 90)
 			(effects
 				(font
@@ -7392,7 +7389,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 148.59 106.68 90)
 			(effects
 				(font
@@ -7987,7 +7984,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-563"
+		(property "Footprint" "cacophony-library:SOT-563"
 			(at 92.71 29.21 0)
 			(effects
 				(font

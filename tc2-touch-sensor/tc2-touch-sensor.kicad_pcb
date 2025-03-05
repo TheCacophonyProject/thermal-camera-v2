@@ -203,7 +203,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "594ff889-effb-45f9-9db4-3d996b86f594")
@@ -884,7 +884,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "1fd3cdf7-5940-4632-89fc-67156bc71c37")
@@ -6060,7 +6060,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "7200d114-5e3e-40dd-8386-41eeb1b87e3e")
@@ -6287,7 +6287,7 @@
 				)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "228453b0-7423-427e-892c-1d50116de7c5")

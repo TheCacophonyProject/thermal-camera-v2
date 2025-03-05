@@ -3781,7 +3781,6 @@
 	)
 	(label "GPIO12"
 		(at 190.5 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3792,7 +3791,6 @@
 	)
 	(label "RPI_SPI_SCLK_"
 		(at 191.77 135.89 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3803,7 +3801,6 @@
 	)
 	(label "RPI_SPI_CS_"
 		(at 191.77 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3814,7 +3811,6 @@
 	)
 	(label "~{UART_MULTIPLEX_EN}"
 		(at 31.75 165.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3825,7 +3821,6 @@
 	)
 	(label "RPI_SPI_MOSI_"
 		(at 191.77 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5164,7 +5159,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 139.7 121.92 90)
 			(effects
 				(font
@@ -6012,7 +6007,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 219.71 132.08 90)
 			(effects
 				(font
@@ -7145,7 +7140,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 139.7 116.84 90)
 			(effects
 				(font
@@ -8185,7 +8180,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 139.7 111.76 90)
 			(effects
 				(font
@@ -8343,7 +8338,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 219.71 127 90)
 			(effects
 				(font
@@ -8821,7 +8816,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 219.71 134.62 90)
 			(effects
 				(font
