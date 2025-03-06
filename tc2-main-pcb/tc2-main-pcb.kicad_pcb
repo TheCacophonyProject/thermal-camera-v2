@@ -461,7 +461,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC Part" "C12530"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -705,7 +705,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC Part" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -894,7 +894,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 -45)
 			(layer "F.Fab")
 			(uuid "07801b8e-28aa-46b5-a841-38a35d0156da")
@@ -947,7 +947,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1186,7 +1186,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC Part" "C12530"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1426,7 +1426,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C326730"
+		(property "LCSC Part" "C326730"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1669,7 +1669,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2036,7 +2036,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2225,7 +2225,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 -45)
 			(layer "F.Fab")
 			(uuid "79bb5661-91d6-46d9-bcc5-0fdea731db03")
@@ -2278,7 +2278,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2532,7 +2532,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2971,7 +2971,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C160389"
+		(property "LCSC Part" "C160389"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3423,7 +3423,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3689,7 +3689,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3928,7 +3928,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C326730"
+		(property "LCSC Part" "C326730"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4284,7 +4284,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C326730"
+		(property "LCSC Part" "C326730"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4539,7 +4539,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -4781,7 +4781,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5020,7 +5020,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC Part" "C12530"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5261,7 +5261,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2915630"
+		(property "LCSC Part" "C2915630"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5464,7 +5464,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5820,7 +5820,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6061,7 +6061,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -6300,7 +6300,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C319591"
+		(property "LCSC Part" "C319591"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6554,7 +6554,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C350295"
+		(property "LCSC Part" "C350295"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7891,7 +7891,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part" "C1547"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8131,7 +8131,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C80909"
+		(property "LCSC Part" "C80909"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8471,7 +8471,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -8710,7 +8710,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C445619"
+		(property "LCSC Part" "C445619"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8953,7 +8953,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9195,7 +9195,7 @@
 				(justify mirror)
 			)
 		)
-		(property "JLCPCB" ""
+		(property "JLCPCB" "C252341"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9207,7 +9207,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C252341"
+		(property "LCSC Part" "C252341"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -9560,7 +9560,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9800,7 +9800,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2761526"
+		(property "LCSC Part" "C2761526"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -10881,7 +10881,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC Part" "C25744"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11070,7 +11070,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "3d5fb170-314b-4caa-98e8-ba00a204ecd2")
@@ -11123,7 +11123,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11665,7 +11665,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -11679,7 +11679,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C97521"
+		(property "LCSC Part" "C97521"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11697,6 +11697,19 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0f9eef06-1a47-4781-be0d-663d257b306e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "JLCPCB" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a80fcf46-cbe3-4e1c-8038-44427b85c37d")
 			(effects
 				(font
 					(size 1 1)
@@ -12182,7 +12195,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12422,7 +12435,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2915630"
+		(property "LCSC Part" "C2915630"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12732,7 +12745,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12974,7 +12987,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -13347,7 +13360,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -13536,7 +13549,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "cc331a00-1424-4555-bee9-5099b388d80c")
@@ -13586,7 +13599,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13829,7 +13842,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14083,7 +14096,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14325,7 +14338,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C668989"
+		(property "LCSC Part" "C668989"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -14675,7 +14688,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part" "C1547"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15264,7 +15277,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C668989"
+		(property "LCSC Part" "C668989"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15602,7 +15615,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15865,7 +15878,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16104,7 +16117,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC Part" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16293,7 +16306,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 -90)
 			(layer "F.Fab")
 			(uuid "d14a7f1c-551d-41e7-805b-f1722606e19b")
@@ -16343,7 +16356,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16583,7 +16596,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2915630"
+		(property "LCSC Part" "C2915630"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16771,7 +16784,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2915630"
+		(property "LCSC Part" "C2915630"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16962,7 +16975,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17322,7 +17335,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17708,7 +17721,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 90)
 			(layer "F.Fab")
 			(uuid "937e19e3-b226-49b0-95ce-42f12d396cbc")
@@ -17758,7 +17771,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17998,7 +18011,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2915630"
+		(property "LCSC Part" "C2915630"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18383,7 +18396,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C12530"
+		(property "LCSC Part" "C12530"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18623,7 +18636,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18876,7 +18889,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2865214"
+		(property "LCSC Part" "C2865214"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19193,7 +19206,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC Part" "C19702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19551,7 +19564,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19806,7 +19819,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19995,7 +20008,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 -45)
 			(layer "F.Fab")
 			(uuid "c7a19f0a-0128-415f-889b-e6fe71f7f7f6")
@@ -20048,7 +20061,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20312,7 +20325,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C410863"
+		(property "LCSC Part" "C410863"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -20712,7 +20725,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -20955,7 +20968,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C507118"
+		(property "LCSC Part" "C507118"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21608,7 +21621,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22084,7 +22097,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22273,7 +22286,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 0)
 			(layer "F.Fab")
 			(uuid "aa95d0f5-4967-4a9f-b334-b467c5578ebb")
@@ -22323,7 +22336,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22566,7 +22579,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC Part" "C19702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22805,7 +22818,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23285,7 +23298,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC Part" "C25744"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23474,7 +23487,7 @@
 				)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 1.17 180)
 			(layer "F.Fab")
 			(uuid "ca2f9ae9-f488-492b-a416-290246343156")
@@ -23527,7 +23540,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -23779,7 +23792,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2859948"
+		(property "LCSC Part" "C2859948"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24095,7 +24108,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24346,11 +24359,12 @@
 				)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 0 0 90)
+		(property "LCSC Part" "C2682619 "
+			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fcabe1fd-9492-4441-ab55-b5bff2d327ab")
+			(uuid "1e69f0e3-40bf-4883-8286-80955fba2ccd")
 			(effects
 				(font
 					(size 1 1)
@@ -24363,19 +24377,6 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bbadd30-fe75-4f21-a23d-3d794e1c8ec5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C2682619 "
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1e69f0e3-40bf-4883-8286-80955fba2ccd")
 			(effects
 				(font
 					(size 1 1)
@@ -24758,7 +24759,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25000,7 +25001,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C7440"
+		(property "LCSC Part" "C7440"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -25346,7 +25347,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25972,7 +25973,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26338,7 +26339,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C145795"
+		(property "LCSC Part" "C145795"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26713,7 +26714,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C445618"
+		(property "LCSC Part" "C445618"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -26956,7 +26957,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C32346"
+		(property "LCSC Part" "C32346"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -27195,7 +27196,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -27435,7 +27436,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -28020,7 +28021,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -28511,7 +28512,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2757850"
+		(property "LCSC Part" "C2757850"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -28851,7 +28852,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -29230,7 +29231,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3975129"
+		(property "LCSC Part" "C3975129"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -29776,7 +29777,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -30036,7 +30037,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -30281,7 +30282,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2928176"
+		(property "LCSC Part" "C2928176"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -30515,7 +30516,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5350187"
+		(property "LCSC Part" "C5350187"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -30812,7 +30813,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -31059,7 +31060,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -31306,7 +31307,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -31553,20 +31554,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 0 0 0)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "d378dc80-8d88-44ba-9b3e-4ecbfad51ab1")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C111594"
+		(property "LCSC Part" "C111594"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32010,7 +31998,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -32254,7 +32242,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -32501,7 +32489,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -32695,7 +32683,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 -1.17 135)
 			(layer "B.Fab")
 			(uuid "fb0c273d-f4a1-46db-a9ed-2360a97bc17e")
@@ -32749,7 +32737,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -33214,7 +33202,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C9002"
+		(property "LCSC Part" "C9002"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -33486,7 +33474,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C3975129"
+		(property "LCSC Part" "C3975129"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34225,21 +34213,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC Part" ""
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "251ebd48-9be7-4a22-b8fa-24a22a7da471")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C130025"
+		(property "LCSC Part" "C130025"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -34590,7 +34564,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -34837,7 +34811,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC Part" "C19702"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35084,7 +35058,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35332,7 +35306,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -35797,7 +35771,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -36170,7 +36144,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36418,7 +36392,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C76818"
+		(property "LCSC Part" "C76818"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -36679,7 +36653,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part" "C1547"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -36926,7 +36900,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC Part" "C19702"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -37173,7 +37147,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -37433,7 +37407,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -37758,7 +37732,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "180R"
+		(property "Value" "180Ω"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "8f3ef331-7d33-4d53-a30a-fbc5a231961b")
@@ -37809,7 +37783,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C38941"
+		(property "LCSC Part" "C38941"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -38056,7 +38030,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38304,7 +38278,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -38551,7 +38525,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C285917"
+		(property "LCSC Part" "C285917"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -38800,7 +38774,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39063,7 +39037,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC Part" "C11702"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -39436,11 +39410,11 @@
 			)
 		)
 		(property "LCSC Part" "C238203"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1c21cf82-5102-4de9-912a-bab63f3fcd4c")
+			(uuid "88490920-0d76-42ac-ac09-12faa0b6cef7")
 			(effects
 				(font
 					(size 1 1)
@@ -39455,20 +39429,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "060a0350-198e-4fca-a050-6b19a7de5c8a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C238203"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "88490920-0d76-42ac-ac09-12faa0b6cef7")
 			(effects
 				(font
 					(size 1 1)
@@ -39827,7 +39787,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40340,7 +40300,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C76818"
+		(property "LCSC Part" "C76818"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -40859,7 +40819,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C585422"
+		(property "LCSC Part" "C585422"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -41826,7 +41786,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -42087,7 +42047,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part" "C1547"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -42476,7 +42436,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -42719,11 +42679,11 @@
 			)
 		)
 		(property "LCSC Part" "C238203"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "d4408916-4f2a-4cf4-8e7b-5120be5af93b")
+			(uuid "1d9dc0b9-5b1a-4501-b0a0-5993374ec1fb")
 			(effects
 				(font
 					(size 1 1)
@@ -42738,20 +42698,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "86dfe4ce-9110-44bf-9227-1dc15b70f95f")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C238203"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1d9dc0b9-5b1a-4501-b0a0-5993374ec1fb")
 			(effects
 				(font
 					(size 1 1)
@@ -42978,7 +42924,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43226,7 +43172,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -43469,11 +43415,11 @@
 			)
 		)
 		(property "LCSC Part" "C238203"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "6b41e2f6-28c3-4997-a677-e36194b06b73")
+			(uuid "16b63625-664e-454b-a8c5-3e01b49544c1")
 			(effects
 				(font
 					(size 1 1)
@@ -43488,20 +43434,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c28f63fa-b382-4589-9916-05a403dafd24")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C238203"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "16b63625-664e-454b-a8c5-3e01b49544c1")
 			(effects
 				(font
 					(size 1 1)
@@ -43728,7 +43660,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C319591"
+		(property "LCSC Part" "C319591"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -43990,7 +43922,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -44524,7 +44456,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 -1.17 -135)
 			(layer "B.Fab")
 			(uuid "bac7c675-dda6-416d-8cdf-b0e2ec522bea")
@@ -44578,7 +44510,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -44838,7 +44770,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -45085,7 +45017,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -45342,7 +45274,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -45854,7 +45786,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46048,7 +45980,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 -1.17 0)
 			(layer "B.Fab")
 			(uuid "4e892e9e-70bc-442c-afcf-b9ad589306f1")
@@ -46102,7 +46034,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -46362,7 +46294,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -46555,7 +46487,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "bdd93517-759d-455f-b539-6b97c1b70c01")
@@ -46609,7 +46541,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -46857,7 +46789,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C7562"
+		(property "LCSC Part" "C7562"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -47337,7 +47269,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -47727,7 +47659,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -47974,7 +47906,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C2040"
+		(property "LCSC Part" "C2040"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -48968,7 +48900,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49212,11 +49144,11 @@
 			)
 		)
 		(property "LCSC Part" "C238203"
-			(at 0 0 180)
+			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "49d490f1-d8bc-47a6-a4d3-668f1daebd49")
+			(uuid "1ec81bbd-e3d9-494f-835f-d261444bfff4")
 			(effects
 				(font
 					(size 1 1)
@@ -49231,20 +49163,6 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "368e4ad2-7e2f-4bbb-9b4c-213b562a2793")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "LCSC" "C238203"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "1ec81bbd-e3d9-494f-835f-d261444bfff4")
 			(effects
 				(font
 					(size 1 1)
@@ -49484,7 +49402,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -49731,7 +49649,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C285917"
+		(property "LCSC Part" "C285917"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -49980,7 +49898,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -50227,7 +50145,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C445618"
+		(property "LCSC Part" "C445618"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -50859,7 +50777,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC Part" "C19702"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -51106,7 +51024,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51368,7 +51286,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C5350187"
+		(property "LCSC Part" "C5350187"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -51611,7 +51529,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 -1.17 90)
 			(layer "B.Fab")
 			(uuid "44499e53-1b4a-4517-b720-080d5fafd92f")
@@ -51665,7 +51583,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -52048,7 +51966,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C15127"
+		(property "LCSC Part" "C15127"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -52361,7 +52279,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -52554,7 +52472,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "22ohm"
+		(property "Value" "22Ω"
 			(at 0 -1.17 -90)
 			(layer "B.Fab")
 			(uuid "dafbaabc-da48-4c4c-8537-a762cad1fe02")
@@ -52608,7 +52526,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -52855,7 +52773,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -53357,7 +53275,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC Part" "C19702"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)

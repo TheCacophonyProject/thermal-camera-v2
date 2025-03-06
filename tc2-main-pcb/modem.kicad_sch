@@ -5620,7 +5620,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 71.12 92.71 0)
 			(effects
 				(font
@@ -5705,7 +5705,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -5859,7 +5859,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C319591"
+		(property "LCSC Part" "C319591"
 			(at 130.81 35.56 0)
 			(effects
 				(font
@@ -5964,7 +5964,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part" "C1547"
 			(at 81.28 92.71 0)
 			(effects
 				(font
@@ -6117,7 +6117,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 40.64 92.71 0)
 			(effects
 				(font
@@ -6203,7 +6203,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C76818"
+		(property "LCSC Part" "C76818"
 			(at 166.37 30.48 0)
 			(effects
 				(font
@@ -6553,7 +6553,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 71.12 113.03 0)
 			(effects
 				(font
@@ -6641,7 +6641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 50.8 92.71 0)
 			(effects
 				(font
@@ -6729,7 +6729,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C445618"
+		(property "LCSC Part" "C445618"
 			(at 130.81 44.45 0)
 			(effects
 				(font
@@ -6817,7 +6817,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 60.96 113.03 0)
 			(effects
 				(font
@@ -6904,7 +6904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 43.18 34.29 0)
 			(effects
 				(font
@@ -6992,7 +6992,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 60.96 92.71 0)
 			(effects
 				(font
@@ -7080,7 +7080,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 153.67 35.56 0)
 			(effects
 				(font
@@ -7167,7 +7167,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 33.02 34.29 0)
 			(effects
 				(font
@@ -7254,7 +7254,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 130.81 54.61 0)
 			(effects
 				(font
@@ -7339,7 +7339,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 142.24 113.03 0)
 			(effects
 				(font
@@ -7424,7 +7424,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 142.24 107.95 0)
 			(effects
 				(font
@@ -7859,7 +7859,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 40.64 113.03 0)
 			(effects
 				(font
@@ -8020,7 +8020,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C5350187"
+		(property "LCSC Part" "C5350187"
 			(at 92.71 29.21 0)
 			(effects
 				(font
@@ -8178,7 +8178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 134.62 83.82 0)
 			(effects
 				(font
@@ -8264,7 +8264,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C285917"
+		(property "LCSC Part" "C285917"
 			(at 123.19 30.48 0)
 			(effects
 				(font
@@ -8351,7 +8351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C25741"
+		(property "LCSC Part" "C25741"
 			(at 77.47 38.1 0)
 			(effects
 				(font
@@ -8439,7 +8439,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C86295"
+		(property "LCSC Part" "C86295"
 			(at 50.8 113.03 0)
 			(effects
 				(font
@@ -8660,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2928176"
+		(property "LCSC Part" "C2928176"
 			(at 162.56 148.59 0)
 			(effects
 				(font
@@ -8744,7 +8744,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1555"
+		(property "LCSC Part" "C1555"
 			(at 142.24 39.37 0)
 			(effects
 				(font
@@ -8840,7 +8840,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part" "C1547"
 			(at 81.28 113.03 0)
 			(effects
 				(font
@@ -8926,7 +8926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2761526"
+		(property "LCSC Part" "C2761526"
 			(at 107.95 86.36 0)
 			(effects
 				(font
