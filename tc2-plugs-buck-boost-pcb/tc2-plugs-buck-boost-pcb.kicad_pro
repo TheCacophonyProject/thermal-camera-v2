@@ -517,7 +517,7 @@
       "specctra_dsn": "",
       "step": "plug-pcb.step",
       "svg": "",
-      "vrml": "tc2-plug-pcb.wrl"
+      "vrml": "../../../../Downloads/tc2-plug-pcb.wrl"
     },
     "page_layout_descr_file": ""
   },

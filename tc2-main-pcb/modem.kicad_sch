@@ -5477,9 +5477,9 @@
 		(at 195.58 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "0a40bb42-098e-43a2-8a9d-dd20da3fc66c")
 		(property "Reference" "J111"
 			(at 193.04 88.9 0)
@@ -5527,6 +5527,15 @@
 			)
 		)
 		(property "Digikey" ""
+			(at 195.58 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C27438"
 			(at 195.58 102.87 0)
 			(effects
 				(font

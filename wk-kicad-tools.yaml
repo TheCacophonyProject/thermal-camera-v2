@@ -8,11 +8,6 @@ output: production-files
 # - Validate the PCB DRC
 # - Make release files (gerber, BOM, placement file)
 pcbs:
-- id: tc2-main-pcb
-  text_variables:
-    - key: TAG
-      val: {{.Version}}
-
 - id: tc2-mic-pcb
   text_variables:
     - key: TAG
@@ -27,6 +22,12 @@ pcbs:
   text_variables:
     - key: TAG
       val: {{.Version}}
+
+- id: tc2-main-pcb
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+
 
 # List of PCBs that will be built. This will:
 # - Run the panel script.

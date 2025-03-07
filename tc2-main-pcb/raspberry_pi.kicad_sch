@@ -7829,7 +7829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cacophony-library:rpi-throughhole-socket"
+		(property "Footprint" "cacophony-library:rpi-zero-throughhole-socket"
 			(at 168.91 123.19 0)
 			(effects
 				(font

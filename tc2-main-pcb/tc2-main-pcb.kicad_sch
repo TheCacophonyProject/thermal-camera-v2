@@ -13120,7 +13120,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "068dbf78-fd50-4049-a6b5-5afbe84cf08c")
 		(property "Reference" "J113"

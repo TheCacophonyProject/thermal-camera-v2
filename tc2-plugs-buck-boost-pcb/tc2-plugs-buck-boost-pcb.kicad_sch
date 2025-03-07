@@ -14108,7 +14108,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "688dec16-8f9e-4434-b097-3908ae3e8f14")
 		(property "Reference" "J204"
