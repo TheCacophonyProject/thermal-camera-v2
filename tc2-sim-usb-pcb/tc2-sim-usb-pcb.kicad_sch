@@ -1,13 +1,15 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "12797a05-1f89-472c-86ab-484e34ff8b5b")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -74,63 +76,19 @@
 			)
 			(symbol "Conn_01x08_1_1"
 				(rectangle
-					(start -1.27 -10.033)
-					(end 0 -10.287)
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
 					(stroke
-						(width 0.1524)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(rectangle
-					(start -1.27 -7.493)
-					(end 0 -7.747)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
+					(start -1.27 7.747)
+					(end 0 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -151,8 +109,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 7.747)
-					(end 0 7.493)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -162,14 +120,58 @@
 					)
 				)
 				(rectangle
-					(start -1.27 8.89)
-					(end 1.27 -11.43)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
-						(width 0.254)
+						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(pin passive line
@@ -317,11 +319,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -391,10 +398,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -403,10 +410,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -452,6 +459,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -534,6 +542,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cacophony-library:K-DYX-010"
 			(exclude_from_sim no)
@@ -658,16 +667,16 @@
 					)
 				)
 				(pin input line
-					(at 7.62 -10.16 180)
+					(at -8.89 -10.16 0)
 					(length 2.54)
-					(name "Gnd"
+					(name "I/O"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "C5"
+					(number "C7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -686,24 +695,6 @@
 						)
 					)
 					(number "C6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -8.89 -10.16 0)
-					(length 2.54)
-					(name "I/O"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -749,7 +740,8 @@
 				)
 				(pin input line
 					(at 7.62 -7.62 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "MP"
 						(effects
 							(font
@@ -767,7 +759,8 @@
 				)
 				(pin input line
 					(at 7.62 -7.62 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "MP"
 						(effects
 							(font
@@ -785,7 +778,8 @@
 				)
 				(pin input line
 					(at 7.62 -7.62 180)
-					(length 2.54) hide
+					(length 2.54)
+					(hide yes)
 					(name "MP"
 						(effects
 							(font
@@ -801,7 +795,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 7.62 -10.16 180)
+					(length 2.54)
+					(name "Gnd"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cacophony-library:SMF05CT1G"
 			(pin_names
@@ -887,7 +900,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.54) (xy 0 -5.08)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -899,7 +912,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
+						(xy 0 -2.54) (xy 0 -5.08)
 					)
 					(stroke
 						(width 0)
@@ -966,7 +979,7 @@
 					)
 				)
 				(pin input line
-					(at 0 -8.89 90)
+					(at -2.54 6.35 270)
 					(length 2.54)
 					(name ""
 						(effects
@@ -975,43 +988,7 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 6.35 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 6.35 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1038,7 +1015,7 @@
 					)
 				)
 				(pin input line
-					(at -2.54 6.35 270)
+					(at 0 -8.89 90)
 					(length 2.54)
 					(name ""
 						(effects
@@ -1047,7 +1024,43 @@
 							)
 						)
 					)
-					(number "6"
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 6.35 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 5.08 6.35 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1056,6 +1069,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cacophony-library:U-G-M5WS-W-01"
 			(exclude_from_sim no)
@@ -1263,6 +1277,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "cacophony-library:ziptie"
 			(exclude_from_sim yes)
@@ -1334,12 +1349,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1430,12 +1450,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1526,6 +1551,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
@@ -2286,7 +2312,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "153e09f2-1fbb-4445-895a-d99ab84fb042")
-		(property "Reference" "D4"
+		(property "Reference" "D501"
 			(at 102.87 104.775 0)
 			(effects
 				(font
@@ -2595,7 +2621,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7429f031-5f07-498d-89ca-685aa871ff73")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR0502"
 			(at 99.06 88.9 0)
 			(effects
 				(font
@@ -2668,7 +2694,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8c04b5d4-061b-4293-ab03-4bf35cd43a93")
-		(property "Reference" "J11"
+		(property "Reference" "J501"
 			(at 238.76 130.81 0)
 			(effects
 				(font
@@ -2929,7 +2955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bae69962-e52e-4e93-a190-3ff78b775fea")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0504"
 			(at 95.25 120.65 0)
 			(effects
 				(font
@@ -3236,7 +3262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d70223d3-314e-4217-bbf5-fc06470b8113")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR0503"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -3308,7 +3334,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5492977-efc8-40a7-8e04-bb7e0d7bd167")
-		(property "Reference" "C37"
+		(property "Reference" "C501"
 			(at 100.33 78.74 90)
 			(effects
 				(font
@@ -3391,7 +3417,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f77f200b-bd83-4025-9b70-5854f50e3267")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR0506"
 			(at 229.87 148.59 0)
 			(effects
 				(font
@@ -3523,4 +3549,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

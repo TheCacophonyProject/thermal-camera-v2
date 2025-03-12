@@ -11,7 +11,7 @@ command = [
     "--tabs", "annotation",
     "--cuts", "vcuts; offset: -0.1mm",
     "--post", "millradius: 1mm",
-    "--framing", "frame",
+    "--framing", "frame; cuts: none",
     "--fiducials", "type: 4fid; hoffset: 3.85mm; voffset:6mm",
     "--tooling", "type: 4hole; hoffset: 3mm; voffset: 3mm; size: 2mm",
     "--copperfill", "type: solid; layers: all",
