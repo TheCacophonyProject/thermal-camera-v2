@@ -192,7 +192,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C5160759"
+		(property "LCSC Part" "C5160759"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -680,7 +680,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2928186"
+		(property "LCSC Part" "C2928186"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -853,7 +853,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C324082"
+		(property "LCSC Part" "C324082"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1153,7 +1153,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C460378"
+		(property "LCSC Part" "C460378"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1409,7 +1409,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part" "C1525"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1623,7 +1623,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C170182"
+		(property "LCSC Part" "C170182"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1835,7 +1835,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2928186"
+		(property "LCSC Part" "C2928186"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2008,7 +2008,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2222,7 +2222,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2436,7 +2436,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2650,7 +2650,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part" "C1525"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2864,7 +2864,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3078,7 +3078,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part" "C52923"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3292,7 +3292,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2879853"
+		(property "LCSC Part" "C2879853"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
