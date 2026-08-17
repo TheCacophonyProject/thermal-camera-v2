@@ -187,18 +187,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "connector/pin_header_socket"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "3fc72c5a-ab76-4da2-ab22-ffb656a02d6a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC Part" "C5160759"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -215,6 +203,12 @@
 		(path "/31861cce-8e65-4652-8efb-74b7d104409a")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "3" "5" "2" "4" "6")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -675,6 +669,12 @@
 		(path "/5400d02a-656b-492a-8492-a1ef0f7e40b4")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -954,6 +954,12 @@
 		(path "/6dc57b6a-f74d-47fe-ad18-c5df5c1c7596")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "6" "5" "4" "3" "2" "7" "8" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1173,6 +1179,108 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "cacophony-library:JLCPCB_QR_8mm"
+		(layer "F.Cu")
+		(uuid "3427ff0b-ebcc-4547-b25f-d7532e9b5b66")
+		(at 29 6.5)
+		(property "Reference" "U403"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "198dc564-8d23-4ed0-8841-b13ca1137018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a7661060-d465-4513-a9fd-33c590b31c7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "04abd9d1-3458-402a-a694-fa9d6748505d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17ee2cbc-cd7f-42d8-b659-ff03a39f6d25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/722a626b-5923-499e-a778-8041e7865aaf")
+		(sheetname "/")
+		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -4 -4)
+			(end 4 4)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "a3e0dee7-c299-4b43-bb6c-534c59ad2094")
+		)
+		(fp_rect
+			(start -4 -4)
+			(end 4 4)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "cf55fb98-7e08-4afd-b433-33d778f16fc0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "68f9d4b0-5d54-4278-bceb-b18268ddcafd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "PCM_kikit:Tab"
 		(layer "F.Cu")
@@ -1476,6 +1584,12 @@
 		(path "/61d30e12-13ce-4bc2-96ea-bd9caaaca3a5")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "1" "2" "4" "6" "5" "7")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1694,11 +1808,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 0)
+		(property "LCSC Part" "C1525"
+			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "63300775-6ef1-4789-814b-e6a5a63e8065")
+			(uuid "08edddec-76df-4eb5-9390-bd07dbda55c7")
 			(effects
 				(font
 					(size 1 1)
@@ -1710,6 +1825,12 @@
 		(path "/1ed9884a-9c78-4584-b5e4-660b3e4b0c53")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1851,18 +1972,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "6d9f686d-cab2-4cdc-b0fc-e771ea7c241e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "LCSC Part" "C170182"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -1879,6 +1988,12 @@
 		(path "/14b135f3-a6b6-47af-9299-b0d5c99fc83d")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2034,6 +2149,12 @@
 		(path "/d00e0e13-679a-4ee8-8501-d81c809b343d")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
@@ -2192,11 +2313,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa86236e-c269-4861-8e1c-a76baa918fc3")
+			(uuid "d5ceb836-297e-4970-9c4c-a6331850ef56")
 			(effects
 				(font
 					(size 1 1)
@@ -2208,6 +2330,12 @@
 		(path "/34037687-ef73-415c-a1c2-20fea54f6e0f")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2349,11 +2477,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C52923"
-			(at 0 0 0)
+		(property "LCSC Part" "C52923"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e658248d-e470-40eb-9daa-b613aaffdb1e")
+			(uuid "bbfdf8b3-a8d5-4960-93f5-0e3d7b5a5151")
 			(effects
 				(font
 					(size 1 1)
@@ -2365,6 +2494,12 @@
 		(path "/3f3d6926-4d9a-42cc-8af9-f7c8bc5f42f8")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2611,11 +2746,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "50456cd4-4855-44d9-a7f5-dd0565f7811d")
+			(uuid "edc2f80c-b4f6-4313-a839-24a8f740b297")
 			(effects
 				(font
 					(size 1 1)
@@ -2627,6 +2763,12 @@
 		(path "/4a5a2adb-e7a1-48cd-b5f4-2a08f64a0745")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2768,11 +2910,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C1525"
-			(at 0 0 0)
+		(property "LCSC Part" "C1525"
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ab2954dc-0149-4bdd-a1d6-fc59e5104b36")
+			(uuid "7bac7f56-a7e3-4a31-9e02-d6a9d8574b2f")
 			(effects
 				(font
 					(size 1 1)
@@ -2784,6 +2927,12 @@
 		(path "/6fb15ed6-b8d9-4395-bb39-256097af90c3")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2925,11 +3074,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C25092"
+		(property "LCSC Part" "C25092"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59f486aa-85d7-4737-b55e-9e52687ae641")
+			(uuid "7fa30369-d24b-40e7-85f3-8379ee178f9a")
 			(effects
 				(font
 					(size 1 1)
@@ -2941,6 +3091,12 @@
 		(path "/db361806-d9ca-46da-882b-fcd7726900d3")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3082,11 +3238,12 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "C52923"
-			(at 0 0 0)
+		(property "LCSC Part" "C52923"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4cfc5575-1d13-4a4a-8138-4e07f931e21d")
+			(uuid "377e904c-a0ab-4e03-9bd7-bc2bdadb9343")
 			(effects
 				(font
 					(size 1 1)
@@ -3098,6 +3255,12 @@
 		(path "/3712960a-d86d-4b09-be1a-c180c726fcc1")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3239,11 +3402,12 @@
 				)
 			)
 		)
-		(property "LCSC" "C2879853"
-			(at 0 0 0)
+		(property "LCSC Part" "C2879853"
+			(at 0 0 180)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cedb1df7-143b-420d-97aa-2323b7bbd93c")
+			(uuid "26d8bac7-c2f0-487c-84bb-131d34ce2259")
 			(effects
 				(font
 					(size 1 1)
@@ -3255,6 +3419,12 @@
 		(path "/50b67ed8-e602-4aaf-8117-d0755c97dc3f")
 		(sheetname "/")
 		(sheetfile "tc2-mic-pcb.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "5" "3" "2" "4" "1")
+			)
+		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3677,6 +3847,19 @@
 		(layer "User.7")
 		(uuid "64e27915-154d-4673-966b-e1a0b7b1259f")
 	)
+	(gr_text "CAC_MIC"
+		(at 19 8.5 180)
+		(layer "F.SilkS")
+		(uuid "2f2dcc35-76e9-4d73-896e-695b0396614a")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "${TAG}"
 		(at -4 8 180)
 		(layer "F.SilkS")
@@ -3688,19 +3871,6 @@
 				(bold yes)
 			)
 			(justify right bottom)
-		)
-	)
-	(gr_text "CAC_MIC"
-		(at 31.5 7.33 0)
-		(layer "B.SilkS")
-		(uuid "2f2dcc35-76e9-4d73-896e-695b0396614a")
-		(effects
-			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
-				(bold yes)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(gr_text "${TAG}"
