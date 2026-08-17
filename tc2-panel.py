@@ -1,4 +1,4 @@
-# flatpak run --command=bash org.kicad.KiCad
+# Run from a venv created with --system-site-packages so it can see KiCad's pcbnew module (see README.md).
 
 
 from kikit import panelize
@@ -18,8 +18,8 @@ main_board_path = "tc2-main-pcb/tc2-main-pcb.kicad_pcb"
 plugs_board_path = "tc2-plugs-buck-boost-pcb/tc2-plugs-buck-boost-pcb.kicad_pcb"
 sim_board_path = "tc2-sim-usb-pcb/tc2-sim-usb-pcb.kicad_pcb"
 
-output_path = "tc2-panel/tc2-panel.kicad_pcb"
-os.makedirs("tc2-panel", exist_ok=True)
+output_dir = "generated-pcbs/tc2-panel"
+output_path = f"{output_dir}/tc2-panel.kicad_pcb"
 
 board_spacing = 3*mm
 
@@ -70,9 +70,20 @@ preset = ki.obtainPreset([],
     copperfill=copperfill,
     )
 
+# Check that the boards exist
+for board_path in [main_board_path, plugs_board_path, sim_board_path]:
+    if not os.path.exists(board_path):
+        raise Exception(f"Board {board_path} does not exist")
+
 board1 = LoadBoard(main_board_path)
 board2 = LoadBoard(plugs_board_path)
 board3 = LoadBoard(sim_board_path)
+
+# Remove the output dir if it already exists then make a fresh one
+if os.path.exists(output_dir):
+    os.system(f"rm -r {output_dir}")
+os.makedirs(output_dir, exist_ok=True)
+
 panel = Panel(output_path)
 
 # Inherit settings from board1
@@ -182,8 +193,11 @@ ki.buildCopperfill(preset["copperfill"], panel)
 
 panel.save()
 
-
-
-
-
-
+# Set footprint library file
+library_str = """(fp_lib_table
+	(version 7)
+	(lib (name "cacophony-library") (type "KiCad") (uri "${KIPRJMOD}/../../kicad-library/cacophony-library.pretty") (options "") (descr ""))
+)
+"""
+with open(f"{output_dir}/fp-lib-table", "w") as f:
+    f.write(library_str)
