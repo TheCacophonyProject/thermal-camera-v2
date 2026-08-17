@@ -46,3 +46,5 @@ jlcpcb/
 # Porduction files
 **/production-files/
 *.tar.gz
+
+.generated-pcbs

@@ -18,7 +18,7 @@ main_board_path = "tc2-main-pcb/tc2-main-pcb.kicad_pcb"
 plugs_board_path = "tc2-plugs-buck-boost-pcb/tc2-plugs-buck-boost-pcb.kicad_pcb"
 sim_board_path = "tc2-sim-usb-pcb/tc2-sim-usb-pcb.kicad_pcb"
 
-output_dir = "generated-pcbs/tc2-panel"
+output_dir = "./.generated-pcbs/tc2-panel"
 output_path = f"{output_dir}/tc2-panel.kicad_pcb"
 
 board_spacing = 3*mm

@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-dir_path = "./generated-pcbs/tc2-mic-panel"
+dir_path = "./.generated-pcbs/tc2-mic-panel"
 # if os.path.exists(output_dir):
     # os.system(f"rm -r {dir_path}")
 os.makedirs(dir_path, exist_ok=True)
