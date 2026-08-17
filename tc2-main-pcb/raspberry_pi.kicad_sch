@@ -9311,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOP-16_3.9x9.9mm_P1.27mm"
+		(property "Footprint" "cacophony-library:SOP-16_L10.0-W3.9-P1.27-LS6.0-BL"
 			(at 73.66 177.8 0)
 			(hide yes)
 			(show_name no)

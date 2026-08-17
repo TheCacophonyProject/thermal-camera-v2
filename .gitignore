@@ -47,4 +47,8 @@ jlcpcb/
 **/production-files/
 *.tar.gz
 
+${KIPRJMOD}/../kicad-library/cacophony-library.kicad_sym
+
+${KIPRJMOD}/../kicad-library/cacophony-library.pretty
+
 

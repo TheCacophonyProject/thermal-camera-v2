@@ -2936,7 +2936,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+		(property "Footprint" "cacophony-library:Sim_connector"
 			(at 236.22 130.81 0)
 			(hide yes)
 			(show_name no)
