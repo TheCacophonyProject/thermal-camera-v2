@@ -2207,7 +2207,7 @@
 			(uuid "cc2575f6-9fd4-492e-bf66-24bb7c1b0106")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_JST.3dshapes/JST_SH_BM03B-SRSS-TB_1x03-1MP_P1.00mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5627,7 +5627,7 @@
 			(members "3f88f552-bd85-46de-a29c-6870d7f67407")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11179,6 +11179,91 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(footprint "cacophony-library:JLCPCB_QR_8mm"
+		(layer "F.Cu")
+		(uuid "7ef6f5ac-2b82-4469-b048-deef96f3981a")
+		(at -41.375 25.625)
+		(property "Reference" "U1"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b0466a2-22ae-4007-bba3-38bed017c99f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "0a33dba4-7034-431b-be16-a238fc02dd11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44128871-1bc5-4052-a662-df9c70f19cd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "726504f6-efc2-4955-b25d-0f390958ffe3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/4cccf9ed-4c99-4e61-a9f6-df3ebe742abf")
+		(sheetname "/")
+		(sheetfile "tc2-main-pcb.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -4 -4)
+			(end 4 4)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "e7709c31-dba8-4bec-a9be-65163c560db2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "c2bd26a3-e0eb-4408-bba2-b5c6476f3d58")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(embedded_fonts no)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -17869,7 +17954,7 @@
 			(uuid "c9632fb1-d1ad-434e-b282-bf4078593a1c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19553,7 +19638,7 @@
 			(uuid "0800e4a4-af60-4290-982e-e14c0e286d93")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -21975,7 +22060,7 @@
 			(uuid "b3dc2f35-123c-47d1-b073-cdc0e6719a4e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x03_P1.27mm_Vertical_SMD.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_1.27mm.3dshapes/PinSocket_2x03_P1.27mm_Vertical_SMD.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -35866,7 +35951,7 @@
 			(uuid "66b4cd2a-e7aa-4d4a-a8da-841abd9056ff")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-5.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36974,19 +37059,6 @@
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "536b0c9a-1442-4336-a822-7b823ec87e7d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "JLCPCB" ""
-			(at 0 0 90)
-			(layer "B.Fab")
-			(hide yes)
 			(uuid "c00f425c-a9f2-415b-b2ee-5ea3306a42a9")
 			(effects
 				(font
@@ -37226,7 +37298,7 @@
 			(uuid "e71fd0e0-5c74-427e-b62e-67ba0bf9fcc5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD8_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-5.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-5.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -38654,7 +38726,7 @@
 			(uuid "28df3f56-db7b-4bff-8bcd-19256037bb21")
 		)
 		(embedded_fonts no)
-		(model "${KISYS3DMOD}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.wrl"
+		(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -43234,17 +43306,6 @@
 		(uuid "207e3136-4ff3-4788-89bd-fcbcf3becd82")
 	)
 	(gr_circle
-		(center -43.6 24.92)
-		(end -42.4 24.92)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.4")
-		(uuid "d0002044-b1fc-4dbe-834a-4bfdf5f43d53")
-	)
-	(gr_circle
 		(center -41.8 -29)
 		(end -43.55 -29)
 		(stroke
@@ -43328,17 +43389,6 @@
 		(layer "User.4")
 		(uuid "14acb4dc-a4a7-44e2-972f-2ef8f045929e")
 	)
-	(gr_circle
-		(center -30.6 24.92)
-		(end -23.6 24.92)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.4")
-		(uuid "5eaa5a63-b372-4171-8a4d-339a3c93f792")
-	)
 	(gr_line
 		(start -27.6 20.92)
 		(end -33.6 20.92)
@@ -43400,17 +43450,6 @@
 		(fill no)
 		(layer "User.4")
 		(uuid "9eaab836-ad43-4fa0-a263-7282c8cdff38")
-	)
-	(gr_circle
-		(center -17.6 24.92)
-		(end -16.4 24.92)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(fill no)
-		(layer "User.4")
-		(uuid "8d4614af-88fb-4d19-bbb4-6d629e7b43cf")
 	)
 	(gr_circle
 		(center -14.8 -33)
