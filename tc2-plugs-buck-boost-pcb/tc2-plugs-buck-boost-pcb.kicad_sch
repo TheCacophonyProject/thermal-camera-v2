@@ -17409,7 +17409,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "1.5uH"
 			(at 273.05 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19123,7 +19123,7 @@
 				)
 			)
 		)
-		(property "Value" "INDUCTOR"
+		(property "Value" "1.5uH"
 			(at 273.05 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
