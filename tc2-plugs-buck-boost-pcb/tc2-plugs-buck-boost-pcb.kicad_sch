@@ -4623,338 +4623,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "cacophony-library:TPS63071"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 13.97 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TPS63071"
-				(at 0 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "cacophony-library:TPS63070"
-				(at 0 30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS63070RNMR_TPS63070RNMR_C109322.html"
-				(at 0 30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2876599"
-				(at 0 30.48 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TPS63071_0_1"
-				(rectangle
-					(start -11.43 11.43)
-					(end 11.43 -27.94)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -10.16 10.16)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -13.97 0)
-					(length 2.54)
-					(name "PS/SYNC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -17.78 180)
-					(length 2.54)
-					(name "PG"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -16.51 0)
-					(length 2.54)
-					(name "Vaux"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -26.67 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -3.81 180)
-					(length 2.54)
-					(name "FB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -6.35 180)
-					(length 2.54)
-					(name "FB2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 8.89 13.97 270)
-					(length 2.54)
-					(name "L2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 13.97 -24.13 180)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 -11.43 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -13.97 0 0)
-					(length 2.54)
-					(name "Vsel"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "TPS63071_1_1"
-				(pin unspecified line
-					(at 16.51 6.35 180)
-					(length 5.08)
-					(name "Vout"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7,8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at -7.62 13.97 270)
-					(length 2.54)
-					(name "L1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -16.51 6.35 0)
-					(length 5.08)
-					(name "Vin"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12,13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -5636,14 +5304,14 @@
 		)
 		(uuid "c686cccd-34d3-47e8-a0e3-84aac33af57f")
 	)
-	(text_box "If using TPS63071 no voltage divider for feedback is needed.\nIf using TPS63070, use voltage divider to get 5V."
+	(text_box "Using 0.1% resisotrs of 470k and 150k that gives us an output of 3.31V [3.3V ... 3.31V]"
 		(exclude_from_sim no)
-		(at 290.83 172.72 0)
-		(size 62.23 5.08)
+		(at 293.37 87.7078 0)
+		(size 52.07 5.9929)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
-			(type default)
+			(type solid)
 		)
 		(fill
 			(type color)
@@ -5655,7 +5323,28 @@
 			)
 			(justify left top)
 		)
-		(uuid "21d72eb5-c8d8-4084-bf4e-1f377dd6e746")
+		(uuid "5d1701e5-59f5-4823-afe2-5056be34d99f")
+	)
+	(text_box "Using 0.1% resisotrs of 820k and 150k that gives us an output of 5.17V [5.16V ... 5.18V]\nA bit above 5V but that is good for making sure the RPi always gets at least 5V"
+		(exclude_from_sim no)
+		(at 293.37 168.91 0)
+		(size 52.07 10.0822)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f5660394-faea-4287-9a96-d604e5e21e8e")
 	)
 	(junction
 		(at 142.24 26.67)
@@ -5692,6 +5381,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "128a3e73-6284-4382-b584-19f51465c303")
+	)
+	(junction
+		(at 300.99 196.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16536176-5ab6-4b11-9379-1c14c6ff2fde")
 	)
 	(junction
 		(at 350.52 194.31)
@@ -5988,12 +5683,6 @@
 		(uuid "d499676a-369b-46fb-b935-43af3c1ba43d")
 	)
 	(junction
-		(at 294.64 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dc55772f-1d29-400a-ad94-5ec461076e25")
-	)
-	(junction
 		(at 255.27 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6068,14 +5757,6 @@
 	(no_connect
 		(at 55.88 171.45)
 		(uuid "23074933-8cd2-49da-becf-4b5ff7b50246")
-	)
-	(no_connect
-		(at 300.99 198.12)
-		(uuid "4714196c-febf-4469-b1f3-f0c1f68dcd0f")
-	)
-	(no_connect
-		(at 300.99 195.58)
-		(uuid "5dfeeb8a-874b-4313-9d3c-15504596bf99")
 	)
 	(no_connect
 		(at 64.77 22.86)
@@ -6160,6 +5841,16 @@
 			(type default)
 		)
 		(uuid "035ea3bc-c77c-4fe9-b50f-b14b17933d3d")
+	)
+	(wire
+		(pts
+			(xy 300.99 196.85) (xy 300.99 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04c05224-7646-4a4e-adc0-b2f7f425e04a")
 	)
 	(wire
 		(pts
@@ -6620,6 +6311,16 @@
 			(type default)
 		)
 		(uuid "336791c1-97d3-43ff-ad82-adec45000f18")
+	)
+	(wire
+		(pts
+			(xy 300.99 196.85) (xy 300.99 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33835b7c-b624-4aea-ac93-b2ab8b53b499")
 	)
 	(wire
 		(pts
@@ -7563,7 +7264,7 @@
 	)
 	(wire
 		(pts
-			(xy 287.02 196.85) (xy 294.64 196.85)
+			(xy 287.02 196.85) (xy 300.99 196.85)
 		)
 		(stroke
 			(width 0)
@@ -7593,7 +7294,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 186.69) (xy 300.99 186.69)
+			(xy 289.56 186.69) (xy 300.99 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7893,16 +7594,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 196.85) (xy 294.64 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b70e9da6-de18-4d0e-a81b-d67bcdbb1f88")
-	)
-	(wire
-		(pts
 			(xy 300.99 186.69) (xy 300.99 187.96)
 		)
 		(stroke
@@ -8170,16 +7861,6 @@
 			(type default)
 		)
 		(uuid "d124ea0f-088d-470d-bc92-0b5547c17990")
-	)
-	(wire
-		(pts
-			(xy 289.56 186.69) (xy 294.64 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2ebf3c3-1560-456a-b1d1-81c0d0ada901")
 	)
 	(wire
 		(pts
@@ -11076,6 +10757,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 300.99 201.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fcc6f39-a5d6-4b82-8bf9-366ade9b7dc2")
+		(property "Reference" "R212"
+			(at 303.53 200.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "150k"
+			(at 303.53 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.212 201.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.99 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C723770"
+			(at 300.99 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 300.99 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2597cbce-accd-4914-b32e-3e6629aca433")
+		)
+		(pin "2"
+			(uuid "ae2c3e46-92fe-4508-99a8-b4a6d09851b5")
+		)
+		(instances
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 361.95 195.58 0)
 		(unit 1)
@@ -11324,7 +11109,7 @@
 		)
 	)
 	(symbol
-		(lib_id "cacophony-library:TPS63071")
+		(lib_id "cacophony-library:TPS63070RNMR")
 		(at 273.05 193.04 0)
 		(unit 1)
 		(body_style 1)
@@ -11344,7 +11129,7 @@
 				)
 			)
 		)
-		(property "Value" "TPS63071"
+		(property "Value" "TPS63070"
 			(at 273.05 215.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11365,7 +11150,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/DC-DC-Converters_TI_TPS63070RNMR_TPS63070RNMR_C109322.html"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps63070.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1731997103101"
 			(at 273.05 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -11387,8 +11172,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2876599 "
-			(at 273.05 193.04 0)
+		(property "LCSC Part" "C109322"
+			(at 273.05 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12671,116 +12456,6 @@
 			(project "tc2-plugs-buck-boost-pcb"
 				(path "/f421ea14-42dc-4485-8e12-78680a358584"
 					(reference "#PWR0235")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 300.99 201.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "4f610e70-c8e0-4a6a-a6f8-309b7acbd695")
-		(property "Reference" "R214"
-			(at 303.53 200.66 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "130k"
-			(at 303.53 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 299.212 201.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 300.99 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 300.99 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 300.99 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "01c595f8-f164-4675-9a10-cecf3cba0a57")
-		)
-		(pin "2"
-			(uuid "2853d976-4c96-4b4a-b3b6-d265c7f7af9e")
-		)
-		(instances
-			(project "tc2-plugs-2-pcb"
-				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
-					(reference "R203")
-					(unit 1)
-				)
-			)
-			(project "tc2-plugs-buck-boost-pcb"
-				(path "/f421ea14-42dc-4485-8e12-78680a358584"
-					(reference "R214")
 					(unit 1)
 				)
 			)
@@ -15219,116 +14894,6 @@
 			(project "tc2-plugs-buck-boost-pcb"
 				(path "/f421ea14-42dc-4485-8e12-78680a358584"
 					(reference "#PWR0217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 300.99 191.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "94a4a9ec-d0d6-4fd2-ba24-e40dd1496e6a")
-		(property "Reference" "R212"
-			(at 303.53 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "680k"
-			(at 303.53 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 299.212 191.77 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 300.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 300.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
-			(at 300.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Field5" ""
-			(at 300.99 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2e135ff-8696-4c0e-bf3f-26c0759b3a24")
-		)
-		(pin "2"
-			(uuid "4fa72e49-e766-4ad3-8588-724eb3e0ce44")
-		)
-		(instances
-			(project "tc2-plugs-2-pcb"
-				(path "/0ce5a64e-5f2a-4b26-a5ef-1d266e2580e3"
-					(reference "R201")
-					(unit 1)
-				)
-			)
-			(project "tc2-plugs-buck-boost-pcb"
-				(path "/f421ea14-42dc-4485-8e12-78680a358584"
-					(reference "R212")
 					(unit 1)
 				)
 			)
@@ -18006,6 +17571,110 @@
 			(project "tc2-plugs-buck-boost-pcb"
 				(path "/f421ea14-42dc-4485-8e12-78680a358584"
 					(reference "C216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 300.99 191.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df5118d9-664a-4676-9fd4-27b8f4e6b1cd")
+		(property "Reference" "R214"
+			(at 303.53 190.4999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "820k"
+			(at 303.53 193.0399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 299.212 191.77 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.99 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.99 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C4042952"
+			(at 300.99 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 300.99 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6ebab60e-4553-4122-8d45-c028ac99ded1")
+		)
+		(pin "2"
+			(uuid "636bf7eb-9096-408b-a2aa-d55293e6f37c")
+		)
+		(instances
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R214")
 					(unit 1)
 				)
 			)
