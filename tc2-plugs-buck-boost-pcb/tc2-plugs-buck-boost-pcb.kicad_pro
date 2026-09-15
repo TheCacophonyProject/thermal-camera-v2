@@ -676,7 +676,7 @@
           "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "C",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
@@ -691,7 +691,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -742,7 +742,7 @@
         "uuid": "f421ea14-42dc-4485-8e12-78680a358584"
       }
     ],
-    "used_designators": "U203",
+    "used_designators": "U203-204,R212,R214,R216,R218-223,TP205,TP207,#PWR239-246,C229-231,D203",
     "variants": []
   },
   "sheets": [
