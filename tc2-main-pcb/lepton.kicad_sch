@@ -63,7 +63,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -113,7 +113,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3114,7 +3114,7 @@
 	)
 	(text "VDDC, Core voltage\nVoltage: (1.14,1.2,1.26)V\nRipple: 50mV\nCurrent: (76,84,110)mA"
 		(exclude_from_sim no)
-		(at 147.32 66.548 0)
+		(at 147.32 65.278 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3585,7 +3585,7 @@
 	)
 	(polyline
 		(pts
-			(xy 218.44 57.15) (xy 146.05 57.15)
+			(xy 218.44 55.88) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4005,7 +4005,7 @@
 	)
 	(polyline
 		(pts
-			(xy 146.05 12.7) (xy 146.05 57.15)
+			(xy 146.05 12.7) (xy 146.05 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4605,7 +4605,7 @@
 	)
 	(polyline
 		(pts
-			(xy 146.05 57.15) (xy 146.05 105.41)
+			(xy 146.05 55.88) (xy 146.05 105.41)
 		)
 		(stroke
 			(width 0)
@@ -7817,6 +7817,7 @@
 		)
 		(property "LCSC Part" "C252341"
 			(at 173.99 133.35 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

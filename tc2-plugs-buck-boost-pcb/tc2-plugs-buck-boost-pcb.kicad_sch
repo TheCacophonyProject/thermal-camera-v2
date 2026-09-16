@@ -6490,7 +6490,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 92.71) (xy 330.2 92.71)
+			(xy 297.18 92.71) (xy 299.72 92.71)
 		)
 		(stroke
 			(width 0)
@@ -8000,7 +8000,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 88.9) (xy 331.47 88.9)
+			(xy 297.18 88.9) (xy 299.72 88.9)
 		)
 		(stroke
 			(width 0)
@@ -8540,6 +8540,16 @@
 	)
 	(wire
 		(pts
+			(xy 307.34 92.71) (xy 330.2 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2702d39-ca91-4dbd-9309-c39500cc450e")
+	)
+	(wire
+		(pts
 			(xy 323.85 212.09) (xy 327.66 212.09)
 		)
 		(stroke
@@ -8677,6 +8687,16 @@
 			(type default)
 		)
 		(uuid "d4eb2bfd-860d-414f-bb9b-0acef794c80c")
+	)
+	(wire
+		(pts
+			(xy 307.34 88.9) (xy 331.47 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5af161d-650d-41ba-8dd6-f0c6a067770f")
 	)
 	(wire
 		(pts
@@ -9098,6 +9118,16 @@
 		)
 		(uuid "19985f24-36ac-4c8b-8f8e-8b740169a3b3")
 	)
+	(label "OUT_TX_PHY"
+		(at 314.96 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1db82cb1-5863-410b-9ac0-f86e71f6aa2d")
+	)
 	(label "BATT_SENSE_PHY"
 		(at 17.78 35.56 270)
 		(effects
@@ -9147,6 +9177,16 @@
 			(justify right bottom)
 		)
 		(uuid "9b4a2238-857e-4ed3-926f-8c152612d2fb")
+	)
+	(label "OUT_RX_PHY"
+		(at 314.96 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9dc8be36-35f3-4454-99d0-cdacab7e5982")
 	)
 	(label "3V3_L2"
 		(at 292.1 125.73 0)
@@ -9420,7 +9460,7 @@
 	)
 	(global_label "OUT_RX"
 		(shape input)
-		(at 328.93 92.71 180)
+		(at 297.18 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9430,7 +9470,7 @@
 		)
 		(uuid "63ad93d9-9d63-4318-a043-a995f096cf6b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 318.8691 92.71 0)
+			(at 287.1191 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9612,7 +9652,7 @@
 	)
 	(global_label "OUT_TX"
 		(shape input)
-		(at 330.2 88.9 180)
+		(at 297.18 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9622,7 +9662,7 @@
 		)
 		(uuid "bc1acc1b-abcf-482e-9b23-3ff5d54d5d12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 320.4415 88.9 0)
+			(at 287.4215 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17815,6 +17855,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 303.53 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c285c6dd-8163-4640-bee5-9224a333474d")
+		(property "Reference" "R219"
+			(at 308.864 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 298.958 87.63 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 303.53 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 303.53 88.9 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 303.53 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd1ffbb9-5b89-499a-8939-e7f7ed43ad29")
+		)
+		(pin "2"
+			(uuid "217e8132-407f-4c75-b027-e85c6c925209")
+		)
+		(instances
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 388.62 58.42 0)
 		(unit 1)
@@ -19804,6 +19945,107 @@
 			(project "tc2-plugs-buck-boost-pcb"
 				(path "/f421ea14-42dc-4485-8e12-78680a358584"
 					(reference "R221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 303.53 92.71 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e93f7ed2-7b72-4b92-ab5d-41f801893090")
+		(property "Reference" "R220"
+			(at 308.864 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 298.704 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 303.53 94.488 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 303.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C11702"
+			(at 303.53 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field5" ""
+			(at 303.53 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "107f1030-eedd-4cb4-a182-90a845b76063")
+		)
+		(pin "2"
+			(uuid "4a0a566f-a0d6-45bc-b5e5-462992b77d95")
+		)
+		(instances
+			(project "tc2-plugs-buck-boost-pcb"
+				(path "/f421ea14-42dc-4485-8e12-78680a358584"
+					(reference "R220")
 					(unit 1)
 				)
 			)

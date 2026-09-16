@@ -666,7 +666,7 @@
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -696,19 +696,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -717,7 +717,7 @@
           "show": false
         }
       ],
-      "filter_string": "R",
+      "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
@@ -732,7 +732,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
-      "hop_over_size_choice": 0,
+      "hop_over_size_choice": 3,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -773,7 +773,7 @@
         "uuid": "0662f88c-5300-4b75-bef3-048a3227af84"
       }
     ],
-    "used_designators": "TP136-139,R148,R161-167,L104-105,C168-179,FB103-104,#PWR232-257,#FLG106-107,U1,U118-121",
+    "used_designators": "J1901,TP120-121,TP136-139,R1,R7,R117,R127-131,R136,R148,R161-167,L104-105,C123,C133-134,C168-179,FB103-104,#PWR121,#PWR124,#PWR147,#PWR157-158,#PWR162,#PWR164,#PWR172-174,#PWR232-257,#PWR1908,#FLG106-107,U1-2,U108,U118-121",
     "variants": []
   },
   "sheets": [
