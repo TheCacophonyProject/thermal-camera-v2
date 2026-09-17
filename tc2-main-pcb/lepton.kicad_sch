@@ -3244,6 +3244,27 @@
 		)
 		(uuid "ef89a822-1bfc-48d1-ba2e-1f1e62d458ad")
 	)
+	(text_box "A 3D print will hold the Flir Lepton sensor in place to prevent it comming out.\nThe 3D print has 2 keys and 2 holes for a M1.6 screw (EDLA-S1-M1.6-L5)."
+		(exclude_from_sim no)
+		(at 25.4 90.2478 0)
+		(size 44.45 10.0822)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 255 229 191 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "f962d69d-2c6e-4668-b937-40ca4d467de6")
+	)
 	(junction
 		(at 250.19 77.47)
 		(diameter 0)
