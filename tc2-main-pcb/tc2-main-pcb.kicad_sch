@@ -8646,12 +8646,6 @@
 		(uuid "bf6cda40-8de3-495a-9e63-1941c66ab563")
 	)
 	(junction
-		(at 358.14 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c04019fe-c44e-463b-8c35-b8c11c693fe7")
-	)
-	(junction
 		(at 146.05 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11747,16 +11741,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 275.59) (xy 284.48 276.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c98d01c7-354f-4467-9b37-f987402c0f7f")
-	)
-	(wire
-		(pts
 			(xy 31.75 41.91) (xy 31.75 44.45)
 		)
 		(stroke
@@ -12364,16 +12348,6 @@
 			(type default)
 		)
 		(uuid "fa315827-b144-4c8d-b2ca-0ca7ff1240c2")
-	)
-	(wire
-		(pts
-			(xy 358.14 156.21) (xy 358.14 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae1e255-e2e9-4612-9ca0-4586d38630ea")
 	)
 	(wire
 		(pts
@@ -16088,85 +16062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 284.48 276.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2524c124-5d80-4a00-9f67-0bd86842ebec")
-		(property "Reference" "#PWR0116"
-			(at 284.48 283.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 284.48 281.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 284.48 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 284.48 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 284.48 276.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c177c14-2699-4056-ab1c-d51dfb2c2aff")
-		)
-		(instances
-			(project "tc2-main-pcb"
-				(path "/0662f88c-5300-4b75-bef3-048a3227af84"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V1")
 		(at 119.38 33.02 0)
 		(unit 1)
@@ -17460,7 +17355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cacophony-library:TP"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
 			(at 284.48 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -18547,85 +18442,6 @@
 			(project "tc2-main-pcb"
 				(path "/0662f88c-5300-4b75-bef3-048a3227af84"
 					(reference "C106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 358.14 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "59a849fa-b5c8-46ca-a546-d9d767a06b53")
-		(property "Reference" "TP117"
-			(at 359.156 152.908 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 360.68 154.1779 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 363.22 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 358.14 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a0a2720-ef04-43b0-91ef-b94efcec4ebb")
-		)
-		(instances
-			(project "tc2-main-pcb"
-				(path "/0662f88c-5300-4b75-bef3-048a3227af84"
-					(reference "TP117")
 					(unit 1)
 				)
 			)
@@ -22131,84 +21947,6 @@
 			(project "tc2-main-pcb"
 				(path "/0662f88c-5300-4b75-bef3-048a3227af84"
 					(reference "C114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 284.48 275.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c86b373-7632-4b0c-9dfb-b77c8bfa444b")
-		(property "Reference" "TP105"
-			(at 284.48 267.97 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 287.02 273.5579 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "cacophony-library:TP"
-			(at 289.56 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 289.56 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 284.48 275.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f9c6c96-07ff-4c05-af6d-8b8da3edd329")
-		)
-		(instances
-			(project "tc2-main-pcb"
-				(path "/0662f88c-5300-4b75-bef3-048a3227af84"
-					(reference "TP105")
 					(unit 1)
 				)
 			)
@@ -25940,7 +25678,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cacophony-library:TP"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
 			(at 294.64 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -27429,7 +27167,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "cacophony-library:TP"
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.54mm_Drill1.5mm_Beaded"
 			(at 299.72 275.59 0)
 			(hide yes)
 			(show_name no)
