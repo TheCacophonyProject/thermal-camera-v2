@@ -12,21 +12,29 @@ pcbs:
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
 
 - id: tc2-mic-pcb
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
 
 - id: tc2-plugs-buck-boost-pcb
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
 
 - id: tc2-sim-usb-pcb
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
 
 # List of PCBs that will be built. This will:
 # - Run the panel script.
@@ -34,10 +42,13 @@ pcbs:
 # - Make release files (gerber, BOM, placement file)
 panels:
 - id: tc2-panel
-  script: ./tc2-panel.py
+  path: .generated-pcbs/tc2-panel
+  script: ./panel-tc2.py
   text_variables:
     - key: TAG
       val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
   boms_to_join:
     - id: "tc2-main-pcb"
       refRenamer: "{orig}"
@@ -45,13 +56,3 @@ panels:
       refRenamer: "{orig}"
     - id: "tc2-sim-usb-pcb"
       refRenamer: "{orig}"
-
-# Release project. This will:
-# - Build the project as normal.
-# - Generate a tag and release on github.
-# - Upload production files to github.
-release:
-  github:
-    owner: TheCacophonyProject
-    name: tc2-hat-controller
-  name_template: '{{.Tag}}'

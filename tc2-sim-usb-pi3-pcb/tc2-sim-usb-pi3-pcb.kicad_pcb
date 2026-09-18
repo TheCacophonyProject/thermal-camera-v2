@@ -2077,6 +2077,18 @@
 		(layer "Edge.Cuts")
 		(uuid "374349d5-a9f4-4fb8-9ecb-7735b394e8e9")
 	)
+	(gr_text "${HASH}"
+		(at 13.48 0.8 0)
+		(layer "F.SilkS")
+		(uuid "b194d7ef-d0b5-4474-bf8c-2ada6f70bee9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "${TAG}"
 		(at 13.78 -3.19 0)
 		(layer "F.SilkS")

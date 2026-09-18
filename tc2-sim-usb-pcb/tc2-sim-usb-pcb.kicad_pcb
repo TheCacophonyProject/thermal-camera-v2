@@ -2662,6 +2662,32 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "${HASH}"
+		(at 5.28 14.46 90)
+		(layer "F.SilkS")
+		(uuid "c0435090-4c1b-4168-9036-ca3c4c79bb68")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "${HASH}"
+		(at 3.52 14.25 -90)
+		(layer "B.SilkS")
+		(uuid "0abf4323-726c-45bb-a7cf-af30958b82e9")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(gr_text "${TAG}"
 		(at -0.5 21.33 -90)
 		(layer "B.SilkS")
