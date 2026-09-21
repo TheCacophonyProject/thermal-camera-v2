@@ -60,6 +60,9 @@ panels:
 - id: tc2-mic-panel
   path: .generated-pcbs/tc2-mic-panel
   script: ./panel-tc2-mic.py
+  # A production script is needed for PCBs that need v-cuts as the v-cuts are marked on the
+  # edge cut layer. So if this was used for the DRC checks it would fail.
+  productionScript: ./panel-tc2-mic.py --production 
   text_variables:
   - key: TAG
     val: {{.Version}}
