@@ -56,3 +56,16 @@ panels:
       refRenamer: "{orig}"
     - id: "tc2-sim-usb-pcb"
       refRenamer: "{orig}"
+
+- id: tc2-mic-panel
+  path: .generated-pcbs/tc2-mic-panel
+  script: ./panel-tc2-mic.py
+  text_variables:
+  - key: TAG
+    val: {{.Version}}
+  - key: HASH
+    val: {{.GIT_HASH}}
+  boms_to_join:
+  - id: "tc2-mic-pcb"
+    refRenamer: "{orig}-{n}"  # Update this from the script
+    count: 10
