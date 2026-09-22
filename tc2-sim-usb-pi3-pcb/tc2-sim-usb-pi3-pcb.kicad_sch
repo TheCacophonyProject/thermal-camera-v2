@@ -582,7 +582,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -632,7 +632,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -2178,7 +2178,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C2919617"
+			(property "LCSC Part" "C2919617"
 				(at 0.254 4.064 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2469,7 +2469,7 @@
 					)
 				)
 			)
-			(property "LCSC" "C15879"
+			(property "LCSC Part" "C15879"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -4139,7 +4139,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15879"
+		(property "LCSC Part" "C15879"
 			(at 76.2 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -4286,9 +4286,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfed8af8-230d-4ac4-8e70-c9e004b14b12")
@@ -4548,7 +4548,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C491707"
+		(property "LCSC Part" "C491707"
 			(at 180.34 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -4641,7 +4641,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C16772"
+		(property "LCSC Part" "C16772"
 			(at 83.82 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4744,7 +4744,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2919617"
+		(property "LCSC Part" "C2919617"
 			(at 97.155 69.85 0)
 			(hide yes)
 			(show_name no)
