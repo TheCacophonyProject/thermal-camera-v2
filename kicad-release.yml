@@ -36,6 +36,13 @@ pcbs:
     - key: HASH
       val: {{.GIT_HASH}}
 
+- id: tc2-sim-usb-pi3-pcb
+  text_variables:
+    - key: TAG
+      val: {{.Version}}
+    - key: HASH
+      val: {{.GIT_HASH}}
+
 # List of PCBs that will be built. This will:
 # - Run the panel script.
 # - Validate the PCB DRC
